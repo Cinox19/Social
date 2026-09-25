@@ -1,7 +1,7 @@
 {
-  "versionName": "0.12.8",
-  "versionCode": 49,
+  "versionName": "0.12.9",
+  "versionCode": 50,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "c1f0a8eb2ff2d118b0a7bc658c6ea7d4e1d0a89c7157c8f81eaf9985871e9adc",
-  "notes": "Édition des gains simplifiée : suppression de l'indication d'appui long, modification du montant uniquement, titre de l'activité verrouillé."
+  "sha256": "a1f2ae293e4ff6d5506ddbe09cb1c7ab319c90a07681044bda1d5fe7a0d81d74",
+  "notes": "Nouveau rendu GTA pour le Total gagné. Délai d'approvisionnement du labo d'acide réglé à 33 minutes. Bunker conservé à 10 minutes."
 }
