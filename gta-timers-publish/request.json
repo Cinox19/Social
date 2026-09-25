@@ -1,6 +1,6 @@
 {
-  "versionName": "0.0.0",
-  "versionCode": 0,
-  "zipUrl": "https://example.invalid/not-published.zip",
-  "notes": "Bootstrap placeholder. Real releases are published from GTA Timers builds."
+  "versionName": "0.12.1",
+  "versionCode": 42,
+  "zipUrl": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-7274-81f4-a99a-6fd933e9394d/raw?se=2026-09-25T06%3A37%3A00Z&sp=r&sv=2026-02-06&sr=b&scid=7e201634-2f1f-57f9-b8d5-bd7cafe7cc21&skoid=1d6acb5b-b3f4-43ec-a5ec-b05c4a7708c8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-09-25T05%3A06%3A34Z&ske=2026-09-26T05%3A06%3A34Z&sks=b&skv=2026-02-06&sig=ycbo2PmLz3fEGmwKfIYEuxDA2J0JkHLxjiTYzVQh72Q%3D",
+  "notes": "Nouveau système de mise à jour intégré et signature stable pour les versions futures."
 }
