@@ -1,7 +1,7 @@
 {
-  "versionName": "0.12.2",
-  "versionCode": 43,
+  "versionName": "0.12.3",
+  "versionCode": 44,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "c30d1d5530d408cfbb343bf1808c93336804bff5c0fda88c633ab0898c630ecf",
-  "notes": "Build de validation du nouveau système de mise à jour intégré."
+  "sha256": "9118389c845208ed4db7e9592da18f6ac2b30b9f61a46c3412d7ef64a7a7cac7",
+  "notes": "Nouveau logo GTA Timers appliqué à l’icône Android."
 }
