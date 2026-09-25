@@ -1,7 +1,7 @@
 {
-  "versionName": "0.13.3",
-  "versionCode": 54,
+  "versionName": "0.13.4",
+  "versionCode": 55,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "1f89f85a925e606b0509861bb6c848b461736b0b1593e83a2deec1824ca22e74",
-  "notes": "- Molette 1 à 3 caisses directement sur les tuiles compactes d'entrepôt\n- Appui long sur la molette pour valider les caisses reçues\n- Plus de saisie clavier pour les livraisons reçues\n- Saisie des caisses reçues supprimée de la vue développée\n- Vue développée conserve uniquement Ajuster stock pour les corrections manuelles"
+  "sha256": "b3355c04e7b1932ae1cf8d2c27edb1d7646692194575dd10b6d8dcff56ffd33c",
+  "notes": "- Réapprovisionnements des entrepôts en temps réel, non affectés par Pause\n- Alarmes sonores pour entrepôts, Nightclub et Ammu-Nation\n- Barre Prochain dépôt ajoutée sous le montant et agrandie\n- Appui long sur Prochain dépôt ou sa barre pour ajuster le temps\n- Barre Prochaine dégradation séparée en orange\n- Appui long sur la dégradation pour ajuster le temps restant"
 }
