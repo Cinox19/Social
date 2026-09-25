@@ -1,6 +1,6 @@
 {
-  "versionName": "0.12.5",
-  "versionCode": 46,
-  "zipUrl": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-9794-81f4-86a8-590a25d57c21/raw?se=2026-09-25T07%3A32%3A38Z&sp=r&sv=2026-02-06&sr=b&scid=3e22821f-bc5b-5806-b0f6-b210607048f8&skoid=1d6acb5b-b3f4-43ec-a5ec-b05c4a7708c8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-09-25T06%3A52%3A58Z&ske=2026-09-26T06%3A52%3A58Z&sks=b&skv=2026-02-06&sig=3t4HTcLfVdsalMqv6eGo4Ou69gomYorwlD3sk8vJVhs%3D",
-  "notes": "Correction de l'icône Samsung/Android : logo recentré dans la zone sûre de l'icône adaptative, fond noir."
+  "versionName": "0.12.6",
+  "versionCode": 47,
+  "zipUrl": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-514c-8210-8e9a-4665118bcde5/raw?se=2026-09-25T07%3A54%3A53Z&sp=r&sv=2026-02-06&sr=b&scid=41ac7be7-86b0-5406-ba15-c409960f67f3&skoid=1d6acb5b-b3f4-43ec-a5ec-b05c4a7708c8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-09-25T07%3A44%3A08Z&ske=2026-09-26T07%3A44%3A08Z&sks=b&skv=2026-02-06&sig=xvhuAKhzrF2B3GBweNq7njYqkTj4Z/GoYKwJ2Yi2dSk%3D",
+  "notes": "Reconstruction complète du logo launcher depuis un PNG propre, avec zone sûre Android/Samsung."
 }
