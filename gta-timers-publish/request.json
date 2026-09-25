@@ -1,6 +1,6 @@
 {
   "versionName": "0.14.5",
   "versionCode": 69,
-  "zipUrl": "https://sdmntpritalynorth.oaiusercontent.com/files/00000000-1520-8246-b65f-997f4a76855c/raw?se=2026-09-25T17%3A46%3A53Z&sp=r&sv=2026-02-06&sr=b&scid=dd420840-7280-5ba6-a2df-7c8f8414a931&skoid=1d6acb5b-b3f4-43ec-a5ec-b05c4a7708c8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-09-25T07%3A36%3A09Z&ske=2026-09-26T07%3A36%3A09Z&sks=b&skv=2026-02-06&sig=Au%2B9eNi6eG3fioh2wX%2BFMSBhyTavmDUKXSot1oW849k%3D",
-  "notes": "- Le NET de l’accueil reprend maintenant le même bleu que la page Gains\n- Vérification automatique des mises à jour au lancement\n- Vérification en arrière-plan toutes les heures\n- Notification Android lorsqu’une nouvelle version est disponible\n- Écran « Quoi de neuf ? » avec les nouveautés et boutons Plus tard / Télécharger\n- Une seule notification et une seule proposition automatique par version pour éviter le spam"
+  "zipUrl": "https://sdmntprpolandcentral.oaiusercontent.com/files/00000000-3cc4-820a-8727-5cf45500c6c1/raw?se=2026-09-25T18%3A01%3A59Z&sp=r&sv=2026-02-06&sr=b&scid=299f4cf5-49d7-5429-8ecd-dd975b905b2c&skoid=1d6acb5b-b3f4-43ec-a5ec-b05c4a7708c8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-09-25T06%3A02%3A29Z&ske=2026-09-26T06%3A02%3A29Z&sks=b&skv=2026-02-06&sig=r%2BhWAxOksmMch3w6/M6mGjQOwFA440I8KytsUqdirhk%3D",
+  "notes": "- Carte Gains du jour de l’accueil passée au même vert foncé que la page Gains\n- NET de l’accueil en bleu, comme sur la page Gains\n- Vérification automatique des mises à jour au lancement et périodiquement\n- Notification Android lorsqu’une nouvelle version est disponible\n- Écran Quoi de neuf ? avec boutons Plus tard / Télécharger\n- Une seule notification par version pour éviter le spam"
 }
