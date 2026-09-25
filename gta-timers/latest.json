@@ -1,7 +1,7 @@
 {
-  "versionName": "0.13.4",
-  "versionCode": 55,
+  "versionName": "0.13.5",
+  "versionCode": 56,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "b3355c04e7b1932ae1cf8d2c27edb1d7646692194575dd10b6d8dcff56ffd33c",
-  "notes": "- Réapprovisionnements des entrepôts en temps réel, non affectés par Pause\n- Alarmes sonores pour entrepôts, Nightclub et Ammu-Nation\n- Barre Prochain dépôt ajoutée sous le montant et agrandie\n- Appui long sur Prochain dépôt ou sa barre pour ajuster le temps\n- Barre Prochaine dégradation séparée en orange\n- Appui long sur la dégradation pour ajuster le temps restant"
+  "sha256": "0293b8eab79cdaeedc61823b0759df9656b9080d17de90f4ae8b9c262111b8c7",
+  "notes": "- Cycle Nightclub figé pendant Pause puis reprise au même temps restant\n- Correction de l’édition du stock Nightclub avec montant exact conservé\n- Affichage du nombre de caisses sous le stock\n- Calibration du stock pour aligner la valeur de l’app sur la valeur observée dans GTA\n- Suppression de la barre verte en doublon sous le Nightclub"
 }
