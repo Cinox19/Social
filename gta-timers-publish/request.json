@@ -1,6 +1,6 @@
 {
-  "versionName": "0.13.0",
-  "versionCode": 51,
-  "zipUrl": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-1818-8210-a3e7-b3197a188443/raw?se=2026-09-25T10%3A36%3A02Z&sp=r&sv=2026-02-06&sr=b&scid=baac1982-fd56-5e30-9df4-9a51e26c4c9e&skoid=1d6acb5b-b3f4-43ec-a5ec-b05c4a7708c8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-09-25T08%3A30%3A32Z&ske=2026-09-26T08%3A30%3A32Z&sks=b&skv=2026-02-06&sig=nLkPT5%2Br5BCr5yyaAMPA%2BukzuKcV1oZsLGD1HdrRSB8%3D",
-  "notes": "Police Pricedown sur le Total gagné. Calculs Nightclub, Labo d'acide et Bunker revus avec progression par unités réelles du jeu."
+  "versionName": "0.13.1",
+  "versionCode": 52,
+  "zipUrl": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-55a4-81f4-8190-49be1a3f6981/raw?se=2026-09-25T10%3A51%3A33Z&sp=r&sv=2026-02-06&sr=b&scid=194f3507-f0a9-54b7-b97d-955f8f79a3f3&skoid=1d6acb5b-b3f4-43ec-a5ec-b05c4a7708c8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-09-25T09%3A53%3A41Z&ske=2026-09-26T09%3A53%3A41Z&sks=b&skv=2026-02-06&sig=pYXpbH2aMWyjsJAAQFVNNnZ06rCFJhKW2VQIWQYOax8%3D",
+  "notes": "- Total gagné en vert clair style HUD GTA\n- Police Pricedown sur tous les montants de la page Gains\n- Montants des activités récentes en Pricedown\n- Nouveautés de mise à jour affichées sous forme de liste"
 }
