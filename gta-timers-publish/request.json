@@ -1,6 +1,6 @@
 {
-  "versionName": "0.13.3",
-  "versionCode": 54,
-  "zipUrl": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-ccfc-81f4-84f5-4111d41d264e/raw?se=2026-09-25T11%3A19%3A51Z&sp=r&sv=2026-02-06&sr=b&scid=678cc8a7-ed24-5cb1-87b4-b58f1b1c24bc&skoid=1d6acb5b-b3f4-43ec-a5ec-b05c4a7708c8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-09-25T07%3A37%3A09Z&ske=2026-09-26T07%3A37%3A09Z&sks=b&skv=2026-02-06&sig=Oe%2BTT%2Bu8WHC5WEyWpYkOthX6X9f4RNYkiolVtw%2BbRME%3D",
-  "notes": "- Molette 1 à 3 caisses directement sur les tuiles compactes d'entrepôt\n- Appui long sur la molette pour valider les caisses reçues\n- Plus de saisie clavier pour les livraisons reçues\n- Saisie des caisses reçues supprimée de la vue développée\n- Vue développée conserve uniquement Ajuster stock pour les corrections manuelles"
+  "versionName": "0.13.4",
+  "versionCode": 55,
+  "zipUrl": "https://sdmntprwestus2.oaiusercontent.com/files/00000000-e3ac-81f8-8ede-8fca68225edd/raw?se=2026-09-25T13%3A00%3A40Z&sp=r&sv=2026-02-06&sr=b&scid=02880315-6a8e-5871-8acf-853d2f4cbfc7&skoid=1d6acb5b-b3f4-43ec-a5ec-b05c4a7708c8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-09-25T11%3A44%3A06Z&ske=2026-09-26T11%3A44%3A06Z&sks=b&skv=2026-02-06&sig=bqLaT%2BNw7Dsim%2B%2Bnk%2BPvZEnAxN2gdYSEMArYmVsQzPM%3D",
+  "notes": "- Réapprovisionnements des entrepôts en temps réel, non affectés par Pause\n- Alarmes sonores pour entrepôts, Nightclub et Ammu-Nation\n- Barre Prochain dépôt ajoutée sous le montant et agrandie\n- Appui long sur Prochain dépôt ou sa barre pour ajuster le temps\n- Barre Prochaine dégradation séparée en orange\n- Appui long sur la dégradation pour ajuster le temps restant"
 }
