@@ -1,6 +1,6 @@
 {
-  "versionName": "0.12.7",
-  "versionCode": 48,
-  "zipUrl": "https://sdmntpreastus.oaiusercontent.com/files/00000000-9714-81f9-a5e7-36ee775e6ac8/raw?se=2026-09-25T08%3A11%3A20Z&sp=r&sv=2026-02-06&sr=b&scid=69da9291-a075-51df-b58d-dd1c5d3a55f9&skoid=1d6acb5b-b3f4-43ec-a5ec-b05c4a7708c8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-09-25T06%3A52%3A34Z&ske=2026-09-26T06%3A52%3A34Z&sks=b&skv=2026-02-06&sig=1tdPgNeT5a%2BcYbEkp0aBPwiHelpu5zIOQXGz2Nptp1Y%3D",
-  "notes": "Barre de navigation modernisée avec nouvelles icônes. Page Gains simplifiée : suppression Bonus Villa, Total cumulé, modification/suppression des entrées par appui long."
+  "versionName": "0.12.8",
+  "versionCode": 49,
+  "zipUrl": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-e828-81f4-9feb-5031f5979b18/raw?se=2026-09-25T08%3A20%3A54Z&sp=r&sv=2026-02-06&sr=b&scid=2dc88f10-acc8-57a0-9c57-fbf7ec793591&skoid=1d6acb5b-b3f4-43ec-a5ec-b05c4a7708c8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-09-25T07%3A12%3A08Z&ske=2026-09-26T07%3A12%3A08Z&sks=b&skv=2026-02-06&sig=AESKc4LRpuNUWqf%2B8/z9eicUcuPOmK/UWgzOH/oEO6A%3D",
+  "notes": "Édition des gains simplifiée : suppression de l'indication d'appui long, modification du montant uniquement, titre de l'activité verrouillé."
 }
