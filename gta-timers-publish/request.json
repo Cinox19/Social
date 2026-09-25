@@ -1,6 +1,6 @@
 {
-  "versionName": "0.13.12",
-  "versionCode": 63,
-  "zipUrl": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-4a4c-81f4-9c6b-bf57df7259d1/raw?se=2026-09-25T15%3A19%3A42Z&sp=r&sv=2026-02-06&sr=b&scid=0b036868-47d8-5e41-bbb2-36a8f3717670&skoid=1d6acb5b-b3f4-43ec-a5ec-b05c4a7708c8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-09-25T05%3A04%3A15Z&ske=2026-09-26T05%3A04%3A15Z&sks=b&skv=2026-02-06&sig=5gAW78TJE4AzKpZ7R9iCEC0t5NucWmezn3rWxieeoiM%3D",
-  "notes": "- Modification d’un gain Braquage depuis Gains synchronisée avec Stats braquages\n- Modification d’un gain depuis Stats braquages synchronisée avec Gains\n- Appui long sur un run dans Stats : Modifier le gain ou Supprimer\n- Les totaux Gains / Net / TOTAL NET sont recalculés après modification\n- Liaison prioritaire par identifiant unique du run, avec compatibilité des anciens braquages"
+  "versionName": "0.14.0",
+  "versionCode": 64,
+  "zipUrl": "https://sdmntprindiasocentral.oaiusercontent.com/files/00000000-f5c8-8211-b0ff-ed94a76edd46/raw?se=2026-09-25T15%3A54%3A01Z&sp=r&sv=2026-02-06&sr=b&scid=81fedd45-adcc-5396-939d-b7b4ca39ff40&skoid=1d6acb5b-b3f4-43ec-a5ec-b05c4a7708c8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-09-25T09%3A53%3A36Z&ske=2026-09-26T09%3A53%3A36Z&sks=b&skv=2026-02-06&sig=yOnwsxd2EWyKemLZcKVgdUgZ/e2ylyArcVthY82KbfU%3D",
+  "notes": "- Nouvelle page Activités dans la barre du bas\n- Navigation : Accueil • Timers • Activités • Braquages • Gains\n- Catalogue par catégories : Agence, Atelier auto, Casse, Activités rapides, Quotidien / Hebdo\n- Possibilité d’épingler ou retirer chaque activité de l’Accueil\n- Ajout Contrat de sécurité, Coffre Agence, Dr. Dre, Atelier auto, Casse, Dépanneuse, Planque et Cache de G\n- Description de préparation Cluckin’ Bell mise à jour sur une seule ligne"
 }
