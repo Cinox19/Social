@@ -1,7 +1,7 @@
 {
-  "versionName": "0.13.6",
-  "versionCode": 57,
+  "versionName": "0.13.7",
+  "versionCode": 58,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "5149ba2b3a466a28c9ec5fbba8b024d788e7d61d6769a3654e476711c618a16c",
-  "notes": "- Molette supprimée pour la réception des caisses d'entrepôt\n- Sélection instantanée 1 / 2 / 3 par boutons dans chaque tuile prête\n- Retour haptique et surbrillance sur la valeur choisie\n- Une seule validation globale pour tous les entrepôts prêts\n- Le bouton global récapitule les choix avant validation"
+  "sha256": "36b19446f71388e0f735b9889d8262a3ea09bfdbedefe9dbcb3f474fca7698dc",
+  "notes": "- Ajustement du cycle Nightclub avec un slider fluide de 00:00 à 48:00\n- Temps sélectionné affiché en grand en temps réel\n- Appui long sur Prochain dépôt ou sa barre pour ouvrir le slider\n- Appui long sur Prochaine dégradation ou sa barre pour ouvrir le même slider\n- Plus de saisie manuelle minutes + secondes"
 }
