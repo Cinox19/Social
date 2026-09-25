@@ -1,7 +1,7 @@
 {
-  "versionName": "0.12.9",
-  "versionCode": 50,
+  "versionName": "0.13.0",
+  "versionCode": 51,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "a1f2ae293e4ff6d5506ddbe09cb1c7ab319c90a07681044bda1d5fe7a0d81d74",
-  "notes": "Nouveau rendu GTA pour le Total gagné. Délai d'approvisionnement du labo d'acide réglé à 33 minutes. Bunker conservé à 10 minutes."
+  "sha256": "48507337977618b647997733d4ad56b27ee5265211fd7f87c0490eeba74c71ca",
+  "notes": "Police Pricedown sur le Total gagné. Calculs Nightclub, Labo d'acide et Bunker revus avec progression par unités réelles du jeu."
 }
