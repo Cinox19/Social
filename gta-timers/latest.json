@@ -1,7 +1,7 @@
 {
-  "versionName": "0.13.8",
-  "versionCode": 59,
+  "versionName": "0.13.9",
+  "versionCode": 60,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "18325de05f98b89377d1a56be5a28144e5dcaeabbe42f84401a3880ce56cdabd",
-  "notes": "- Appui long sur TOTAL GAGNÉ pour ajuster manuellement le total\n- L'application enregistre uniquement la différence par rapport au total actuel\n- Différence positive ajoutée aux Gains du jour et à l'activité récente\n- Différence négative ajoutée aux Dépenses du jour et à l'activité récente\n- Les lignes d'ajustement manuel ont un titre modifiable\n- Les titres des opérations normales restent verrouillés"
+  "sha256": "582e8166e039aa260ea2ac929aaee952a589058b5414e80e956b0f9f8862637f",
+  "notes": "- Le grand total devient TOTAL NET cumulé\n- TOTAL NET = tous les gains de toutes les journées moins toutes les dépenses\n- Les dépenses normales réduisent désormais le total cumulé\n- Le calendrier affiche le NET de chaque journée directement dans les cases\n- Net positif en vert avec +, net négatif en rouge avec -\n- Le détail d'une journée conserve Gains, Dépenses et Net"
 }
