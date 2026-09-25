@@ -1,6 +1,6 @@
 {
-  "versionName": "0.12.8",
-  "versionCode": 49,
-  "zipUrl": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-e828-81f4-9feb-5031f5979b18/raw?se=2026-09-25T08%3A20%3A54Z&sp=r&sv=2026-02-06&sr=b&scid=2dc88f10-acc8-57a0-9c57-fbf7ec793591&skoid=1d6acb5b-b3f4-43ec-a5ec-b05c4a7708c8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-09-25T07%3A12%3A08Z&ske=2026-09-26T07%3A12%3A08Z&sks=b&skv=2026-02-06&sig=AESKc4LRpuNUWqf%2B8/z9eicUcuPOmK/UWgzOH/oEO6A%3D",
-  "notes": "Édition des gains simplifiée : suppression de l'indication d'appui long, modification du montant uniquement, titre de l'activité verrouillé."
+  "versionName": "0.12.9",
+  "versionCode": 50,
+  "zipUrl": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-1718-81f4-b669-94df49fe5eab/raw?se=2026-09-25T09%3A54%3A25Z&sp=r&sv=2026-02-06&sr=b&scid=f2ba4911-7bae-54cf-bbc4-ac7b3d69665a&skoid=1d6acb5b-b3f4-43ec-a5ec-b05c4a7708c8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-09-25T08%3A30%3A35Z&ske=2026-09-26T08%3A30%3A35Z&sks=b&skv=2026-02-06&sig=embmi0FGYzbSCcjKlNyc05%2BzibKCn1Z5uR%2B4OTblIEk%3D",
+  "notes": "Nouveau rendu GTA pour le Total gagné. Délai d'approvisionnement du labo d'acide réglé à 33 minutes. Bunker conservé à 10 minutes."
 }
