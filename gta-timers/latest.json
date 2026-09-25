@@ -1,7 +1,7 @@
 {
-  "versionName": "0.14.3",
-  "versionCode": 67,
+  "versionName": "0.14.4",
+  "versionCode": 68,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "80196035234d68e3f54d7ce9ac2c937cbe2698ad92b322c74080cf61eb7e0475",
-  "notes": "- Ajout du NET directement sur la carte Gains du jour de l’accueil\n- Calcul automatique : gains du jour - dépenses du jour\n- NET vert s’il est positif, rouge s’il est négatif\n- Mise à jour immédiate du NET après modification des gains ou dépenses\n- Inclut les corrections de la 0.14.2 pour l’ajout des gains d’activités"
+  "sha256": "1ff7b21d05b06dce0c3bec4e43681ba0545d608ac8bc254356d6d5ba9e585c60",
+  "notes": "- Agrandissement du NET sur la carte Gains du jour\n- Taille du NET portée à 23sp pour une meilleure lisibilité\n- Calcul gains - dépenses et couleurs dynamique conservés\n- Inclut toutes les corrections des versions 0.14.2 et 0.14.3"
 }
