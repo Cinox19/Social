@@ -1,7 +1,7 @@
 {
-  "versionName": "0.13.2",
-  "versionCode": 53,
+  "versionName": "0.13.3",
+  "versionCode": 54,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "cc359ec26ec094e94846618217672862487794b926e2ece7df239ddee05ca9ee",
-  "notes": "- Gains du jour en police Pricedown\n- Gains du jour en vert clair style HUD GTA\n- Dépenses de l'accueil en police Pricedown\n- Ombre légère sur les montants de l'accueil"
+  "sha256": "1f89f85a925e606b0509861bb6c848b461736b0b1593e83a2deec1824ca22e74",
+  "notes": "- Molette 1 à 3 caisses directement sur les tuiles compactes d'entrepôt\n- Appui long sur la molette pour valider les caisses reçues\n- Plus de saisie clavier pour les livraisons reçues\n- Saisie des caisses reçues supprimée de la vue développée\n- Vue développée conserve uniquement Ajuster stock pour les corrections manuelles"
 }
