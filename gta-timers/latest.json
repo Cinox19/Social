@@ -1,7 +1,7 @@
 {
-  "versionName": "0.13.11",
-  "versionCode": 62,
+  "versionName": "0.13.12",
+  "versionCode": 63,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "1a887c4e8019c23e3c079821fe5ec9a7578de506e4563ad1ab3cd5dcec7a3095",
-  "notes": "- Synchronisation des suppressions entre Gains et Stats braquages\n- Supprimer un braquage depuis Gains supprime aussi le run correspondant des stats\n- Appui long sur un run dans Stats braquages pour le supprimer\n- Suppression depuis les stats retire aussi la ligne de gain liée\n- Recalcul automatique des Gains, du Net et du TOTAL NET\n- Toutes les opérations du calendrier sont désormais affichées"
+  "sha256": "7050332297f2f17086f1841f8b5f99b2e875615821fdb0361bab217ddb1490c0",
+  "notes": "- Modification d’un gain Braquage depuis Gains synchronisée avec Stats braquages\n- Modification d’un gain depuis Stats braquages synchronisée avec Gains\n- Appui long sur un run dans Stats : Modifier le gain ou Supprimer\n- Les totaux Gains / Net / TOTAL NET sont recalculés après modification\n- Liaison prioritaire par identifiant unique du run, avec compatibilité des anciens braquages"
 }
