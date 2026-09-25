@@ -1,7 +1,7 @@
 {
-  "versionName": "0.14.1",
-  "versionCode": 65,
+  "versionName": "0.14.2",
+  "versionCode": 66,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "cf1acce1ddbf9ff7275d9c4de2782b1e5cf1653c8fbbe4ab762e3f280e58cbe6",
-  "notes": "- Synchronisation corrigée entre la page Activités et les activités de l’Accueil\n- Ajouter une activité depuis Activités l’affiche immédiatement sur l’Accueil\n- Retirer une activité depuis Activités la retire immédiatement de l’Accueil\n- Le bouton Gérer de l’Accueil et la page Activités utilisent désormais la même sélection"
+  "sha256": "b3a293e0205b48b1650cfa087ad9a462da4e8c02b65123e40977bc71cd3416ec",
+  "notes": "- Correction de la synchro Activités ↔ Accueil\n- Les boutons FAIT ajoutent de nouveau les gains même lorsque l’app est en PAUSE\n- Ammu-Nation enregistre le gain en PAUSE et conserve correctement son cooldown figé\n- Livraison moto enregistre le gain en PAUSE, avec chrono figé jusqu’à la reprise\n- Les activités personnalisées enregistrent également leurs gains pendant PAUSE"
 }
