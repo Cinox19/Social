@@ -1,6 +1,6 @@
 {
-  "versionName": "0.13.9",
-  "versionCode": 60,
-  "zipUrl": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-35d8-8210-80b0-6be704ee9ad4/raw?se=2026-09-25T14%3A43%3A21Z&sp=r&sv=2026-02-06&sr=b&scid=f6139b6f-c008-5153-b26d-e26ff252dba9&skoid=1d6acb5b-b3f4-43ec-a5ec-b05c4a7708c8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-09-25T07%3A37%3A11Z&ske=2026-09-26T07%3A37%3A11Z&sks=b&skv=2026-02-06&sig=Y8zw3LEVWHs%2B%2BkbDQqbMIx8cTgkGTHEWMU%2B03rDyJl8%3D",
-  "notes": "- Le grand total devient TOTAL NET cumulé\n- TOTAL NET = tous les gains de toutes les journées moins toutes les dépenses\n- Les dépenses normales réduisent désormais le total cumulé\n- Le calendrier affiche le NET de chaque journée directement dans les cases\n- Net positif en vert avec +, net négatif en rouge avec -\n- Le détail d'une journée conserve Gains, Dépenses et Net"
+  "versionName": "0.13.11",
+  "versionCode": 62,
+  "zipUrl": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-acc0-81f4-8e10-f11f82a18d9b/raw?se=2026-09-25T15%3A02%3A04Z&sp=r&sv=2026-02-06&sr=b&scid=113296b2-33c9-5760-affd-7e58c86a3fdf&skoid=1d6acb5b-b3f4-43ec-a5ec-b05c4a7708c8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-09-25T12%3A20%3A20Z&ske=2026-09-26T12%3A20%3A20Z&sks=b&skv=2026-02-06&sig=J4RAN2OywWoylG%2B4O63/xR81Fhm9TEoloU0l5UUK6i4%3D",
+  "notes": "- Synchronisation des suppressions entre Gains et Stats braquages\n- Supprimer un braquage depuis Gains supprime aussi le run correspondant des stats\n- Appui long sur un run dans Stats braquages pour le supprimer\n- Suppression depuis les stats retire aussi la ligne de gain liée\n- Recalcul automatique des Gains, du Net et du TOTAL NET\n- Toutes les opérations du calendrier sont désormais affichées"
 }
