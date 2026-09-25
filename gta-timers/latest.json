@@ -2,6 +2,6 @@
   "versionName": "0.14.5",
   "versionCode": 69,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "3336cde1bd67954296570be513a89856c47cd7b17e690bf42fb4440f9293b668",
-  "notes": "- Le NET de l’accueil reprend maintenant le même bleu que la page Gains\n- Vérification automatique des mises à jour au lancement\n- Vérification en arrière-plan toutes les heures\n- Notification Android lorsqu’une nouvelle version est disponible\n- Écran « Quoi de neuf ? » avec les nouveautés et boutons Plus tard / Télécharger\n- Une seule notification et une seule proposition automatique par version pour éviter le spam"
+  "sha256": "a9c9fcc5f9c247f44998364ea9a058067e77f5311024189ec9abd0a172c5e0bb",
+  "notes": "- Carte Gains du jour de l’accueil passée au même vert foncé que la page Gains\n- NET de l’accueil en bleu, comme sur la page Gains\n- Vérification automatique des mises à jour au lancement et périodiquement\n- Notification Android lorsqu’une nouvelle version est disponible\n- Écran Quoi de neuf ? avec boutons Plus tard / Télécharger\n- Une seule notification par version pour éviter le spam"
 }
