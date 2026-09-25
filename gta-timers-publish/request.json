@@ -1,6 +1,6 @@
 {
-  "versionName": "0.14.3",
-  "versionCode": 67,
-  "zipUrl": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-794c-8210-b5b7-3e708b40af35/raw?se=2026-09-25T17%3A12%3A00Z&sp=r&sv=2026-02-06&sr=b&scid=2b7fe024-2d3a-5ebb-93b3-d1cecafe90c6&skoid=1d6acb5b-b3f4-43ec-a5ec-b05c4a7708c8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-09-25T14%3A59%3A51Z&ske=2026-09-26T14%3A59%3A51Z&sks=b&skv=2026-02-06&sig=sL0jgKxxUl66OllZPUIsS/r4zyZ3mVjkoLJSee5zdi4%3D",
-  "notes": "- Ajout du NET directement sur la carte Gains du jour de l’accueil\n- Calcul automatique : gains du jour - dépenses du jour\n- NET vert s’il est positif, rouge s’il est négatif\n- Mise à jour immédiate du NET après modification des gains ou dépenses\n- Inclut les corrections de la 0.14.2 pour l’ajout des gains d’activités"
+  "versionName": "0.14.4",
+  "versionCode": 68,
+  "zipUrl": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-7bbc-81f4-a0fa-03b23bf6015b/raw?se=2026-09-25T17%3A29%3A15Z&sp=r&sv=2026-02-06&sr=b&scid=17b22043-9d42-54de-aece-fa5d313f83da&skoid=1d6acb5b-b3f4-43ec-a5ec-b05c4a7708c8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-09-25T15%3A16%3A14Z&ske=2026-09-26T15%3A16%3A14Z&sks=b&skv=2026-02-06&sig=qpg2XtF4VbtypNMLctsSpXsBocGqpKpv4SCQiCHWMFk%3D",
+  "notes": "- Agrandissement du NET sur la carte Gains du jour\n- Taille du NET portée à 23sp pour une meilleure lisibilité\n- Calcul gains - dépenses et couleurs dynamique conservés\n- Inclut toutes les corrections des versions 0.14.2 et 0.14.3"
 }
