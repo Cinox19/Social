@@ -1,7 +1,7 @@
 {
-  "versionName": "0.13.1",
-  "versionCode": 52,
+  "versionName": "0.13.2",
+  "versionCode": 53,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "6bb35e44323ab7ce085e430361ff27bea345dd29105b5c56a7d2ede952521d45",
-  "notes": "- Total gagné en vert clair style HUD GTA\n- Police Pricedown sur tous les montants de la page Gains\n- Montants des activités récentes en Pricedown\n- Nouveautés de mise à jour affichées sous forme de liste"
+  "sha256": "cc359ec26ec094e94846618217672862487794b926e2ece7df239ddee05ca9ee",
+  "notes": "- Gains du jour en police Pricedown\n- Gains du jour en vert clair style HUD GTA\n- Dépenses de l'accueil en police Pricedown\n- Ombre légère sur les montants de l'accueil"
 }
