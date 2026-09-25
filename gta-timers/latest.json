@@ -1,7 +1,7 @@
 {
-  "versionName": "0.12.6",
-  "versionCode": 47,
+  "versionName": "0.12.7",
+  "versionCode": 48,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "ca18676c99e61c00f8f7266ac0d379033f7d5ffdbc3253345b5ff75726d2e2d7",
-  "notes": "Reconstruction complète du logo launcher depuis un PNG propre, avec zone sûre Android/Samsung."
+  "sha256": "50f77bf03f930d766006d7b9e45ddc6d2dc5b0e028031fe94e42a581dfd4aaa0",
+  "notes": "Barre de navigation modernisée avec nouvelles icônes. Page Gains simplifiée : suppression Bonus Villa, Total cumulé, modification/suppression des entrées par appui long."
 }
