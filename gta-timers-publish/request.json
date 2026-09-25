@@ -1,6 +1,6 @@
 {
-  "versionName": "0.14.1",
-  "versionCode": 65,
-  "zipUrl": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-859c-8210-9bfd-28bda68bee11/raw?se=2026-09-25T16%3A30%3A28Z&sp=r&sv=2026-02-06&sr=b&scid=897a57c2-825b-529e-bc52-19c0befa18f3&skoid=1d6acb5b-b3f4-43ec-a5ec-b05c4a7708c8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-09-25T16%3A05%3A45Z&ske=2026-09-26T16%3A05%3A45Z&sks=b&skv=2026-02-06&sig=qgOBOZiXhwhDMabbWasJI2UCqziyCj6wMv9wXIRd5dE%3D",
-  "notes": "- Synchronisation corrigée entre la page Activités et les activités de l’Accueil\n- Ajouter une activité depuis Activités l’affiche immédiatement sur l’Accueil\n- Retirer une activité depuis Activités la retire immédiatement de l’Accueil\n- Le bouton Gérer de l’Accueil et la page Activités utilisent désormais la même sélection"
+  "versionName": "0.14.2",
+  "versionCode": 66,
+  "zipUrl": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-0c88-8210-919b-998565ec7a01/raw?se=2026-09-25T16%3A42%3A16Z&sp=r&sv=2026-02-06&sr=b&scid=60914a61-a048-5995-b2a8-3d573e182805&skoid=1d6acb5b-b3f4-43ec-a5ec-b05c4a7708c8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-09-25T12%3A02%3A28Z&ske=2026-09-26T12%3A02%3A28Z&sks=b&skv=2026-02-06&sig=qlTFN6Dew6XKxor0koaozYQQ5W1RgNKtBmwNpKMSr0U%3D",
+  "notes": "- Correction de la synchro Activités ↔ Accueil\n- Les boutons FAIT ajoutent de nouveau les gains même lorsque l’app est en PAUSE\n- Ammu-Nation enregistre le gain en PAUSE et conserve correctement son cooldown figé\n- Livraison moto enregistre le gain en PAUSE, avec chrono figé jusqu’à la reprise\n- Les activités personnalisées enregistrent également leurs gains pendant PAUSE"
 }
