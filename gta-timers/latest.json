@@ -1,7 +1,7 @@
 {
-  "versionName": "0.14.2",
-  "versionCode": 66,
+  "versionName": "0.14.3",
+  "versionCode": 67,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "b3a293e0205b48b1650cfa087ad9a462da4e8c02b65123e40977bc71cd3416ec",
-  "notes": "- Correction de la synchro Activités ↔ Accueil\n- Les boutons FAIT ajoutent de nouveau les gains même lorsque l’app est en PAUSE\n- Ammu-Nation enregistre le gain en PAUSE et conserve correctement son cooldown figé\n- Livraison moto enregistre le gain en PAUSE, avec chrono figé jusqu’à la reprise\n- Les activités personnalisées enregistrent également leurs gains pendant PAUSE"
+  "sha256": "80196035234d68e3f54d7ce9ac2c937cbe2698ad92b322c74080cf61eb7e0475",
+  "notes": "- Ajout du NET directement sur la carte Gains du jour de l’accueil\n- Calcul automatique : gains du jour - dépenses du jour\n- NET vert s’il est positif, rouge s’il est négatif\n- Mise à jour immédiate du NET après modification des gains ou dépenses\n- Inclut les corrections de la 0.14.2 pour l’ajout des gains d’activités"
 }
