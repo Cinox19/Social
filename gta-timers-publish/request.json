@@ -1,6 +1,6 @@
 {
-  "versionName": "0.13.11",
-  "versionCode": 62,
-  "zipUrl": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-acc0-81f4-8e10-f11f82a18d9b/raw?se=2026-09-25T15%3A02%3A04Z&sp=r&sv=2026-02-06&sr=b&scid=113296b2-33c9-5760-affd-7e58c86a3fdf&skoid=1d6acb5b-b3f4-43ec-a5ec-b05c4a7708c8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-09-25T12%3A20%3A20Z&ske=2026-09-26T12%3A20%3A20Z&sks=b&skv=2026-02-06&sig=J4RAN2OywWoylG%2B4O63/xR81Fhm9TEoloU0l5UUK6i4%3D",
-  "notes": "- Synchronisation des suppressions entre Gains et Stats braquages\n- Supprimer un braquage depuis Gains supprime aussi le run correspondant des stats\n- Appui long sur un run dans Stats braquages pour le supprimer\n- Suppression depuis les stats retire aussi la ligne de gain liée\n- Recalcul automatique des Gains, du Net et du TOTAL NET\n- Toutes les opérations du calendrier sont désormais affichées"
+  "versionName": "0.13.12",
+  "versionCode": 63,
+  "zipUrl": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-4a4c-81f4-9c6b-bf57df7259d1/raw?se=2026-09-25T15%3A19%3A42Z&sp=r&sv=2026-02-06&sr=b&scid=0b036868-47d8-5e41-bbb2-36a8f3717670&skoid=1d6acb5b-b3f4-43ec-a5ec-b05c4a7708c8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-09-25T05%3A04%3A15Z&ske=2026-09-26T05%3A04%3A15Z&sks=b&skv=2026-02-06&sig=5gAW78TJE4AzKpZ7R9iCEC0t5NucWmezn3rWxieeoiM%3D",
+  "notes": "- Modification d’un gain Braquage depuis Gains synchronisée avec Stats braquages\n- Modification d’un gain depuis Stats braquages synchronisée avec Gains\n- Appui long sur un run dans Stats : Modifier le gain ou Supprimer\n- Les totaux Gains / Net / TOTAL NET sont recalculés après modification\n- Liaison prioritaire par identifiant unique du run, avec compatibilité des anciens braquages"
 }
