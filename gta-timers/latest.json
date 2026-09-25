@@ -1,7 +1,7 @@
 {
-  "versionName": "0.12.4",
-  "versionCode": 45,
+  "versionName": "0.12.5",
+  "versionCode": 46,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "82dc1adf2885aa3f2f7da1cc284707541c0678f4d5a2e4870956aac826cd4c90",
-  "notes": "Correction de l'icône Android : vraie icône adaptative, fond noir et logo sécurisé contre le recadrage."
+  "sha256": "9f0b61aa628e71ad11b74f050f961c992d1bfab861b518a4c12bb326bccd24f4",
+  "notes": "Correction de l'icône Samsung/Android : logo recentré dans la zone sûre de l'icône adaptative, fond noir."
 }
