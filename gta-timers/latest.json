@@ -1,7 +1,7 @@
 {
-  "versionName": "0.13.5",
-  "versionCode": 56,
+  "versionName": "0.13.6",
+  "versionCode": 57,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "0293b8eab79cdaeedc61823b0759df9656b9080d17de90f4ae8b9c262111b8c7",
-  "notes": "- Cycle Nightclub figé pendant Pause puis reprise au même temps restant\n- Correction de l’édition du stock Nightclub avec montant exact conservé\n- Affichage du nombre de caisses sous le stock\n- Calibration du stock pour aligner la valeur de l’app sur la valeur observée dans GTA\n- Suppression de la barre verte en doublon sous le Nightclub"
+  "sha256": "5149ba2b3a466a28c9ec5fbba8b024d788e7d61d6769a3654e476711c618a16c",
+  "notes": "- Molette supprimée pour la réception des caisses d'entrepôt\n- Sélection instantanée 1 / 2 / 3 par boutons dans chaque tuile prête\n- Retour haptique et surbrillance sur la valeur choisie\n- Une seule validation globale pour tous les entrepôts prêts\n- Le bouton global récapitule les choix avant validation"
 }
