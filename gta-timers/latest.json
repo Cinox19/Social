@@ -1,7 +1,7 @@
 {
-  "versionName": "0.14.0",
-  "versionCode": 64,
+  "versionName": "0.14.1",
+  "versionCode": 65,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "9851401925ddb1572cd80354a8c46aac0d31ea22b37c85a64958823489eedb96",
-  "notes": "- Nouvelle page Activités dans la barre du bas\n- Navigation : Accueil • Timers • Activités • Braquages • Gains\n- Catalogue par catégories : Agence, Atelier auto, Casse, Activités rapides, Quotidien / Hebdo\n- Possibilité d’épingler ou retirer chaque activité de l’Accueil\n- Ajout Contrat de sécurité, Coffre Agence, Dr. Dre, Atelier auto, Casse, Dépanneuse, Planque et Cache de G\n- Description de préparation Cluckin’ Bell mise à jour sur une seule ligne"
+  "sha256": "cf1acce1ddbf9ff7275d9c4de2782b1e5cf1653c8fbbe4ab762e3f280e58cbe6",
+  "notes": "- Synchronisation corrigée entre la page Activités et les activités de l’Accueil\n- Ajouter une activité depuis Activités l’affiche immédiatement sur l’Accueil\n- Retirer une activité depuis Activités la retire immédiatement de l’Accueil\n- Le bouton Gérer de l’Accueil et la page Activités utilisent désormais la même sélection"
 }
