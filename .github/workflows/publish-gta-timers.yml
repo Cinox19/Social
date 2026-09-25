@@ -1,0 +1,62 @@
+name: Publish GTA Timers update
+
+on:
+  push:
+    branches: ["gta-timers-updates"]
+    paths:
+      - "gta-timers-publish/request.json"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout update branch
+        uses: actions/checkout@v4
+        with:
+          ref: gta-timers-updates
+
+      - name: Read publish request
+        id: meta
+        shell: bash
+        run: |
+          VERSION_NAME=$(jq -r '.versionName' gta-timers-publish/request.json)
+          VERSION_CODE=$(jq -r '.versionCode' gta-timers-publish/request.json)
+          ZIP_URL=$(jq -r '.zipUrl' gta-timers-publish/request.json)
+          NOTES=$(jq -r '.notes // ""' gta-timers-publish/request.json)
+          echo "version_name=$VERSION_NAME" >> "$GITHUB_OUTPUT"
+          echo "version_code=$VERSION_CODE" >> "$GITHUB_OUTPUT"
+          echo "zip_url=$ZIP_URL" >> "$GITHUB_OUTPUT"
+          printf '%s' "$NOTES" > /tmp/notes.txt
+
+      - name: Download built APK artifact
+        shell: bash
+        run: |
+          set -euo pipefail
+          curl -fL --retry 3 --retry-delay 2 "${{ steps.meta.outputs.zip_url }}" -o /tmp/gta-update.zip
+          rm -rf /tmp/gta-update
+          mkdir -p /tmp/gta-update
+          unzip -j /tmp/gta-update.zip '*.apk' -d /tmp/gta-update
+          APK=$(find /tmp/gta-update -maxdepth 1 -name '*.apk' -print -quit)
+          test -n "$APK"
+          mkdir -p gta-timers
+          cp "$APK" gta-timers/latest.apk
+          SHA256=$(sha256sum gta-timers/latest.apk | awk '{print $1}')
+          NOTES=$(cat /tmp/notes.txt)
+          jq -n             --arg versionName "${{ steps.meta.outputs.version_name }}"             --argjson versionCode "${{ steps.meta.outputs.version_code }}"             --arg apkUrl "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk"             --arg sha256 "$SHA256"             --arg notes "$NOTES"             '{versionName:$versionName,versionCode:$versionCode,apkUrl:$apkUrl,sha256:$sha256,notes:$notes}'             > gta-timers/latest.json
+
+      - name: Commit public update files
+        shell: bash
+        run: |
+          git config user.name "GTA Timers Update Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add gta-timers/latest.apk gta-timers/latest.json
+          if git diff --cached --quiet; then
+            echo "No update changes to publish."
+            exit 0
+          fi
+          git commit -m "publish: GTA Timers v${{ steps.meta.outputs.version_name }}"
+          git push origin gta-timers-updates
