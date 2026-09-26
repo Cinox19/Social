@@ -1,7 +1,7 @@
 {
-  "versionName": "0.14.6",
-  "versionCode": 70,
+  "versionName": "0.14.7",
+  "versionCode": 71,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "54964cd2643cb17052f6b30c4025b942c1d7fdb2431245d68459fcd2a92cfa35",
-  "notes": "- Alarmes exactes Android pour les timers, y compris application fermée et téléphone verrouillé\n- Demande guidée de l'autorisation « Alarmes et rappels » sur Android 12+\n- Retour de la réglette de stock sur appui long des entrepôts\n- Nettoyage correct du cooldown et de l'alarme lors d'un ajustement manuel du stock"
+  "sha256": "fd9f190a3c69b32d239ad92e9dd9f3ff7e05bbd74d2366c0544f74f7bcc409be",
+  "notes": "- Remplacement des libellés Nightclub par Boîte de nuit pour une interface 100 % française\n- Ajout de deux modes dans la page Gains : Chronologique et Cumul par activité\n- En mode cumul, les opérations identiques sont regroupées et additionnées\n- Classement des gains par montant décroissant, puis des dépenses par montant décroissant\n- Nombre d'occurrences indiqué discrètement avec des points, par exemple ●● pour deux opérations"
 }
