@@ -1,7 +1,7 @@
 {
-  "versionName": "0.14.5",
-  "versionCode": 69,
+  "versionName": "0.14.6",
+  "versionCode": 70,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "a9c9fcc5f9c247f44998364ea9a058067e77f5311024189ec9abd0a172c5e0bb",
-  "notes": "- Carte Gains du jour de l’accueil passée au même vert foncé que la page Gains\n- NET de l’accueil en bleu, comme sur la page Gains\n- Vérification automatique des mises à jour au lancement et périodiquement\n- Notification Android lorsqu’une nouvelle version est disponible\n- Écran Quoi de neuf ? avec boutons Plus tard / Télécharger\n- Une seule notification par version pour éviter le spam"
+  "sha256": "54964cd2643cb17052f6b30c4025b942c1d7fdb2431245d68459fcd2a92cfa35",
+  "notes": "- Alarmes exactes Android pour les timers, y compris application fermée et téléphone verrouillé\n- Demande guidée de l'autorisation « Alarmes et rappels » sur Android 12+\n- Retour de la réglette de stock sur appui long des entrepôts\n- Nettoyage correct du cooldown et de l'alarme lors d'un ajustement manuel du stock"
 }
