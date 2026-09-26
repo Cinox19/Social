@@ -1,7 +1,7 @@
 {
-  "versionName": "0.14.8",
-  "versionCode": 72,
+  "versionName": "0.14.9",
+  "versionCode": 73,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "cdc1cf27890e943b0dd8a64df0444417abd44539faaf207454dfa890e5fb4c10",
-  "notes": "- Refonte premium du calendrier du net\n- Navigation mois précédent / suivant modernisée\n- Cases journalières plus lisibles avec code couleur gains / dépenses / net\n- Ajout des modes Chronologique et Cumul par activité dans le détail d'une journée\n- Regroupement et addition des opérations identiques en mode cumul\n- Classement des gains par montant décroissant puis des dépenses\n- Indicateur discret du nombre d'occurrences avec des points\n- Miniatures des activités affichées dans le détail du calendrier quand disponibles"
+  "sha256": "16a4258a9c967ea09ee8e86500712cc27b47ee7b86425ec9fac27c1dea0bc9b7",
+  "notes": "- Nouveau bouton GÉRER dans la section BUSINESS\n- Ajout / retrait des 5 business motards : Cocaïne, Méthamphétamine, Faux billets, Cannabis, Faux documents\n- Cartes dynamiques avec stock, matières premières, temps de production et vente\n- Calculs basés sur Personnel + Équipement améliorés\n- Réapprovisionnement complet à 75 000 GTA$ avec suivi de livraison\n- Appui long sur une carte pour régler manuellement stock et matières premières\n- Bonus Villa +66 % pendant 24 h sur chaque business motard\n- Pictogrammes dédiés pour identifier rapidement chaque business"
 }
