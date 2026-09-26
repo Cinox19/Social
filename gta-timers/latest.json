@@ -1,7 +1,7 @@
 {
-  "versionName": "0.14.7",
-  "versionCode": 71,
+  "versionName": "0.14.8",
+  "versionCode": 72,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "fd9f190a3c69b32d239ad92e9dd9f3ff7e05bbd74d2366c0544f74f7bcc409be",
-  "notes": "- Remplacement des libellés Nightclub par Boîte de nuit pour une interface 100 % française\n- Ajout de deux modes dans la page Gains : Chronologique et Cumul par activité\n- En mode cumul, les opérations identiques sont regroupées et additionnées\n- Classement des gains par montant décroissant, puis des dépenses par montant décroissant\n- Nombre d'occurrences indiqué discrètement avec des points, par exemple ●● pour deux opérations"
+  "sha256": "cdc1cf27890e943b0dd8a64df0444417abd44539faaf207454dfa890e5fb4c10",
+  "notes": "- Refonte premium du calendrier du net\n- Navigation mois précédent / suivant modernisée\n- Cases journalières plus lisibles avec code couleur gains / dépenses / net\n- Ajout des modes Chronologique et Cumul par activité dans le détail d'une journée\n- Regroupement et addition des opérations identiques en mode cumul\n- Classement des gains par montant décroissant puis des dépenses\n- Indicateur discret du nombre d'occurrences avec des points\n- Miniatures des activités affichées dans le détail du calendrier quand disponibles"
 }
