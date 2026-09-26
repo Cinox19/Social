@@ -1,6 +1,6 @@
 {
-  "versionName": "0.14.8",
-  "versionCode": 72,
-  "zipUrl": "https://sdmntpritalynorth.oaiusercontent.com/files/00000000-24ec-8246-b202-ce0c902c0a95/raw?se=2026-09-26T12%3A09%3A47Z&sp=r&sv=2026-02-06&sr=b&scid=a0768d6e-4bc3-5c96-a4fe-6ddd4d88265f&skoid=1d6acb5b-b3f4-43ec-a5ec-b05c4a7708c8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-09-26T07%3A01%3A06Z&ske=2026-09-27T07%3A01%3A06Z&sks=b&skv=2026-02-06&sig=1kEKx5yU30KY/tXKhF9i5aWVKeftni0/5ydpp4fl4Xs%3D",
-  "notes": "- Refonte premium du calendrier du net\n- Navigation mois précédent / suivant modernisée\n- Cases journalières plus lisibles avec code couleur gains / dépenses / net\n- Ajout des modes Chronologique et Cumul par activité dans le détail d'une journée\n- Regroupement et addition des opérations identiques en mode cumul\n- Classement des gains par montant décroissant puis des dépenses\n- Indicateur discret du nombre d'occurrences avec des points\n- Miniatures des activités affichées dans le détail du calendrier quand disponibles"
+  "versionName": "0.14.9",
+  "versionCode": 73,
+  "zipUrl": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-d600-8210-a606-668a585e9ae8/raw?se=2026-09-26T21%3A58%3A31Z&sp=r&sv=2026-02-06&sr=b&scid=3d95d186-d2b2-5fab-bdcc-2f210e6dca62&skoid=1d6acb5b-b3f4-43ec-a5ec-b05c4a7708c8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-09-26T06%3A35%3A37Z&ske=2026-09-27T06%3A35%3A37Z&sks=b&skv=2026-02-06&sig=//tUinuqLnfIrqc/wHaRl7qWg9SMsFWKnDtyAXEgx8A%3D",
+  "notes": "- Nouveau bouton GÉRER dans la section BUSINESS\n- Ajout / retrait des 5 business motards : Cocaïne, Méthamphétamine, Faux billets, Cannabis, Faux documents\n- Cartes dynamiques avec stock, matières premières, temps de production et vente\n- Calculs basés sur Personnel + Équipement améliorés\n- Réapprovisionnement complet à 75 000 GTA$ avec suivi de livraison\n- Appui long sur une carte pour régler manuellement stock et matières premières\n- Bonus Villa +66 % pendant 24 h sur chaque business motard\n- Pictogrammes dédiés pour identifier rapidement chaque business"
 }
