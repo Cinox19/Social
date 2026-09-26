@@ -1,6 +1,6 @@
 {
-  "versionName": "0.14.7",
-  "versionCode": 71,
-  "zipUrl": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-a1c8-8210-afb0-043124a5192d/raw?se=2026-09-26T11%3A12%3A00Z&sp=r&sv=2026-02-06&sr=b&scid=effc42d1-c937-5513-8593-6899374d36d9&skoid=1d6acb5b-b3f4-43ec-a5ec-b05c4a7708c8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-09-26T07%3A40%3A39Z&ske=2026-09-27T07%3A40%3A39Z&sks=b&skv=2026-02-06&sig=gkT/zGbJ%2Bt5xZnTUN4NcfTH5mPmzmBQTKPmd4p0puyk%3D",
-  "notes": "- Remplacement des libellés Nightclub par Boîte de nuit pour une interface 100 % française\n- Ajout de deux modes dans la page Gains : Chronologique et Cumul par activité\n- En mode cumul, les opérations identiques sont regroupées et additionnées\n- Classement des gains par montant décroissant, puis des dépenses par montant décroissant\n- Nombre d'occurrences indiqué discrètement avec des points, par exemple ●● pour deux opérations"
+  "versionName": "0.14.8",
+  "versionCode": 72,
+  "zipUrl": "https://sdmntpritalynorth.oaiusercontent.com/files/00000000-24ec-8246-b202-ce0c902c0a95/raw?se=2026-09-26T12%3A09%3A47Z&sp=r&sv=2026-02-06&sr=b&scid=a0768d6e-4bc3-5c96-a4fe-6ddd4d88265f&skoid=1d6acb5b-b3f4-43ec-a5ec-b05c4a7708c8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-09-26T07%3A01%3A06Z&ske=2026-09-27T07%3A01%3A06Z&sks=b&skv=2026-02-06&sig=1kEKx5yU30KY/tXKhF9i5aWVKeftni0/5ydpp4fl4Xs%3D",
+  "notes": "- Refonte premium du calendrier du net\n- Navigation mois précédent / suivant modernisée\n- Cases journalières plus lisibles avec code couleur gains / dépenses / net\n- Ajout des modes Chronologique et Cumul par activité dans le détail d'une journée\n- Regroupement et addition des opérations identiques en mode cumul\n- Classement des gains par montant décroissant puis des dépenses\n- Indicateur discret du nombre d'occurrences avec des points\n- Miniatures des activités affichées dans le détail du calendrier quand disponibles"
 }
