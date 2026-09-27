@@ -1,6 +1,6 @@
 {
-  "versionName": "0.14.9",
-  "versionCode": 73,
-  "zipUrl": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-d600-8210-a606-668a585e9ae8/raw?se=2026-09-26T21%3A58%3A31Z&sp=r&sv=2026-02-06&sr=b&scid=3d95d186-d2b2-5fab-bdcc-2f210e6dca62&skoid=1d6acb5b-b3f4-43ec-a5ec-b05c4a7708c8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-09-26T06%3A35%3A37Z&ske=2026-09-27T06%3A35%3A37Z&sks=b&skv=2026-02-06&sig=//tUinuqLnfIrqc/wHaRl7qWg9SMsFWKnDtyAXEgx8A%3D",
-  "notes": "- Nouveau bouton GÉRER dans la section BUSINESS\n- Ajout / retrait des 5 business motards : Cocaïne, Méthamphétamine, Faux billets, Cannabis, Faux documents\n- Cartes dynamiques avec stock, matières premières, temps de production et vente\n- Calculs basés sur Personnel + Équipement améliorés\n- Réapprovisionnement complet à 75 000 GTA$ avec suivi de livraison\n- Appui long sur une carte pour régler manuellement stock et matières premières\n- Bonus Villa +66 % pendant 24 h sur chaque business motard\n- Pictogrammes dédiés pour identifier rapidement chaque business"
+  "versionName": "0.14.10",
+  "versionCode": 74,
+  "zipUrl": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-4010-81f4-866a-40e17ffedef5/raw?se=2026-09-27T08%3A36%3A23Z&sp=r&sv=2026-02-06&sr=b&scid=18182c31-23e5-54a2-9408-e795c8205975&skoid=1d6acb5b-b3f4-43ec-a5ec-b05c4a7708c8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-09-27T07%3A09%3A43Z&ske=2026-09-28T07%3A09%3A43Z&sks=b&skv=2026-02-06&sig=2JKe7lQK5ZuVs8tSLettfZuG%2BXLbzzJxmAsosltDnS8%3D",
+  "notes": "- Une seule notification agrégée pour les réapprovisionnements d'entrepôts\n- Son d'entrepôt personnalisé : les 4 premières secondes du fichier fourni\n- Correction de l'affichage de la quantité choisie lors de la réception (ex. E3 +2)\n- Option Masquer de l'historique pour les ajustements manuels, sans changer les calculs\n- Temps de la session de jeu en cours affiché discrètement sur l'accueil\n- Page Gains : temps total joué sur la journée 07h→07h et nombre de sessions\n- Une session correspond à une période REPRENDRE → PAUSE"
 }
