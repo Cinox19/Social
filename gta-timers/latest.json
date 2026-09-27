@@ -1,7 +1,7 @@
 {
-  "versionName": "0.14.12",
-  "versionCode": 76,
+  "versionName": "0.14.13",
+  "versionCode": 77,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "020b3787b9e13251bc04622705aa636dc187cb85018a1d596851e46362965645",
-  "notes": "- Les statistiques braquages séparent désormais le temps de préparation et le temps de finale\n- Le temps TOTAL reste affiché pour conserver la lecture globale\n- Ajout des métriques cumulées PRÉPA et FINALE\n- Chaque run affiche Total • Prépa • Finale\n- Le $/h reste calculé sur le temps total Prépa + Finale"
+  "sha256": "530569f9b40b171b500ff138d6add547b632cf0cbfbb2a735c2163a572bc1ec6",
+  "notes": "- Page Activités : grandes sections repliables/dépliables avec animation et mémorisation de l'état\n- Cayo Perico : bouton pour ajouter les frais de préparation de 100 000 GTA$ une seule fois par run\n- Correction des plafonds de stock des business motards : Cocaïne 350k, Meth 297,5k, Faux billets 245k, Cannabis 210k, Faux documents 105k\n- La vente lointaine des business motards propose automatiquement +50 %"
 }
