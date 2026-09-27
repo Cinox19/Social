@@ -1,6 +1,6 @@
 {
-  "versionName": "0.14.12",
-  "versionCode": 76,
-  "zipUrl": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-e1a4-8210-af56-9f14fb8efde1/raw?se=2026-09-27T14%3A11%3A38Z&sp=r&sv=2026-02-06&sr=b&scid=49ad839e-4f0a-5b02-8040-521c81e4841d&skoid=1d6acb5b-b3f4-43ec-a5ec-b05c4a7708c8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-09-27T06%3A08%3A55Z&ske=2026-09-28T06%3A08%3A55Z&sks=b&skv=2026-02-06&sig=JP7BFpzMh8RDCEDUqhtq3TPp0%2Bae1A85Wn3/ReTs%2BcE%3D",
-  "notes": "- Les statistiques braquages séparent désormais le temps de préparation et le temps de finale\n- Le temps TOTAL reste affiché pour conserver la lecture globale\n- Ajout des métriques cumulées PRÉPA et FINALE\n- Chaque run affiche Total • Prépa • Finale\n- Le $/h reste calculé sur le temps total Prépa + Finale"
+  "versionName": "0.14.13",
+  "versionCode": 77,
+  "zipUrl": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-217c-81f4-aab8-00d62e1d86fe/raw?se=2026-09-27T18%3A47%3A22Z&sp=r&sv=2026-02-06&sr=b&scid=aa895822-884b-5a52-b546-4da90cc20022&skoid=1d6acb5b-b3f4-43ec-a5ec-b05c4a7708c8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-09-27T17%3A43%3A09Z&ske=2026-09-28T17%3A43%3A09Z&sks=b&skv=2026-02-06&sig=iSfbvN4M3xkNt92AC15row6Z9rR8kGYSPA8mbwFM43M%3D",
+  "notes": "- Page Activités : grandes sections repliables/dépliables avec animation et mémorisation de l'état\n- Cayo Perico : bouton pour ajouter les frais de préparation de 100 000 GTA$ une seule fois par run\n- Correction des plafonds de stock des business motards : Cocaïne 350k, Meth 297,5k, Faux billets 245k, Cannabis 210k, Faux documents 105k\n- La vente lointaine des business motards propose automatiquement +50 %"
 }
