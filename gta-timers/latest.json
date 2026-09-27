@@ -1,7 +1,7 @@
 {
-  "versionName": "0.14.10",
-  "versionCode": 74,
+  "versionName": "0.14.11",
+  "versionCode": 75,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "61bf05903c811f54af367849388b9b0467f0298fcb33060f5a8a077a725321d6",
-  "notes": "- Une seule notification agrégée pour les réapprovisionnements d'entrepôts\n- Son d'entrepôt personnalisé : les 4 premières secondes du fichier fourni\n- Correction de l'affichage de la quantité choisie lors de la réception (ex. E3 +2)\n- Option Masquer de l'historique pour les ajustements manuels, sans changer les calculs\n- Temps de la session de jeu en cours affiché discrètement sur l'accueil\n- Page Gains : temps total joué sur la journée 07h→07h et nombre de sessions\n- Une session correspond à une période REPRENDRE → PAUSE"
+  "sha256": "c116ae4ecbfdb528f83849005390e909f75665f3e1b116e4a200bf4eda3c3fb2",
+  "notes": "- Les alertes sont désormais de simples notifications Android, plus des alarmes visuelles\n- Les horaires restent précis même écran verrouillé grâce au moteur de planification en arrière-plan\n- Nouveau son personnalisé pour le rappel « changer de DJ »\n- Le son DJ utilise uniquement les 4 premières secondes du fichier fourni\n- Rappel DJ planifié automatiquement quand la popularité doit atteindre 90 %\n- Les entrepôts conservent leur notification et leur son personnalisé"
 }
