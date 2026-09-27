@@ -1,7 +1,7 @@
 {
-  "versionName": "0.14.15",
-  "versionCode": 79,
+  "versionName": "0.14.17",
+  "versionCode": 81,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "c910bf12d2043bf19e0e5549a3e8682f4092eed7d7fcedca5a00907bea5e0845",
-  "notes": "- Refonte complète du déplacement des cartes Timers\n- Appui long d'environ 1 seconde avant activation du déplacement\n- La carte suit désormais le doigt en temps réel grâce au drag & drop Android\n- Les autres cartes se réorganisent progressivement pendant le déplacement\n- Auto-scroll doux en haut et en bas de la liste\n- L'ordre personnalisé reste sauvegardé automatiquement"
+  "sha256": "98575048981dcbc94e96c956d3a7a7279ad61e878d9b89848fe64161ad1d4f33",
+  "notes": "- Page Gains : nouvelle vue BÉNÉFICE par business\n- Le calcul de rentabilité traverse tout l'historique et inclut les réapprovisionnements des jours précédents jusqu'à la vente suivante\n- Chaque vente clôture un cycle avec Vente - Coûts = bénéfice réel\n- Les dépenses après la dernière vente restent visibles comme cycle en cours\n- Pris en charge : Labo d'acide, Bunker, Cocaïne, Méthamphétamine, Faux billets, Cannabis, Faux documents et Cayo Perico\n- Cayo Perico : les 100 000 GTA$ de frais de préparation réduisent automatiquement le bénéfice\n- Roue du Casino : un clic sur la carte Timers démarre explicitement les 24 h et programme la notification si activée\n- Ammu-Nation corrigé à 50 000 GTA$ par défaut"
 }
