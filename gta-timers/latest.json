@@ -1,7 +1,7 @@
 {
-  "versionName": "0.14.14",
-  "versionCode": 78,
+  "versionName": "0.14.15",
+  "versionCode": 79,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "08730d042e4ca377590f3514baa7c2bb8b2517e290d9fed9e0ceb8d50ff5cd64",
-  "notes": "- Toutes les cartes de la page Timers sont déplaçables librement par appui long + glisser-déposer\n- Réorganisation fluide avec léger effet de carte soulevée et déplacement en temps réel\n- L'ordre personnalisé est sauvegardé automatiquement et restauré au prochain lancement\n- La carte Entrepôts peut être placée n'importe où parmi les autres timers\n- Vérification des mises à jour toutes les 30 secondes tant que l'app est ouverte\n- Vérification en arrière-plan toutes les 15 minutes, limite minimale fiable d'Android WorkManager"
+  "sha256": "c910bf12d2043bf19e0e5549a3e8682f4092eed7d7fcedca5a00907bea5e0845",
+  "notes": "- Refonte complète du déplacement des cartes Timers\n- Appui long d'environ 1 seconde avant activation du déplacement\n- La carte suit désormais le doigt en temps réel grâce au drag & drop Android\n- Les autres cartes se réorganisent progressivement pendant le déplacement\n- Auto-scroll doux en haut et en bas de la liste\n- L'ordre personnalisé reste sauvegardé automatiquement"
 }
