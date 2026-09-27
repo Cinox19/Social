@@ -1,6 +1,6 @@
 {
-  "versionName": "0.14.14",
-  "versionCode": 78,
-  "zipUrl": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-b788-8210-a679-1cff113e7947/raw?se=2026-09-27T19%3A27%3A18Z&sp=r&sv=2026-02-06&sr=b&scid=07cfe0a8-10b0-5b8e-8bc7-604f0ef325d7&skoid=1d6acb5b-b3f4-43ec-a5ec-b05c4a7708c8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-09-27T06%3A08%3A56Z&ske=2026-09-28T06%3A08%3A56Z&sks=b&skv=2026-02-06&sig=UToxhRe6idWAvTqHpoziZEr/hiG3ZjwvtpHpMANz5No%3D",
-  "notes": "- Toutes les cartes de la page Timers sont déplaçables librement par appui long + glisser-déposer\n- Réorganisation fluide avec léger effet de carte soulevée et déplacement en temps réel\n- L'ordre personnalisé est sauvegardé automatiquement et restauré au prochain lancement\n- La carte Entrepôts peut être placée n'importe où parmi les autres timers\n- Vérification des mises à jour toutes les 30 secondes tant que l'app est ouverte\n- Vérification en arrière-plan toutes les 15 minutes, limite minimale fiable d'Android WorkManager"
+  "versionName": "0.14.15",
+  "versionCode": 79,
+  "zipUrl": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-a6bc-8210-bb7d-f458a7748c4d/raw?se=2026-09-27T20%3A11%3A33Z&sp=r&sv=2026-02-06&sr=b&scid=648558fb-195c-5c54-9441-a30d63fb7fb5&skoid=1d6acb5b-b3f4-43ec-a5ec-b05c4a7708c8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-09-27T09%3A38%3A22Z&ske=2026-09-28T09%3A38%3A22Z&sks=b&skv=2026-02-06&sig=MtzbFQVg94UMwGCvcFM5SrBLNg9L0cro6r/24rf4Z48%3D",
+  "notes": "- Refonte complète du déplacement des cartes Timers\n- Appui long d'environ 1 seconde avant activation du déplacement\n- La carte suit désormais le doigt en temps réel grâce au drag & drop Android\n- Les autres cartes se réorganisent progressivement pendant le déplacement\n- Auto-scroll doux en haut et en bas de la liste\n- L'ordre personnalisé reste sauvegardé automatiquement"
 }
