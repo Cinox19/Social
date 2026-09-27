@@ -1,7 +1,7 @@
 {
-  "versionName": "0.14.11",
-  "versionCode": 75,
+  "versionName": "0.14.12",
+  "versionCode": 76,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "c116ae4ecbfdb528f83849005390e909f75665f3e1b116e4a200bf4eda3c3fb2",
-  "notes": "- Les alertes sont désormais de simples notifications Android, plus des alarmes visuelles\n- Les horaires restent précis même écran verrouillé grâce au moteur de planification en arrière-plan\n- Nouveau son personnalisé pour le rappel « changer de DJ »\n- Le son DJ utilise uniquement les 4 premières secondes du fichier fourni\n- Rappel DJ planifié automatiquement quand la popularité doit atteindre 90 %\n- Les entrepôts conservent leur notification et leur son personnalisé"
+  "sha256": "020b3787b9e13251bc04622705aa636dc187cb85018a1d596851e46362965645",
+  "notes": "- Les statistiques braquages séparent désormais le temps de préparation et le temps de finale\n- Le temps TOTAL reste affiché pour conserver la lecture globale\n- Ajout des métriques cumulées PRÉPA et FINALE\n- Chaque run affiche Total • Prépa • Finale\n- Le $/h reste calculé sur le temps total Prépa + Finale"
 }
