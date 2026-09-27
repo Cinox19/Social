@@ -1,6 +1,6 @@
 {
-  "versionName": "0.14.10",
-  "versionCode": 74,
-  "zipUrl": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-4010-81f4-866a-40e17ffedef5/raw?se=2026-09-27T08%3A36%3A23Z&sp=r&sv=2026-02-06&sr=b&scid=18182c31-23e5-54a2-9408-e795c8205975&skoid=1d6acb5b-b3f4-43ec-a5ec-b05c4a7708c8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-09-27T07%3A09%3A43Z&ske=2026-09-28T07%3A09%3A43Z&sks=b&skv=2026-02-06&sig=2JKe7lQK5ZuVs8tSLettfZuG%2BXLbzzJxmAsosltDnS8%3D",
-  "notes": "- Une seule notification agrégée pour les réapprovisionnements d'entrepôts\n- Son d'entrepôt personnalisé : les 4 premières secondes du fichier fourni\n- Correction de l'affichage de la quantité choisie lors de la réception (ex. E3 +2)\n- Option Masquer de l'historique pour les ajustements manuels, sans changer les calculs\n- Temps de la session de jeu en cours affiché discrètement sur l'accueil\n- Page Gains : temps total joué sur la journée 07h→07h et nombre de sessions\n- Une session correspond à une période REPRENDRE → PAUSE"
+  "versionName": "0.14.11",
+  "versionCode": 75,
+  "zipUrl": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-7f8c-81f4-bf05-20cc55a25731/raw?se=2026-09-27T08%3A59%3A34Z&sp=r&sv=2026-02-06&sr=b&scid=54dcd2dc-ada0-50df-93af-48219a8a46de&skoid=1d6acb5b-b3f4-43ec-a5ec-b05c4a7708c8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-09-27T06%3A51%3A36Z&ske=2026-09-28T06%3A51%3A36Z&sks=b&skv=2026-02-06&sig=04uY5g8OtYdTqvS/n8GL4FMhFUCzf1IomzXr2uZp6T0%3D",
+  "notes": "- Les alertes sont désormais de simples notifications Android, plus des alarmes visuelles\n- Les horaires restent précis même écran verrouillé grâce au moteur de planification en arrière-plan\n- Nouveau son personnalisé pour le rappel « changer de DJ »\n- Le son DJ utilise uniquement les 4 premières secondes du fichier fourni\n- Rappel DJ planifié automatiquement quand la popularité doit atteindre 90 %\n- Les entrepôts conservent leur notification et leur son personnalisé"
 }
