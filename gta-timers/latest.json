@@ -1,7 +1,7 @@
 {
-  "versionName": "0.14.9",
-  "versionCode": 73,
+  "versionName": "0.14.10",
+  "versionCode": 74,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "16a4258a9c967ea09ee8e86500712cc27b47ee7b86425ec9fac27c1dea0bc9b7",
-  "notes": "- Nouveau bouton GÉRER dans la section BUSINESS\n- Ajout / retrait des 5 business motards : Cocaïne, Méthamphétamine, Faux billets, Cannabis, Faux documents\n- Cartes dynamiques avec stock, matières premières, temps de production et vente\n- Calculs basés sur Personnel + Équipement améliorés\n- Réapprovisionnement complet à 75 000 GTA$ avec suivi de livraison\n- Appui long sur une carte pour régler manuellement stock et matières premières\n- Bonus Villa +66 % pendant 24 h sur chaque business motard\n- Pictogrammes dédiés pour identifier rapidement chaque business"
+  "sha256": "61bf05903c811f54af367849388b9b0467f0298fcb33060f5a8a077a725321d6",
+  "notes": "- Une seule notification agrégée pour les réapprovisionnements d'entrepôts\n- Son d'entrepôt personnalisé : les 4 premières secondes du fichier fourni\n- Correction de l'affichage de la quantité choisie lors de la réception (ex. E3 +2)\n- Option Masquer de l'historique pour les ajustements manuels, sans changer les calculs\n- Temps de la session de jeu en cours affiché discrètement sur l'accueil\n- Page Gains : temps total joué sur la journée 07h→07h et nombre de sessions\n- Une session correspond à une période REPRENDRE → PAUSE"
 }
