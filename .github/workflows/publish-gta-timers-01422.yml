@@ -1,4 +1,4 @@
-name: Publish GTA Timers 0.14.27
+name: Publish GTA Timers 0.14.30
 
 on:
   push:
@@ -21,9 +21,9 @@ jobs:
       - name: Download built APK artifact
         shell: bash
         run: |
-          curl -L --fail --retry 3             "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-1e1c-8210-84d9-855798d4b0b9/raw?se=2026-09-28T13%3A30%3A55Z&sp=r&sv=2026-02-06&sr=b&scid=bd7567dc-55d0-514e-afc9-3342cdf19c06&skoid=1d6acb5b-b3f4-43ec-a5ec-b05c4a7708c8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-09-28T06%3A55%3A33Z&ske=2026-09-29T06%3A55%3A33Z&sks=b&skv=2026-02-06&sig=cAA/1/FuiyaMibHv2RzYybAX4Xcgl2ry0QhIW2NyQLk%3D"             -o /tmp/gta-timers-01427.zip
-          unzip -o /tmp/gta-timers-01427.zip -d /tmp/gta-timers-01427
-          cp /tmp/gta-timers-01427/GTA-Timers-v0.14.27.apk gta-timers/latest.apk
+          curl -L --fail --retry 3             "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-6504-8210-8560-37f2a3ad67ed/raw?se=2026-09-28T16%3A46%3A44Z&sp=r&sv=2026-02-06&sr=b&scid=1a99f46d-6f81-5eea-b8e9-b5ee6b157866&skoid=1d6acb5b-b3f4-43ec-a5ec-b05c4a7708c8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-09-28T00%3A32%3A47Z&ske=2026-09-29T00%3A32%3A47Z&sks=b&skv=2026-02-06&sig=%2BOQMEjqgpLzr0Wn0ksaW6ZSZ2phmyP4ariNFNE5gjV0%3D"             -o /tmp/gta-timers-01430.zip
+          unzip -o /tmp/gta-timers-01430.zip -d /tmp/gta-timers-01430
+          cp /tmp/gta-timers-01430/GTA-Timers-v0.14.30.apk gta-timers/latest.apk
 
       - name: Update manifest
         shell: bash
@@ -31,11 +31,11 @@ jobs:
           SHA=$(sha256sum gta-timers/latest.apk | awk '{print $1}')
           cat > gta-timers/latest.json <<EOF
           {
-            "versionName": "0.14.27",
-            "versionCode": 91,
+            "versionName": "0.14.30",
+            "versionCode": 94,
             "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
             "sha256": "$SHA",
-            "notes": "- Stats braquages : filtre Session actuelle\n- Session calculée de 07:00 à 07:00 le lendemain\n- Avant 07:00, la session commence à 07:00 la veille\n- RUNS, temps, gains, $/h, prépa et finale recalculés sur cette session"
+            "notes": "- Multiplicateurs Events automatiques\n- Livraison moto passe automatiquement en x3 pendant le bonus GTA+\n- Le multiplicateur AUTO prend la priorité pendant l’événement\n- Retour automatique au multiplicateur manuel après expiration"
           }
           EOF
 
@@ -45,5 +45,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add gta-timers/latest.apk gta-timers/latest.json
-          git commit -m "publish: GTA Timers v0.14.27"
+          git commit -m "publish: GTA Timers v0.14.30"
           git push origin HEAD:gta-timers-updates
