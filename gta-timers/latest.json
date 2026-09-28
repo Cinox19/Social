@@ -1,7 +1,7 @@
 {
-  "versionName": "0.14.22",
-  "versionCode": 86,
-  "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "be5421d8acddac06035e8d16b0584f894442f517c017ed366379214a4189816b",
-  "notes": "- Nouveau ruban d'accueil 75% Events / 25% GTA+\n- Nouveau bouton GTA+ dédié sur l'accueil\n- Nouvelle page GTA+ séparée pour les avantages et événements réservés aux abonnés\n- La page Events classique n'affiche plus la section GTA+ en doublon"
+  "versionName": "0.14.23",
+  "versionCode": 87,
+  "apkUrl": "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-956c-8210-9687-e4a4ce0fa70f/raw?se=2026-09-28T08%3A19%3A34Z&sp=r&sv=2026-02-06&sr=b&scid=f64e4838-82a8-5f60-ab2e-40597709351a&skoid=1d6acb5b-b3f4-43ec-a5ec-b05c4a7708c8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-09-28T05%3A37%3A20Z&ske=2026-09-29T05%3A37%3A20Z&sks=b&skv=2026-02-06&sig=3vogld1s3x4UYui%2BEz2EOfP4gY7gUreAebkZCz1X1hg%3D",
+  "sha256": "451ccfcb5201661430c4b6b3415f732d1cf44190c09c740a3e3e3e2449012c69",
+  "notes": "- Events V2.1 : badges de bonus contextuels sur les activités\n- Actualisation silencieuse du flux Events au démarrage\n- Nouvelle section À FARMER CETTE SEMAINE\n- Préparation du mapping Events ↔ activités pour les futurs calculs automatiques"
 }
