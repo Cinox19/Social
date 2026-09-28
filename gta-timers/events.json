@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "title": "Business Rivalries • Semaine Boîte de nuit",
+  "periodStart": "2026-09-24",
+  "periodEnd": "2026-09-30",
+  "updatedAt": "2026-09-28T08:10:00+02:00",
+  "sourceName": "Rockstar Games • GTA Online",
+  "sourceUrl": "https://www.rockstargames.com/gta-online?info=9575k",
+  "global": [
+    {
+      "title": "Missions de biens de boîte de nuit",
+      "bonus": "x2 GTA$ & RP",
+      "detail": "Missions lancées avec Yohan pour récupérer des marchandises.",
+      "priority": true,
+      "activityId": "nightclub"
+    },
+    {
+      "title": "Missions de gestion de boîte de nuit",
+      "bonus": "x2 popularité",
+      "detail": "La popularité gagnée via les missions de gestion est doublée.",
+      "priority": true,
+      "activityId": "nightclub"
+    },
+    {
+      "title": "Livraisons QuickiePharm",
+      "bonus": "x2 GTA$ & RP",
+      "detail": "Les missions de coursier médical rapportent le double.",
+      "priority": true,
+      "activityId": ""
+    },
+    {
+      "title": "Épreuves à la une",
+      "bonus": "x2 GTA$ & RP",
+      "detail": "Deadline, Deadline Duet et Tiny Racers.",
+      "priority": false,
+      "activityId": ""
+    },
+    {
+      "title": "Épreuves de combat de la communauté",
+      "bonus": "x2 GTA$ & RP",
+      "detail": "Récompenses doublées pendant la semaine.",
+      "priority": false,
+      "activityId": ""
+    }
+  ],
+  "challenge": [
+    {
+      "title": "Défi hebdomadaire",
+      "bonus": "+1 000 000 GTA$",
+      "detail": "Vendre 1 000 000 GTA$ de produit à travers vos business pour recevoir 1 000 000 GTA$ supplémentaires et le survêtement Retro Fruit.",
+      "priority": true,
+      "activityId": ""
+    }
+  ],
+  "rewards": [
+    {
+      "title": "Boîte de nuit d'Elysian Island",
+      "bonus": "GRATUITE",
+      "detail": "Disponible gratuitement sur Maze Bank Foreclosures cette semaine.",
+      "priority": true,
+      "activityId": "nightclub"
+    },
+    {
+      "title": "Penaud La Coureuse",
+      "bonus": "GRATUITE",
+      "detail": "Pour les joueurs éligibles ayant terminé un défi hebdomadaire entre le 3 et le 23 septembre, avec amélioration HSW offerte sur plateformes compatibles.",
+      "priority": false,
+      "activityId": ""
+    }
+  ],
+  "discounts": [
+    {
+      "title": "Imponte Arbiter GT",
+      "bonus": "-70%",
+      "detail": "Promotion véhicule de la semaine.",
+      "priority": false,
+      "activityId": ""
+    }
+  ],
+  "gtaPlus": [
+    {
+      "title": "GTA+",
+      "bonus": "Section séparée",
+      "detail": "Les avantages GTA+ restent volontairement séparés des bonus globaux. Cette V1 affiche uniquement les avantages GTA+ lorsqu'ils sont renseignés dans le flux.",
+      "priority": false,
+      "activityId": ""
+    }
+  ]
+}
