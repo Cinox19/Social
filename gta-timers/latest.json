@@ -1,7 +1,7 @@
 {
-  "versionName": "0.14.20",
-  "versionCode": 84,
+  "versionName": "0.14.21",
+  "versionCode": 85,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "c14f0aa588869130869ad55f2ca5d968f3c0bed0e6c44affe77f005dd4d72f60",
-  "notes": "- Les réapprovisionnements simultanés d'entrepôts sont de nouveau affichés sur une seule ligne cumulée dans Gains\n- Exemple : 3 entrepôts réapprovisionnés = une dépense « Réappro entrepôts x3 »\n- En interne, la transaction conserve la liste exacte des entrepôts concernés\n- Le calcul BÉNÉFICE attribue ensuite uniquement le coût correspondant au cycle de chaque entrepôt vendu\n- L'affichage reste simple tout en conservant la rentabilité individuelle Entrepôt 1 à 5"
+  "sha256": "d0cacff30558e47622d371a03060c3329be4289adb8df9cc92d267e39d00098f",
+  "notes": "- Nouvelle page EVENTS GTA ONLINE accessible depuis l'accueil\n- Affichage de la semaine active avec statut LIVE\n- Sections : bonus GTA$/RP, défi hebdomadaire, récompenses/gratuit, promotions et GTA+ séparé\n- Mise en avant des événements prioritaires à farmer\n- Bouton Actualiser + cache local pour consulter la dernière version connue hors ligne\n- Bouton Source Rockstar pour ouvrir la source officielle\n- Flux initial configuré sur la semaine du 24 au 30 septembre 2026\n- Regroupement rétroactif des anciens Réappro Entrepôt 1/2/3... dans les vues cumulatives sans modifier l'historique"
 }
