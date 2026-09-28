@@ -3,7 +3,7 @@
   "title": "Business Rivalries • Semaine Boîte de nuit",
   "periodStart": "2026-09-24",
   "periodEnd": "2026-09-30",
-  "updatedAt": "2026-09-28T11:24:00+02:00",
+  "updatedAt": "2026-09-28T18:26:00+02:00",
   "sourceName": "Rockstar Games • GTA Online",
   "sourceUrl": "https://www.rockstargames.com/gta-online?info=9575k",
   "global": [
@@ -90,7 +90,14 @@
       "bonus": "x2 GTA$",
       "detail": "Le premier achèvement hebdomadaire de la finale Scene of the Crime rapporte des GTA$ doublés jusqu'au 7 octobre.",
       "priority": true,
-      "activityId": "cluckin_bell"
+      "activityId": "cluckin_bell",
+      "heistId": "vincent",
+      "badgeLabel": "★ GTA+ x2 • 1re finale hebdo",
+      "condition": {
+        "type": "first_completion_per_event_week",
+        "count": 1,
+        "reset": "thursday_07:00"
+      }
     },
     {
       "title": "Service de motos du QG MC",
