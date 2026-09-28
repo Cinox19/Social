@@ -3,7 +3,7 @@
   "title": "Business Rivalries • Semaine Boîte de nuit",
   "periodStart": "2026-09-24",
   "periodEnd": "2026-09-30",
-  "updatedAt": "2026-09-28T09:16:00+02:00",
+  "updatedAt": "2026-09-28T11:24:00+02:00",
   "sourceName": "Rockstar Games • GTA Online",
   "sourceUrl": "https://www.rockstargames.com/gta-online?info=9575k",
   "global": [
@@ -104,7 +104,7 @@
       "bonus": "x2 vitesse",
       "detail": "La production des laboratoires de cocaïne est deux fois plus rapide pour les abonnés GTA+.",
       "priority": true,
-      "activityId": ""
+      "activityId": "cocaine"
     },
     {
       "title": "Business de motards + améliorations",
