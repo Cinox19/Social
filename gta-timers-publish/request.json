@@ -1,6 +1,6 @@
 {
-  "versionName": "0.14.20",
-  "versionCode": 84,
-  "zipUrl": "https://sdmntprukwest.oaiusercontent.com/files/00000000-dbf0-8243-bac0-4f8f61e5dc2b/raw?se=2026-09-28T06%3A16%3A23Z&sp=r&sv=2026-02-06&sr=b&scid=00bd5fe9-0675-5d01-89c8-0a037f2af7d9&skoid=1d6acb5b-b3f4-43ec-a5ec-b05c4a7708c8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-09-28T00%3A13%3A17Z&ske=2026-09-29T00%3A13%3A17Z&sks=b&skv=2026-02-06&sig=1ks6c/knDarOaUG9uANuwCyQufIXRaVRFKqwjH84XBA%3D",
-  "notes": "- Les réapprovisionnements simultanés d'entrepôts sont de nouveau affichés sur une seule ligne cumulée dans Gains\n- Exemple : 3 entrepôts réapprovisionnés = une dépense « Réappro entrepôts x3 »\n- En interne, la transaction conserve la liste exacte des entrepôts concernés\n- Le calcul BÉNÉFICE attribue ensuite uniquement le coût correspondant au cycle de chaque entrepôt vendu\n- L'affichage reste simple tout en conservant la rentabilité individuelle Entrepôt 1 à 5"
+  "versionName": "0.14.21",
+  "versionCode": 85,
+  "zipUrl": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-227c-81f4-aff2-55509431dfd5/raw?se=2026-09-28T07%3A05%3A18Z&sp=r&sv=2026-02-06&sr=b&scid=16d819ca-adbd-5246-ad44-e18f32a18dac&skoid=1d6acb5b-b3f4-43ec-a5ec-b05c4a7708c8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-09-28T05%3A53%3A25Z&ske=2026-09-29T05%3A53%3A25Z&sks=b&skv=2026-02-06&sig=LDycK12PmvxCr1RUC9kI1eu%2B9%2BkXWNMS%2BdOoHx9y7PU%3D",
+  "notes": "- Nouvelle page EVENTS GTA ONLINE accessible depuis l'accueil\n- Affichage de la semaine active avec statut LIVE\n- Sections : bonus GTA$/RP, défi hebdomadaire, récompenses/gratuit, promotions et GTA+ séparé\n- Mise en avant des événements prioritaires à farmer\n- Bouton Actualiser + cache local pour consulter la dernière version connue hors ligne\n- Bouton Source Rockstar pour ouvrir la source officielle\n- Flux initial configuré sur la semaine du 24 au 30 septembre 2026\n- Regroupement rétroactif des anciens Réappro Entrepôt 1/2/3... dans les vues cumulatives sans modifier l'historique"
 }
