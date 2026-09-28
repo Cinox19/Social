@@ -1,7 +1,7 @@
 {
-  "versionName": "0.14.26",
-  "versionCode": 90,
+  "versionName": "0.14.27",
+  "versionCode": 91,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "a82e6b0011d0aa06b678879757e4f0186d4f0fb440d0d192dc4d96b1cbba27ac",
-  "notes": "- Stats braquages : nouveau filtre Aujourd’hui\n- Affiche uniquement les braquages terminés depuis minuit\n- RUNS, temps, gains, $/h, prépa et finale recalculés sur la journée"
+  "sha256": "ef4f4c22af805ef65ed0e729bf23b7231b911c20c367d314972f78f10a938934",
+  "notes": "- Stats braquages : filtre Session actuelle\n- Session calculée de 07:00 à 07:00 le lendemain\n- Avant 07:00, la session commence à 07:00 la veille\n- RUNS, temps, gains, $/h, prépa et finale recalculés sur cette session"
 }
