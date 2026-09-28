@@ -1,6 +1,6 @@
 {
-  "versionName": "0.14.19",
-  "versionCode": 83,
-  "zipUrl": "https://sdmntprnortheu.oaiusercontent.com/files/00000000-e9b4-81f4-9407-1f1787f00c64/raw?se=2026-09-28T06%3A04%3A52Z&sp=r&sv=2026-02-06&sr=b&scid=904b1432-4da6-5058-8f26-ecd93c633cf9&skoid=1d6acb5b-b3f4-43ec-a5ec-b05c4a7708c8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-09-28T05%3A53%3A27Z&ske=2026-09-29T05%3A53%3A27Z&sks=b&skv=2026-02-06&sig=xEake1qMCpMkMkXIXVqlc5fLbS61DJTke/3XzR5Wit8%3D",
-  "notes": "- La vue BÉNÉFICE affiche uniquement les bénéfices réellement réalisés le jour sélectionné\n- Les cycles en cours ne sont plus affichés dans le bénéfice du jour\n- Un Cayo, une vente Bunker/Acide/MC ou un entrepôt vendu la veille n'apparaît plus aujourd'hui\n- Les coûts des jours précédents restent rattachés au cycle et sont déduits le jour de la vente\n- Plusieurs ventes du même business dans la même journée sont cumulées\n- Les activités sans coût restent limitées au jour sélectionné\n- Ajout de la vue BÉNÉFICE dans le calendrier pour consulter l'historique jour par jour"
+  "versionName": "0.14.20",
+  "versionCode": 84,
+  "zipUrl": "https://sdmntprukwest.oaiusercontent.com/files/00000000-dbf0-8243-bac0-4f8f61e5dc2b/raw?se=2026-09-28T06%3A16%3A23Z&sp=r&sv=2026-02-06&sr=b&scid=00bd5fe9-0675-5d01-89c8-0a037f2af7d9&skoid=1d6acb5b-b3f4-43ec-a5ec-b05c4a7708c8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-09-28T00%3A13%3A17Z&ske=2026-09-29T00%3A13%3A17Z&sks=b&skv=2026-02-06&sig=1ks6c/knDarOaUG9uANuwCyQufIXRaVRFKqwjH84XBA%3D",
+  "notes": "- Les réapprovisionnements simultanés d'entrepôts sont de nouveau affichés sur une seule ligne cumulée dans Gains\n- Exemple : 3 entrepôts réapprovisionnés = une dépense « Réappro entrepôts x3 »\n- En interne, la transaction conserve la liste exacte des entrepôts concernés\n- Le calcul BÉNÉFICE attribue ensuite uniquement le coût correspondant au cycle de chaque entrepôt vendu\n- L'affichage reste simple tout en conservant la rentabilité individuelle Entrepôt 1 à 5"
 }
