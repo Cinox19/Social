@@ -1,7 +1,7 @@
 {
-  "versionName": "0.14.21",
-  "versionCode": 85,
+  "versionName": "0.14.22",
+  "versionCode": 86,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "d0cacff30558e47622d371a03060c3329be4289adb8df9cc92d267e39d00098f",
-  "notes": "- Nouvelle page EVENTS GTA ONLINE accessible depuis l'accueil\n- Affichage de la semaine active avec statut LIVE\n- Sections : bonus GTA$/RP, défi hebdomadaire, récompenses/gratuit, promotions et GTA+ séparé\n- Mise en avant des événements prioritaires à farmer\n- Bouton Actualiser + cache local pour consulter la dernière version connue hors ligne\n- Bouton Source Rockstar pour ouvrir la source officielle\n- Flux initial configuré sur la semaine du 24 au 30 septembre 2026\n- Regroupement rétroactif des anciens Réappro Entrepôt 1/2/3... dans les vues cumulatives sans modifier l'historique"
+  "sha256": "be5421d8acddac06035e8d16b0584f894442f517c017ed366379214a4189816b",
+  "notes": "- Nouveau ruban d'accueil 75% Events / 25% GTA+\n- Nouveau bouton GTA+ dédié sur l'accueil\n- Nouvelle page GTA+ séparée pour les avantages et événements réservés aux abonnés\n- La page Events classique n'affiche plus la section GTA+ en doublon"
 }
