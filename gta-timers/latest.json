@@ -1,7 +1,7 @@
 {
-  "versionName": "0.14.18",
-  "versionCode": 82,
+  "versionName": "0.14.19",
+  "versionCode": 83,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "b09925a98d595d2b746210f91cfcfa1765fef7e393c31c6c34ed7fde62968596",
-  "notes": "- Vue BÉNÉFICE étendue à toutes les activités rentables du jour\n- Les activités sans dépense associée affichent Coûts 0 et leur bénéfice = leur gain\n- Les activités répétées sont cumulées, ex. Livraison moto ×3\n- Classement global par bénéfice décroissant\n- Les business à coûts conservent leur logique de cycle multi-jours : ventes - réapprovisionnements/frais\n- Entrepôt 1 à 5 sont suivis séparément avec leur propre vente/réappro\n- Les réapprovisionnements groupés sont ventilés par entrepôt pour calculer correctement la rentabilité\n- Cayo Perico conserve la déduction automatique des 100 000 GTA$ de frais de préparation"
+  "sha256": "06e42e44efdd889c3b7b3fcccfa7b1c4d7c12670a0b0ebd231c81304bbac5e0e",
+  "notes": "- La vue BÉNÉFICE affiche uniquement les bénéfices réellement réalisés le jour sélectionné\n- Les cycles en cours ne sont plus affichés dans le bénéfice du jour\n- Un Cayo, une vente Bunker/Acide/MC ou un entrepôt vendu la veille n'apparaît plus aujourd'hui\n- Les coûts des jours précédents restent rattachés au cycle et sont déduits le jour de la vente\n- Plusieurs ventes du même business dans la même journée sont cumulées\n- Les activités sans coût restent limitées au jour sélectionné\n- Ajout de la vue BÉNÉFICE dans le calendrier pour consulter l'historique jour par jour"
 }
