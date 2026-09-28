@@ -3,7 +3,7 @@
   "title": "Business Rivalries • Semaine Boîte de nuit",
   "periodStart": "2026-09-24",
   "periodEnd": "2026-09-30",
-  "updatedAt": "2026-09-28T08:10:00+02:00",
+  "updatedAt": "2026-09-28T09:16:00+02:00",
   "sourceName": "Rockstar Games • GTA Online",
   "sourceUrl": "https://www.rockstargames.com/gta-online?info=9575k",
   "global": [
@@ -79,11 +79,70 @@
   ],
   "gtaPlus": [
     {
-      "title": "GTA+",
-      "bonus": "Section séparée",
-      "detail": "Les avantages GTA+ restent volontairement séparés des bonus globaux. Cette V1 affiche uniquement les avantages GTA+ lorsqu'ils sont renseignés dans le flux.",
+      "title": "Pegassi Horus",
+      "bonus": "GRATUITE",
+      "detail": "À récupérer au Vinewood Car Club avec la livrée exclusive Velvet Iris. L'accès anticipé d'une semaine est terminé, mais l'avantage GTA+ du véhicule appartient au cycle actuel.",
+      "priority": true,
+      "activityId": ""
+    },
+    {
+      "title": "Raid de l'usine Cluckin' Bell • finale",
+      "bonus": "x2 GTA$",
+      "detail": "Le premier achèvement hebdomadaire de la finale Scene of the Crime rapporte des GTA$ doublés jusqu'au 7 octobre.",
+      "priority": true,
+      "activityId": "cluckin_bell"
+    },
+    {
+      "title": "Service de motos du QG MC",
+      "bonus": "x3 GTA$ & RP",
+      "detail": "Les missions de révision/livraison de motos depuis l'atelier du QG de motards rapportent le triple.",
+      "priority": true,
+      "activityId": "moto"
+    },
+    {
+      "title": "Production de cocaïne",
+      "bonus": "x2 vitesse",
+      "detail": "La production des laboratoires de cocaïne est deux fois plus rapide pour les abonnés GTA+.",
+      "priority": true,
+      "activityId": ""
+    },
+    {
+      "title": "Business de motards + améliorations",
+      "bonus": "-60%",
+      "detail": "Réduction de 60 % sur les lieux de production de motards, leurs améliorations et modifications.",
+      "priority": false,
+      "activityId": ""
+    },
+    {
+      "title": "Motos Nagasaki",
+      "bonus": "-50%",
+      "detail": "50 % de réduction sur les Nagasaki Shinobi, Shotaro, Stryder, Chimera et BF400.",
+      "priority": false,
+      "activityId": ""
+    },
+    {
+      "title": "Peintures Caméléon Cyan/Rouge",
+      "bonus": "GRATUITES",
+      "detail": "Peinture de carrosserie Cyan/Red Flip et peinture de jantes assortie gratuites dans les ateliers compatibles.",
+      "priority": false,
+      "activityId": ""
+    },
+    {
+      "title": "Tenue Bigness Patchwork",
+      "bonus": "GRATUITE",
+      "detail": "Chemise Bigness Patchwork Revere Collar et jean Bigness Patchwork ajoutés gratuitement à la garde-robe des membres.",
+      "priority": false,
+      "activityId": ""
+    },
+    {
+      "title": "Allocation mensuelle GTA+",
+      "bonus": "+500 000 GTA$",
+      "detail": "Versement mensuel automatique sur Maze Bank lors de la facturation GTA+.",
       "priority": false,
       "activityId": ""
     }
-  ]
+  ],
+  "gtaPlusPeriodStart": "2026-09-10",
+  "gtaPlusPeriodEnd": "2026-10-07",
+  "gtaPlusSourceUrl": "https://www.rockstargames.com/newswire/article/75935kk3574223/gta-members-enjoy-one-week-of-early-access-to-the-new-pegassi-horus-su"
 }
