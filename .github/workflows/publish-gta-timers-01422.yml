@@ -1,4 +1,4 @@
-name: Publish GTA Timers 0.14.23
+name: Publish GTA Timers 0.14.24
 
 on:
   push:
@@ -21,9 +21,9 @@ jobs:
       - name: Download built APK artifact
         shell: bash
         run: |
-          curl -L --fail --retry 3             "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-956c-8210-9687-e4a4ce0fa70f/raw?se=2026-09-28T08%3A19%3A34Z&sp=r&sv=2026-02-06&sr=b&scid=f64e4838-82a8-5f60-ab2e-40597709351a&skoid=1d6acb5b-b3f4-43ec-a5ec-b05c4a7708c8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-09-28T05%3A37%3A20Z&ske=2026-09-29T05%3A37%3A20Z&sks=b&skv=2026-02-06&sig=3vogld1s3x4UYui%2BEz2EOfP4gY7gUreAebkZCz1X1hg%3D"             -o /tmp/gta-timers-01423.zip
-          unzip -o /tmp/gta-timers-01423.zip -d /tmp/gta-timers-01423
-          cp /tmp/gta-timers-01423/GTA-Timers-v0.14.23.apk gta-timers/latest.apk
+          curl -L --fail --retry 3             "https://sdmntprnortheu.oaiusercontent.com/files/00000000-0f74-81f4-b208-cdc5ae204c23/raw?se=2026-09-28T09%3A59%3A13Z&sp=r&sv=2026-02-06&sr=b&scid=5d773f54-112c-52a7-9743-dd9e410f8570&skoid=1d6acb5b-b3f4-43ec-a5ec-b05c4a7708c8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-09-28T07%3A35%3A37Z&ske=2026-09-29T07%3A35%3A37Z&sks=b&skv=2026-02-06&sig=5UMJoWYSmqFO6PMetsnbBDQRqHGy1PiYiXdXkCq%2BCXo%3D"             -o /tmp/gta-timers-01424.zip
+          unzip -o /tmp/gta-timers-01424.zip -d /tmp/gta-timers-01424
+          cp /tmp/gta-timers-01424/GTA-Timers-v0.14.24.apk gta-timers/latest.apk
 
       - name: Update manifest
         shell: bash
@@ -31,11 +31,11 @@ jobs:
           SHA=$(sha256sum gta-timers/latest.apk | awk '{print $1}')
           cat > gta-timers/latest.json <<EOF
           {
-            "versionName": "0.14.23",
-            "versionCode": 87,
+            "versionName": "0.14.24",
+            "versionCode": 88,
             "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
             "sha256": "$SHA",
-            "notes": "- Events V2.1 : badges de bonus contextuels sur les activités\n- Actualisation silencieuse du flux Events au démarrage\n- Nouvelle section À FARMER CETTE SEMAINE\n- Préparation du mapping Events ↔ activités pour les futurs calculs automatiques"
+            "notes": "- Events V2.2 : badges visibles sur les cartes business\n- Badges bonus dans Gérer les activités\n- Badges bonus dans Gérer les business motards\n- Mapping GTA+ cocaïne vers le business correspondant"
           }
           EOF
 
@@ -45,5 +45,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add gta-timers/latest.apk gta-timers/latest.json
-          git commit -m "publish: GTA Timers v0.14.23"
+          git commit -m "publish: GTA Timers v0.14.24"
           git push origin HEAD:gta-timers-updates
