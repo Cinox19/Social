@@ -2,6 +2,6 @@
   "versionName": "0.14.24",
   "versionCode": 88,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "0338abedc6d3d5c039afeb6cfbabd466a94e585c5cf76ec26135a02f2fd7b1f0",
-  "notes": "- Suppression du texte technique « mises à jour auto toutes les 30 s... » sous la carte de mise à jour\n- Quand aucune mise à jour n'est disponible, le message devient « Vous utilisez la dernière version de GTA Timers »\n- Les badges bonus des Events utilisent désormais systématiquement le thème vert\n- Les badges GTA+ conservent leur thème bleu distinct"
+  "sha256": "73cbbf868129aab5d8340dfb7cc13bcc5f8d58b8a50c7238db30f3d8f95475a9",
+  "notes": "- Events V2.2 : badges visibles sur les cartes business\n- Badges bonus dans Gérer les activités\n- Badges bonus dans Gérer les business motards\n- Mapping GTA+ cocaïne vers le business correspondant"
 }
