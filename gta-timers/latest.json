@@ -1,7 +1,7 @@
 {
-  "versionName": "0.14.25",
-  "versionCode": 89,
+  "versionName": "0.14.26",
+  "versionCode": 90,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "f9f63950dda991554399ad85f16a77e12706bdabba89309c7242f786003e392c",
-  "notes": "- Events V2.2 : badges visibles sur les cartes business\n- Badges bonus dans Gérer les activités\n- Badges bonus dans Gérer les business motards\n- Mapping GTA+ cocaïne vers le business correspondant"
+  "sha256": "a82e6b0011d0aa06b678879757e4f0186d4f0fb440d0d192dc4d96b1cbba27ac",
+  "notes": "- Stats braquages : nouveau filtre Aujourd’hui\n- Affiche uniquement les braquages terminés depuis minuit\n- RUNS, temps, gains, $/h, prépa et finale recalculés sur la journée"
 }
