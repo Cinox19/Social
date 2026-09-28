@@ -3,7 +3,7 @@
   "title": "Business Rivalries • Semaine Boîte de nuit",
   "periodStart": "2026-09-24",
   "periodEnd": "2026-09-30",
-  "updatedAt": "2026-09-28T18:26:00+02:00",
+  "updatedAt": "2026-09-28T18:31:00+02:00",
   "sourceName": "Rockstar Games • GTA Online",
   "sourceUrl": "https://www.rockstargames.com/gta-online?info=9575k",
   "global": [
@@ -97,14 +97,16 @@
         "type": "first_completion_per_event_week",
         "count": 1,
         "reset": "thursday_07:00"
-      }
+      },
+      "multiplier": 2
     },
     {
       "title": "Service de motos du QG MC",
       "bonus": "x3 GTA$ & RP",
       "detail": "Les missions de révision/livraison de motos depuis l'atelier du QG de motards rapportent le triple.",
       "priority": true,
-      "activityId": "moto"
+      "activityId": "moto",
+      "multiplier": 3
     },
     {
       "title": "Production de cocaïne",
