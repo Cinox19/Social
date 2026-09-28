@@ -1,7 +1,7 @@
 {
-  "versionName": "0.14.19",
-  "versionCode": 83,
+  "versionName": "0.14.20",
+  "versionCode": 84,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "06e42e44efdd889c3b7b3fcccfa7b1c4d7c12670a0b0ebd231c81304bbac5e0e",
-  "notes": "- La vue BÉNÉFICE affiche uniquement les bénéfices réellement réalisés le jour sélectionné\n- Les cycles en cours ne sont plus affichés dans le bénéfice du jour\n- Un Cayo, une vente Bunker/Acide/MC ou un entrepôt vendu la veille n'apparaît plus aujourd'hui\n- Les coûts des jours précédents restent rattachés au cycle et sont déduits le jour de la vente\n- Plusieurs ventes du même business dans la même journée sont cumulées\n- Les activités sans coût restent limitées au jour sélectionné\n- Ajout de la vue BÉNÉFICE dans le calendrier pour consulter l'historique jour par jour"
+  "sha256": "c14f0aa588869130869ad55f2ca5d968f3c0bed0e6c44affe77f005dd4d72f60",
+  "notes": "- Les réapprovisionnements simultanés d'entrepôts sont de nouveau affichés sur une seule ligne cumulée dans Gains\n- Exemple : 3 entrepôts réapprovisionnés = une dépense « Réappro entrepôts x3 »\n- En interne, la transaction conserve la liste exacte des entrepôts concernés\n- Le calcul BÉNÉFICE attribue ensuite uniquement le coût correspondant au cycle de chaque entrepôt vendu\n- L'affichage reste simple tout en conservant la rentabilité individuelle Entrepôt 1 à 5"
 }
