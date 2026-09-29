@@ -1,4 +1,4 @@
-name: Publish GTA Timers 0.14.31
+name: Publish GTA Timers 0.14.33
 
 on:
   push:
@@ -21,9 +21,9 @@ jobs:
       - name: Download built APK artifact
         shell: bash
         run: |
-          curl -L --fail --retry 3             "https://sdmntprukwest.oaiusercontent.com/files/00000000-c17c-8243-8fcb-e356ab389566/raw?se=2026-09-29T11%3A53%3A19Z&sp=r&sv=2026-02-06&sr=b&scid=3e3bdd23-d804-5213-84f0-d3c65df689ab&skoid=1d6acb5b-b3f4-43ec-a5ec-b05c4a7708c8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-09-29T06%3A34%3A35Z&ske=2026-09-30T06%3A34%3A35Z&sks=b&skv=2026-02-06&sig=3ENTpj%2BSvSPaaMYz0JSvKNcAqJqg8t9CYUyetOmdv5E%3D"             -o /tmp/gta-timers-01431.zip
-          unzip -o /tmp/gta-timers-01431.zip -d /tmp/gta-timers-01431
-          cp /tmp/gta-timers-01431/GTA-Timers-v0.14.31.apk gta-timers/latest.apk
+          curl -L --fail --retry 3             "https://sdmntprukwest.oaiusercontent.com/files/00000000-bdd8-8243-8aa1-70364cc900ab/raw?se=2026-09-29T16%3A31%3A18Z&sp=r&sv=2026-02-06&sr=b&scid=b73825fa-ee30-5cc5-90e9-9c2f9d978ee8&skoid=1d6acb5b-b3f4-43ec-a5ec-b05c4a7708c8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-09-29T06%3A18%3A32Z&ske=2026-09-30T06%3A18%3A32Z&sks=b&skv=2026-02-06&sig=GATJvFL96JeXQQBAwVnPTX7ilcV49xEsLC5YWiHSUZc%3D"             -o /tmp/gta-timers-01433.zip
+          unzip -o /tmp/gta-timers-01433.zip -d /tmp/gta-timers-01433
+          cp /tmp/gta-timers-01433/GTA-Timers-v0.14.33.apk gta-timers/latest.apk
 
       - name: Update manifest
         shell: bash
@@ -31,11 +31,11 @@ jobs:
           SHA=$(sha256sum gta-timers/latest.apk | awk '{print $1}')
           cat > gta-timers/latest.json <<EOF
           {
-            "versionName": "0.14.31",
-            "versionCode": 95,
+            "versionName": "0.14.33",
+            "versionCode": 97,
             "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
             "sha256": "$SHA",
-            "notes": "- Appui long sur GTA+ : choisir si les avantages GTA+ influencent les cartes\n- AUTO ON : badges et multiplicateurs GTA+ actifs\n- AUTO OFF : page GTA+ consultable mais sans impact sur les cartes et gains\n- Le choix est mémorisé"
+            "notes": "- Nouvelle section Achats en violet sur la page Gains\n- Les achats apparaissent dans la journée sans modifier le NET journalier\n- Les achats sont déduits du TOTAL NET global\n- Historique des achats dédié\n- Réappro matières premières du labo d’acide : 10 min\n- Logos Cocaïne, Meth, Faux billets, Cannabis, Faux documents et DJ dans Gains/Calendrier\n- Appui long sur la popularité de la boîte de nuit pour la régler manuellement"
           }
           EOF
 
@@ -45,7 +45,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add gta-timers/latest.apk gta-timers/latest.json
-          git commit -m "publish: GTA Timers v0.14.31"
+          git commit -m "publish: GTA Timers v0.14.33"
           git push origin HEAD:gta-timers-updates
 
 # trigger publish 0.14.31
