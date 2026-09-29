@@ -1,7 +1,7 @@
 {
-  "versionName": "0.14.31",
-  "versionCode": 95,
+  "versionName": "0.14.33",
+  "versionCode": 97,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "7e39dd560f80e48dc9fc2bdd1b11aee07f6bd494141756b702d698f86fc38259",
-  "notes": "- Appui long sur GTA+ : choisir si les avantages GTA+ influencent les cartes\n- AUTO ON : badges et multiplicateurs GTA+ actifs\n- AUTO OFF : page GTA+ consultable mais sans impact sur les cartes et gains\n- Le choix est mémorisé"
+  "sha256": "2beb0f121c8c35d853ef3339c3915588c17eea05cc19dfa3f551ff14d84c4e47",
+  "notes": "- Nouvelle section Achats en violet sur la page Gains\n- Les achats apparaissent dans la journée sans modifier le NET journalier\n- Les achats sont déduits du TOTAL NET global\n- Historique des achats dédié\n- Réappro matières premières du labo d’acide : 10 min\n- Logos Cocaïne, Meth, Faux billets, Cannabis, Faux documents et DJ dans Gains/Calendrier\n- Appui long sur la popularité de la boîte de nuit pour la régler manuellement"
 }
