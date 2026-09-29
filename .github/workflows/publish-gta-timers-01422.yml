@@ -47,3 +47,5 @@ jobs:
           git add gta-timers/latest.apk gta-timers/latest.json
           git commit -m "publish: GTA Timers v0.14.31"
           git push origin HEAD:gta-timers-updates
+
+# trigger publish 0.14.31
