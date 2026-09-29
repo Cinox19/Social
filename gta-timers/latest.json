@@ -1,7 +1,7 @@
 {
-  "versionName": "0.14.30",
-  "versionCode": 94,
+  "versionName": "0.14.31",
+  "versionCode": 95,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "7933a48da9113bb035193871845c6cc3bc53cc130253c6d778eabc6ea813ec23",
-  "notes": "- Multiplicateurs Events automatiques\n- Livraison moto passe automatiquement en x3 pendant le bonus GTA+\n- Le multiplicateur AUTO prend la priorité pendant l’événement\n- Retour automatique au multiplicateur manuel après expiration"
+  "sha256": "7e39dd560f80e48dc9fc2bdd1b11aee07f6bd494141756b702d698f86fc38259",
+  "notes": "- Appui long sur GTA+ : choisir si les avantages GTA+ influencent les cartes\n- AUTO ON : badges et multiplicateurs GTA+ actifs\n- AUTO OFF : page GTA+ consultable mais sans impact sur les cartes et gains\n- Le choix est mémorisé"
 }
