@@ -21,7 +21,7 @@ jobs:
       - name: Download built APK artifact
         shell: bash
         run: |
-          curl -L --fail --retry 3             "https://sdmntprukwest.oaiusercontent.com/files/00000000-70ec-8243-ab82-d59907092c0d/raw?se=2026-09-30T06%3A56%3A56Z&sp=r&sv=2026-02-06&sr=b&scid=ad3c205c-ca31-5717-87fb-4a2d1310b35f&skoid=1d6acb5b-b3f4-43ec-a5ec-b05c4a7708c8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-09-30T04%3A42%3A41Z&ske=2026-10-01T04%3A42%3A41Z&sks=b&skv=2026-02-06&sig=nwYGbQUkxISUwe2qxygLwfVNPjBzCFFg70VZ6u3PJgU%3D"             -o /tmp/gta-timers-01434.zip
+          curl -L --fail --retry 3             "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-a8d8-8210-a8c4-c08cfb33b294/raw?se=2026-09-30T07%3A46%3A37Z&sp=r&sv=2026-02-06&sr=b&scid=0d6d781f-2f4c-5e0e-8c4c-4899eefd1ee6&skoid=1d6acb5b-b3f4-43ec-a5ec-b05c4a7708c8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-09-30T06%3A05%3A36Z&ske=2026-10-01T06%3A05%3A36Z&sks=b&skv=2026-02-06&sig=VyFSlM7DphJHoRQMRwrr24HGWOpzXNPxSw/vokSnK6Q%3D"             -o /tmp/gta-timers-01434.zip
           unzip -o /tmp/gta-timers-01434.zip -d /tmp/gta-timers-01434
           cp /tmp/gta-timers-01434/GTA-Timers-v0.14.34.apk gta-timers/latest.apk
 
@@ -35,7 +35,7 @@ jobs:
             "versionCode": 98,
             "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
             "sha256": "$SHA",
-            "notes": "- Pause intelligente : option désactivée par défaut\n- Alerte après 100 pas consécutifs (seuil réglable 50, 100, 150 ou 200 pas)\n- Mise en pause automatique de GTA Timers et rappel pour vérifier la session PS5\n- Remise à zéro du compteur après 2 minutes sans nouveau pas\n- Détection des pas en arrière-plan sans GPS ni historique de déplacement"
+            "notes": "- Nouvelle surveillance réseau PS5 optionnelle (ON/OFF)\n- Configuration et test ping de l’adresse IP locale de la console\n- Vérification automatique toutes les 10 secondes pendant la session active\n- Pause automatique et notification après 3 échecs consécutifs\n- Reprise manuelle ; aucun GPS ni autorisation Activité physique\n- Remplace intégralement l’ancienne détection par les pas"
           }
           EOF
 
