@@ -1,7 +1,7 @@
 {
-  "versionName": "0.14.33",
-  "versionCode": 97,
+  "versionName": "0.14.34",
+  "versionCode": 98,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "2beb0f121c8c35d853ef3339c3915588c17eea05cc19dfa3f551ff14d84c4e47",
-  "notes": "- Nouvelle section Achats en violet sur la page Gains\n- Les achats apparaissent dans la journée sans modifier le NET journalier\n- Les achats sont déduits du TOTAL NET global\n- Historique des achats dédié\n- Réappro matières premières du labo d’acide : 10 min\n- Logos Cocaïne, Meth, Faux billets, Cannabis, Faux documents et DJ dans Gains/Calendrier\n- Appui long sur la popularité de la boîte de nuit pour la régler manuellement"
+  "sha256": "7ec1e3dc4d5c1cb74afc923165c15ffd55825d699a624a13bd15c02846bd2bb4",
+  "notes": "- Pause intelligente : option désactivée par défaut\n- Alerte après 100 pas consécutifs (seuil réglable 50, 100, 150 ou 200 pas)\n- Mise en pause automatique de GTA Timers et rappel pour vérifier la session PS5\n- Remise à zéro du compteur après 2 minutes sans nouveau pas\n- Détection des pas en arrière-plan sans GPS ni historique de déplacement"
 }
