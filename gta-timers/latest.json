@@ -1,7 +1,7 @@
 {
-  "versionName": "0.14.35",
-  "versionCode": 99,
+  "versionName": "0.14.36",
+  "versionCode": 100,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "13201fe54bc999b1e46b5d763babfd1946b649411c5c0c2e413cabc568012d66",
-  "notes": "- Ajout du Braquage du Kortz Center dans la section Braquage\n- Chronos Préparations et Finale comme les autres braquages\n- Enregistrement du gain réel et ajout automatique dans Gains\n- Kortz Center ajouté aux Stats et à l’historique des braquages\n- Miniature Kortz Center ajoutée dans Braquage, Gains et Calendrier"
+  "sha256": "6241b65ed1e521084b4c2914f95aa25995c8a22c49f73d1d16f0dc5f51a84c8c",
+  "notes": "- Correction Cayo Perico : les frais de préparation redeviennent disponibles après validation de la finale\n- Le bouton AJOUTER FRAIS PRÉPA -100K se réactive automatiquement pour le run suivant"
 }
