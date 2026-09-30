@@ -2,6 +2,6 @@
   "versionName": "0.14.34",
   "versionCode": 98,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "7ec1e3dc4d5c1cb74afc923165c15ffd55825d699a624a13bd15c02846bd2bb4",
-  "notes": "- Pause intelligente : option désactivée par défaut\n- Alerte après 100 pas consécutifs (seuil réglable 50, 100, 150 ou 200 pas)\n- Mise en pause automatique de GTA Timers et rappel pour vérifier la session PS5\n- Remise à zéro du compteur après 2 minutes sans nouveau pas\n- Détection des pas en arrière-plan sans GPS ni historique de déplacement"
+  "sha256": "2a640920787a63f428b8208f4b9a92ebd53b1c83a9ea97ed33face3f9df3fb83",
+  "notes": "- Nouvelle surveillance réseau PS5 optionnelle (ON/OFF)\n- Configuration et test ping de l’adresse IP locale de la console\n- Vérification automatique toutes les 10 secondes pendant la session active\n- Pause automatique et notification après 3 échecs consécutifs\n- Reprise manuelle ; aucun GPS ni autorisation Activité physique\n- Remplace intégralement l’ancienne détection par les pas"
 }
