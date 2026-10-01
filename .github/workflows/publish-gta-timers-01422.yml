@@ -1,4 +1,4 @@
-name: Publish GTA Timers 0.14.39
+name: Publish GTA Timers 0.14.40
 
 on:
   push:
@@ -21,9 +21,9 @@ jobs:
       - name: Download built APK artifact
         shell: bash
         run: |
-          curl -L --fail --retry 3             "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-1a54-8210-9a06-e764507164f6/raw?se=2026-10-01T10%3A20%3A17Z&sp=r&sv=2026-02-06&sr=b&scid=162d07c1-54ef-5942-8042-b55c7ff88ec1&skoid=1d6acb5b-b3f4-43ec-a5ec-b05c4a7708c8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-01T09%3A51%3A14Z&ske=2026-10-02T09%3A51%3A14Z&sks=b&skv=2026-02-06&sig=997pBKj4F2iTuxojVeG6rLOTMOEI%2BAkvkH16DLmnh44%3D"             -o /tmp/gta-timers-01439.zip
-          unzip -o /tmp/gta-timers-01439.zip -d /tmp/gta-timers-01439
-          cp /tmp/gta-timers-01439/GTA-Timers-v0.14.39.apk gta-timers/latest.apk
+          curl -L --fail --retry 3             "https://sdmntprukwest.oaiusercontent.com/files/00000000-ed2c-8243-9077-beb80e690c8b/raw?se=2026-10-01T16%3A14%3A59Z&sp=r&sv=2026-02-06&sr=b&scid=2c0cb44e-5231-5d28-b5ae-ffcd27659f94&skoid=1d6acb5b-b3f4-43ec-a5ec-b05c4a7708c8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-01T15%3A52%3A09Z&ske=2026-10-02T15%3A52%3A09Z&sks=b&skv=2026-02-06&sig=dxBCt1WJ3XqQPuFiBC5txDfH8pwbONCna/t1BcS7ZTA%3D"             -o /tmp/gta-timers-01440.zip
+          unzip -o /tmp/gta-timers-01440.zip -d /tmp/gta-timers-01440
+          cp /tmp/gta-timers-01440/GTA-Timers-v0.14.40.apk gta-timers/latest.apk
 
       - name: Update manifest
         shell: bash
@@ -31,11 +31,11 @@ jobs:
           SHA=$(sha256sum gta-timers/latest.apk | awk '{print $1}')
           cat > gta-timers/latest.json <<EOF
           {
-            "versionName": "0.14.39",
-            "versionCode": 103,
+            "versionName": "0.14.40",
+            "versionCode": 104,
             "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
             "sha256": "$SHA",
-            "notes": "- Correction définitive de la miniature Kortz Center\n- Ressource image remplacée par un JPEG 256x256 propre issu de l’image originale\n- Conservation de la surveillance PS5 sans notification permanente lorsque GTA Timers est au premier plan"
+            "notes": "- Kortz Center : même correctif que Fleeca\n- Miniature reconstruite pendant le build depuis une source base64 Android-safe\n- Image originale conservée, vignette 96x96 optimisée pour l’affichage dans Braquages/Gains/Calendrier\n- Surveillance PS5 conservée sans notification permanente au premier plan"
           }
           EOF
 
@@ -45,7 +45,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add gta-timers/latest.apk gta-timers/latest.json
-          git commit -m "publish: GTA Timers v0.14.39"
+          git commit -m "publish: GTA Timers v0.14.40"
           git push origin HEAD:gta-timers-updates
 
-# trigger publish 0.14.39
+# trigger publish 0.14.40
