@@ -1,44 +1,72 @@
 {
   "schemaVersion": 1,
-  "title": "Business Rivalries • Semaine Boîte de nuit",
-  "periodStart": "2026-09-24",
-  "periodEnd": "2026-09-30",
-  "updatedAt": "2026-09-28T18:31:00+02:00",
-  "sourceName": "Rockstar Games • GTA Online",
-  "sourceUrl": "https://www.rockstargames.com/gta-online?info=9575k",
+  "title": "Halloween à Los Santos • Semaine 1",
+  "periodStart": "2026-10-01",
+  "periodEnd": "2026-10-07",
+  "updatedAt": "2026-10-01T19:06:00+02:00",
+  "sourceName": "GTA Online • événements hebdomadaires",
+  "sourceUrl": "https://www.gtabase.com/gta-online/weekly-update-bonuses-discounts",
   "global": [
     {
-      "title": "Missions de biens de boîte de nuit",
-      "bonus": "x2 GTA$ & RP",
-      "detail": "Missions lancées avec Yohan pour récupérer des marchandises.",
-      "priority": true,
-      "activityId": "nightclub"
-    },
-    {
-      "title": "Missions de gestion de boîte de nuit",
-      "bonus": "x2 popularité",
-      "detail": "La popularité gagnée via les missions de gestion est doublée.",
-      "priority": true,
-      "activityId": "nightclub"
-    },
-    {
-      "title": "Livraisons QuickiePharm",
-      "bonus": "x2 GTA$ & RP",
-      "detail": "Les missions de coursier médical rapportent le double.",
+      "title": "Survivals Halloween",
+      "bonus": "x3 GTA$ & RP",
+      "detail": "Ludendorff Cemetery Survival, Cayo Perico Survival et Alien Survivals.",
       "priority": true,
       "activityId": ""
     },
     {
-      "title": "Épreuves à la une",
-      "bonus": "x2 GTA$ & RP",
-      "detail": "Deadline, Deadline Duet et Tiny Racers.",
+      "title": "Halloween Featured Series",
+      "bonus": "x3 GTA$ & RP",
+      "detail": "Slasher et modes Halloween à la une.",
+      "priority": true,
+      "activityId": ""
+    },
+    {
+      "title": "San Andreas Super Sport Series",
+      "bonus": "x3 GTA$ & RP",
+      "detail": "Hotring Races et Random Transform Races.",
+      "priority": true,
+      "activityId": ""
+    },
+    {
+      "title": "Community Race Series",
+      "bonus": "x3 GTA$ & RP",
+      "detail": "Récompenses triplées cette semaine.",
       "priority": false,
       "activityId": ""
     },
     {
-      "title": "Épreuves de combat de la communauté",
+      "title": "Bail Office • cibles Standard et Most Wanted",
       "bonus": "x2 GTA$ & RP",
-      "detail": "Récompenses doublées pendant la semaine.",
+      "detail": "Les primes du Bail Office rapportent le double.",
+      "priority": true,
+      "activityId": ""
+    },
+    {
+      "title": "Dispatch Work",
+      "bonus": "x2 GTA$ & RP",
+      "detail": "Récompenses doublées sur les missions Dispatch.",
+      "priority": true,
+      "activityId": ""
+    },
+    {
+      "title": "UFO Business Battles",
+      "bonus": "x2 GTA$ & RP",
+      "detail": "Récompenses doublées.",
+      "priority": false,
+      "activityId": ""
+    },
+    {
+      "title": "Jack O' Lanterns",
+      "bonus": "x2 GTA$ & RP",
+      "detail": "Récompenses doublées.",
+      "priority": false,
+      "activityId": ""
+    },
+    {
+      "title": "Ghosts Exposed",
+      "bonus": "x2 GTA$",
+      "detail": "GTA$ doublés.",
       "priority": false,
       "activityId": ""
     }
@@ -46,33 +74,68 @@
   "challenge": [
     {
       "title": "Défi hebdomadaire",
-      "bonus": "+1 000 000 GTA$",
-      "detail": "Vendre 1 000 000 GTA$ de produit à travers vos business pour recevoir 1 000 000 GTA$ supplémentaires et le survêtement Retro Fruit.",
+      "bonus": "+100 000 GTA$ + masque",
+      "detail": "Sécuriser deux primes du Bail Office pour recevoir 100 000 GTA$ et le Green Vintage Skull Mask.",
       "priority": true,
       "activityId": ""
     }
   ],
   "rewards": [
     {
-      "title": "Boîte de nuit d'Elysian Island",
-      "bonus": "GRATUITE",
-      "detail": "Disponible gratuitement sur Maze Bank Foreclosures cette semaine.",
-      "priority": true,
-      "activityId": "nightclub"
+      "title": "Cheerleader Massacre 3 T-Shirt",
+      "bonus": "GRATUIT",
+      "detail": "À récupérer dans les magasins de vêtements avant le 7 octobre.",
+      "priority": false,
+      "activityId": ""
     },
     {
-      "title": "Penaud La Coureuse",
-      "bonus": "GRATUITE",
-      "detail": "Pour les joueurs éligibles ayant terminé un défi hebdomadaire entre le 3 et le 23 septembre, avec amélioration HSW offerte sur plateformes compatibles.",
+      "title": "Bonus Security Contracts",
+      "bonus": "+500 000 GTA$",
+      "detail": "Terminer cinq Security Contracts avant le 7 octobre pour recevoir 500 000 GTA$ sous 72 h.",
+      "priority": true,
+      "activityId": ""
+    },
+    {
+      "title": "Défis hebdomadaires d'octobre",
+      "bonus": "+2 000 000 GTA$",
+      "detail": "Terminer tous les défis hebdomadaires jusqu'au 4 novembre pour recevoir 2 000 000 GTA$ sous 72 h.",
+      "priority": true,
+      "activityId": ""
+    },
+    {
+      "title": "Gun Van • Baseball Bat + The Shocker",
+      "bonus": "GRATUITS",
+      "detail": "Disponibles gratuitement au Gun Van cette semaine.",
       "priority": false,
       "activityId": ""
     }
   ],
   "discounts": [
     {
-      "title": "Imponte Arbiter GT",
-      "bonus": "-70%",
-      "detail": "Promotion véhicule de la semaine.",
+      "title": "Agences + modifications et améliorations",
+      "bonus": "-40%",
+      "detail": "Réduction sur les propriétés Agency et leurs améliorations.",
+      "priority": true,
+      "activityId": "agency"
+    },
+    {
+      "title": "Albany Brigham",
+      "bonus": "-40%",
+      "detail": "Promotion véhicule Halloween.",
+      "priority": false,
+      "activityId": ""
+    },
+    {
+      "title": "Albany Fränken Stange",
+      "bonus": "-40%",
+      "detail": "Promotion véhicule Halloween.",
+      "priority": false,
+      "activityId": ""
+    },
+    {
+      "title": "LCC Sanctus",
+      "bonus": "-40%",
+      "detail": "Promotion véhicule Halloween.",
       "priority": false,
       "activityId": ""
     }
