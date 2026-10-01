@@ -1,4 +1,4 @@
-name: Publish GTA Timers 0.14.36
+name: Publish GTA Timers 0.14.37
 
 on:
   push:
@@ -21,9 +21,9 @@ jobs:
       - name: Download built APK artifact
         shell: bash
         run: |
-          curl -L --fail --retry 3             "https://sdmntpritalynorth.oaiusercontent.com/files/00000000-2614-8246-8f92-15c5ca1a6b03/raw?se=2026-09-30T20%3A16%3A40Z&sp=r&sv=2026-02-06&sr=b&scid=fccfdaa5-2e55-5509-b43f-dfab7de987a7&skoid=1d6acb5b-b3f4-43ec-a5ec-b05c4a7708c8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-09-30T07%3A36%3A22Z&ske=2026-10-01T07%3A36%3A22Z&sks=b&skv=2026-02-06&sig=C9DjMlBWZoaiSlO8pFOHXQbTGZJo7rejsqzxi8GsMoc%3D"             -o /tmp/gta-timers-01436.zip
-          unzip -o /tmp/gta-timers-01436.zip -d /tmp/gta-timers-01436
-          cp /tmp/gta-timers-01436/GTA-Timers-v0.14.36.apk gta-timers/latest.apk
+          curl -L --fail --retry 3             "https://sdmntprnortheu.oaiusercontent.com/files/00000000-7c94-81f4-a664-7b823d7adbf9/raw?se=2026-10-01T06%3A18%3A48Z&sp=r&sv=2026-02-06&sr=b&scid=ddfcef06-44f0-5cba-9b9f-d1a7616467ed&skoid=1d6acb5b-b3f4-43ec-a5ec-b05c4a7708c8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-01T03%3A56%3A35Z&ske=2026-10-02T03%3A56%3A35Z&sks=b&skv=2026-02-06&sig=LZJHTwhvopc5fR3MM0%2BYkqfJkPvAml/54pUWIwxUe1c%3D"             -o /tmp/gta-timers-01437.zip
+          unzip -o /tmp/gta-timers-01437.zip -d /tmp/gta-timers-01437
+          cp /tmp/gta-timers-01437/GTA-Timers-v0.14.37.apk gta-timers/latest.apk
 
       - name: Update manifest
         shell: bash
@@ -31,11 +31,11 @@ jobs:
           SHA=$(sha256sum gta-timers/latest.apk | awk '{print $1}')
           cat > gta-timers/latest.json <<EOF
           {
-            "versionName": "0.14.36",
-            "versionCode": 100,
+            "versionName": "0.14.37",
+            "versionCode": 101,
             "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
             "sha256": "$SHA",
-            "notes": "- Correction Cayo Perico : les frais de préparation redeviennent disponibles après validation de la finale\n- Le bouton AJOUTER FRAIS PRÉPA -100K se réactive automatiquement pour le run suivant"
+            "notes": "- Suppression complète de la notification permanente Surveillance PS5\n- Le ping PS5 reste actif toutes les 10 secondes tant que GTA Timers est ouvert\n- Aucune notification si les pings réussissent\n- Notification uniquement après 3 échecs consécutifs et pause automatique\n- L’ancien service Android de surveillance a été retiré"
           }
           EOF
 
@@ -45,7 +45,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add gta-timers/latest.apk gta-timers/latest.json
-          git commit -m "publish: GTA Timers v0.14.36"
+          git commit -m "publish: GTA Timers v0.14.37"
           git push origin HEAD:gta-timers-updates
 
-# trigger publish 0.14.36
+# trigger publish 0.14.37
