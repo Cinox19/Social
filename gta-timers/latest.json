@@ -1,7 +1,7 @@
 {
-  "versionName": "0.14.36",
-  "versionCode": 100,
+  "versionName": "0.14.37",
+  "versionCode": 101,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "6241b65ed1e521084b4c2914f95aa25995c8a22c49f73d1d16f0dc5f51a84c8c",
-  "notes": "- Correction Cayo Perico : les frais de préparation redeviennent disponibles après validation de la finale\n- Le bouton AJOUTER FRAIS PRÉPA -100K se réactive automatiquement pour le run suivant"
+  "sha256": "a95902fa58928bd0666f22318485734230d2fe2c659780e75cec1e4c00419495",
+  "notes": "- Suppression complète de la notification permanente Surveillance PS5\n- Le ping PS5 reste actif toutes les 10 secondes tant que GTA Timers est ouvert\n- Aucune notification si les pings réussissent\n- Notification uniquement après 3 échecs consécutifs et pause automatique\n- L’ancien service Android de surveillance a été retiré"
 }
