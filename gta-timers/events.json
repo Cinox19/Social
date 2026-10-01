@@ -93,7 +93,8 @@
       "bonus": "+500 000 GTA$",
       "detail": "Terminer cinq Security Contracts avant le 7 octobre pour recevoir 500 000 GTA$ sous 72 h.",
       "priority": true,
-      "activityId": ""
+      "activityId": "security_contract",
+      "badgeLabel": "BONUS +500K • 5 contrats"
     },
     {
       "title": "Défis hebdomadaires d'octobre",
