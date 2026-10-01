@@ -1,146 +1,49 @@
 {
   "schemaVersion": 1,
-  "title": "Halloween à Los Santos • Semaine 1",
+  "title": "Événements GTA Online • 2026-10-01 → 2026-10-07",
   "periodStart": "2026-10-01",
   "periodEnd": "2026-10-07",
-  "updatedAt": "2026-10-01T19:06:00+02:00",
-  "sourceName": "GTA Online • événements hebdomadaires",
+  "updatedAt": "2026-10-01T17:11:59.016216+00:00",
+  "sourceName": "GTABase • GTA Online Weekly Update",
   "sourceUrl": "https://www.gtabase.com/gta-online/weekly-update-bonuses-discounts",
   "global": [
     {
-      "title": "Survivals Halloween",
+      "title": "Slasher",
       "bonus": "x3 GTA$ & RP",
-      "detail": "Ludendorff Cemetery Survival, Cayo Perico Survival et Alien Survivals.",
+      "detail": "Bonus hebdomadaire détecté automatiquement.",
       "priority": true,
-      "activityId": ""
+      "activityId": "",
+      "multiplier": 3
     },
     {
-      "title": "Halloween Featured Series",
-      "bonus": "x3 GTA$ & RP",
-      "detail": "Slasher et modes Halloween à la une.",
-      "priority": true,
-      "activityId": ""
-    },
-    {
-      "title": "San Andreas Super Sport Series",
-      "bonus": "x3 GTA$ & RP",
-      "detail": "Hotring Races et Random Transform Races.",
-      "priority": true,
-      "activityId": ""
-    },
-    {
-      "title": "Community Race Series",
-      "bonus": "x3 GTA$ & RP",
-      "detail": "Récompenses triplées cette semaine.",
-      "priority": false,
-      "activityId": ""
-    },
-    {
-      "title": "Bail Office • cibles Standard et Most Wanted",
+      "title": "Bail Office Bounties",
       "bonus": "x2 GTA$ & RP",
-      "detail": "Les primes du Bail Office rapportent le double.",
+      "detail": "Bonus hebdomadaire détecté automatiquement.",
       "priority": true,
-      "activityId": ""
+      "activityId": "",
+      "multiplier": 2
     },
     {
       "title": "Dispatch Work",
       "bonus": "x2 GTA$ & RP",
-      "detail": "Récompenses doublées sur les missions Dispatch.",
+      "detail": "Bonus hebdomadaire détecté automatiquement.",
       "priority": true,
-      "activityId": ""
-    },
-    {
-      "title": "UFO Business Battles",
-      "bonus": "x2 GTA$ & RP",
-      "detail": "Récompenses doublées.",
-      "priority": false,
-      "activityId": ""
-    },
-    {
-      "title": "Jack O' Lanterns",
-      "bonus": "x2 GTA$ & RP",
-      "detail": "Récompenses doublées.",
-      "priority": false,
-      "activityId": ""
-    },
-    {
-      "title": "Ghosts Exposed",
-      "bonus": "x2 GTA$",
-      "detail": "GTA$ doublés.",
-      "priority": false,
-      "activityId": ""
+      "activityId": "",
+      "multiplier": 2
     }
   ],
-  "challenge": [
-    {
-      "title": "Défi hebdomadaire",
-      "bonus": "+100 000 GTA$ + masque",
-      "detail": "Sécuriser deux primes du Bail Office pour recevoir 100 000 GTA$ et le Green Vintage Skull Mask.",
-      "priority": true,
-      "activityId": ""
-    }
-  ],
+  "challenge": [],
   "rewards": [
     {
-      "title": "Cheerleader Massacre 3 T-Shirt",
-      "bonus": "GRATUIT",
-      "detail": "À récupérer dans les magasins de vêtements avant le 7 octobre.",
-      "priority": false,
-      "activityId": ""
-    },
-    {
-      "title": "Bonus Security Contracts",
+      "title": "Security Contracts",
       "bonus": "+500 000 GTA$",
-      "detail": "Terminer cinq Security Contracts avant le 7 octobre pour recevoir 500 000 GTA$ sous 72 h.",
+      "detail": "Terminer cinq contrats de sécurité pendant la période indiquée.",
       "priority": true,
       "activityId": "security_contract",
       "badgeLabel": "BONUS +500K • 5 contrats"
-    },
-    {
-      "title": "Défis hebdomadaires d'octobre",
-      "bonus": "+2 000 000 GTA$",
-      "detail": "Terminer tous les défis hebdomadaires jusqu'au 4 novembre pour recevoir 2 000 000 GTA$ sous 72 h.",
-      "priority": true,
-      "activityId": ""
-    },
-    {
-      "title": "Gun Van • Baseball Bat + The Shocker",
-      "bonus": "GRATUITS",
-      "detail": "Disponibles gratuitement au Gun Van cette semaine.",
-      "priority": false,
-      "activityId": ""
     }
   ],
-  "discounts": [
-    {
-      "title": "Agences + modifications et améliorations",
-      "bonus": "-40%",
-      "detail": "Réduction sur les propriétés Agency et leurs améliorations.",
-      "priority": true,
-      "activityId": "agency"
-    },
-    {
-      "title": "Albany Brigham",
-      "bonus": "-40%",
-      "detail": "Promotion véhicule Halloween.",
-      "priority": false,
-      "activityId": ""
-    },
-    {
-      "title": "Albany Fränken Stange",
-      "bonus": "-40%",
-      "detail": "Promotion véhicule Halloween.",
-      "priority": false,
-      "activityId": ""
-    },
-    {
-      "title": "LCC Sanctus",
-      "bonus": "-40%",
-      "detail": "Promotion véhicule Halloween.",
-      "priority": false,
-      "activityId": ""
-    }
-  ],
+  "discounts": [],
   "gtaPlus": [
     {
       "title": "Pegassi Horus",
