@@ -1,0 +1,221 @@
+name: Sync GTA weekly events
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "15 10 * * 4"
+    - cron: "15 12 * * 4"
+    - cron: "15 14 * * 4"
+  push:
+    branches: ["main"]
+    paths:
+      - ".github/workflows/sync-gta-weekly-events.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout public feed branch
+        uses: actions/checkout@v4
+        with:
+          ref: gta-timers-updates
+          fetch-depth: 0
+
+      - name: Install parser dependencies
+        run: python -m pip install --quiet requests beautifulsoup4
+
+      - name: Refresh weekly events
+        shell: python
+        run: |
+          import json, re, sys
+          from datetime import datetime, timezone
+          from pathlib import Path
+          import requests
+          from bs4 import BeautifulSoup
+
+          URL = "https://www.gtabase.com/gta-online/weekly-update-bonuses-discounts"
+          OUT = Path("gta-timers/events.json")
+          old = json.loads(OUT.read_text(encoding="utf-8")) if OUT.exists() else {}
+
+          r = requests.get(URL, headers={"User-Agent": "Mozilla/5.0 GTA-Timers/1.0"}, timeout=30)
+          r.raise_for_status()
+          soup = BeautifulSoup(r.text, "html.parser")
+          text = "\n".join(line.strip() for line in soup.get_text("\n").splitlines() if line.strip())
+
+          months = {
+              "January":1,"February":2,"March":3,"April":4,"May":5,"June":6,
+              "July":7,"August":8,"September":9,"October":10,"November":11,"December":12
+          }
+          m = re.search(r"active from ([A-Z][a-z]+) (\d{1,2}) to ([A-Z][a-z]+) (\d{1,2}), (\d{4})", text)
+          if not m:
+              m = re.search(r"\(([A-Z][a-z]+) (\d{1,2})[-–]([A-Z][a-z]+)?\s*(\d{1,2})\).*?(20\d{2})", text)
+          if not m:
+              raise SystemExit("Could not detect current event period")
+
+          if len(m.groups()) == 5:
+              sm, sd, em, ed, year = m.groups()
+              em = em or sm
+          else:
+              raise SystemExit("Unexpected date match")
+          start = f"{int(year):04d}-{months[sm]:02d}-{int(sd):02d}"
+          end = f"{int(year):04d}-{months[em]:02d}-{int(ed):02d}"
+
+          def heading_text(tag):
+              return " ".join(tag.get_text(" ", strip=True).split())
+
+          activity_map = {
+              "security contract": "security_contract",
+              "security contracts": "security_contract",
+              "ammu-nation contract": "ammu",
+              "ammu nation contract": "ammu",
+              "motorcycle service": "moto",
+              "bike service": "moto",
+              "junk energy": "junk_energy",
+              "time trial": "time_trial",
+              "hsw time trial": "hsw_time_trial",
+              "stash house": "stash_house",
+              "g's cache": "gs_cache",
+              "gs cache": "gs_cache",
+              "auto shop contract": "autoshop_contract",
+              "salvage yard robbery": "salvage_robbery",
+              "tow truck": "tow_truck",
+              "dr. dre": "dre_contract",
+              "dre": "dre_contract",
+          }
+
+          def match_activity(title):
+              low = title.lower()
+              for key, aid in activity_map.items():
+                  if key in low:
+                      return aid
+              return ""
+
+          bonuses = []
+          bonus_heading = None
+          for tag in soup.find_all(["h2","h3","h4"]):
+              t = heading_text(tag)
+              if "GTA$" in t and "RP Bonuses" in t:
+                  bonus_heading = tag
+                  break
+
+          if bonus_heading:
+              current = bonus_heading.find_next()
+              while current:
+                  if current.name in ("h2","h3","h4"):
+                      ht = heading_text(current)
+                      if "In-Game Discounts" in ht:
+                          break
+                      if ht and "GTA$" not in ht and "Bonuses" not in ht:
+                          nxt = current.find_next()
+                          probe = []
+                          p = nxt
+                          for _ in range(8):
+                              if not p: break
+                              if p.name in ("h2","h3","h4"):
+                                  break
+                              s = " ".join(p.get_text(" ", strip=True).split())
+                              if s: probe.append(s)
+                              p = p.find_next()
+                          joined = " ".join(probe)
+                          mm = re.search(r"\b([2-9])x\b", joined, re.I)
+                          if mm:
+                              mult = int(mm.group(1))
+                              item = {
+                                  "title": ht,
+                                  "bonus": f"x{mult} GTA$ & RP",
+                                  "detail": "Bonus hebdomadaire détecté automatiquement.",
+                                  "priority": True,
+                                  "activityId": match_activity(ht),
+                                  "multiplier": mult
+                              }
+                              bonuses.append(item)
+                  current = current.find_next()
+
+          # Parse the compact "Also Bonuses on" block too.
+          plain_lines = [x.strip() for x in soup.get_text("\n").splitlines() if x.strip()]
+          try:
+              idx = next(i for i,x in enumerate(plain_lines) if "Also Bonuses on" in x)
+              mult = None
+              for x in plain_lines[idx+1:idx+40]:
+                  mm = re.fullmatch(r"([2-9])X GTA\$\s*(?:& RP)?", x, re.I)
+                  if mm:
+                      mult = int(mm.group(1))
+                      continue
+                  if mult and not x.startswith(("Kortz Center","Salvage Yard","Premium Race","GUN VAN")):
+                      if len(x) > 3 and not re.match(r"^[0-9X$& ]+$", x):
+                          bonuses.append({
+                              "title": x,
+                              "bonus": f"x{mult} GTA$ & RP",
+                              "detail": "Bonus hebdomadaire détecté automatiquement.",
+                              "priority": True,
+                              "activityId": match_activity(x),
+                              "multiplier": mult
+                          })
+          except StopIteration:
+              pass
+
+          # De-duplicate titles.
+          seen = set()
+          clean = []
+          for b in bonuses:
+              key = b["title"].lower()
+              if key in seen: continue
+              seen.add(key)
+              clean.append(b)
+          bonuses = clean
+
+          if len(bonuses) < 3:
+              raise SystemExit(f"Refusing update: only {len(bonuses)} bonuses parsed")
+
+          rewards = []
+          sec = re.search(r"Complete five Security Contracts.*?GTA\$\s*500,000", text, re.I|re.S)
+          if sec:
+              rewards.append({
+                  "title": "Security Contracts",
+                  "bonus": "+500 000 GTA$",
+                  "detail": "Terminer cinq contrats de sécurité pendant la période indiquée.",
+                  "priority": True,
+                  "activityId": "security_contract",
+                  "badgeLabel": "BONUS +500K • 5 contrats"
+              })
+
+          now = datetime.now(timezone.utc).isoformat()
+          data = {
+              "schemaVersion": 1,
+              "title": f"Événements GTA Online • {start} → {end}",
+              "periodStart": start,
+              "periodEnd": end,
+              "updatedAt": now,
+              "sourceName": "GTABase • GTA Online Weekly Update",
+              "sourceUrl": URL,
+              "global": bonuses,
+              "challenge": [],
+              "rewards": rewards,
+              "discounts": [],
+              "gtaPlus": old.get("gtaPlus", []),
+              "gtaPlusPeriodStart": old.get("gtaPlusPeriodStart", ""),
+              "gtaPlusPeriodEnd": old.get("gtaPlusPeriodEnd", ""),
+              "gtaPlusSourceUrl": old.get("gtaPlusSourceUrl", "")
+          }
+
+          # Do not overwrite a newer period with an older/stale page.
+          if old.get("periodStart","") > start:
+              raise SystemExit("Source appears older than existing feed")
+          OUT.parent.mkdir(parents=True, exist_ok=True)
+          OUT.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+          print(f"Prepared {len(bonuses)} bonuses for {start} -> {end}")
+
+      - name: Commit refreshed feed
+        run: |
+          git config user.name "GTA Timers Event Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add gta-timers/events.json
+          if git diff --cached --quiet; then
+            echo "No event changes to publish."
+            exit 0
+          fi
+          git commit -m "events: auto-sync weekly GTA Online bonuses"
+          git push origin HEAD:gta-timers-updates
