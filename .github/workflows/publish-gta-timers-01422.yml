@@ -1,4 +1,4 @@
-name: Publish GTA Timers 0.14.37
+name: Publish GTA Timers 0.14.38
 
 on:
   push:
@@ -21,9 +21,9 @@ jobs:
       - name: Download built APK artifact
         shell: bash
         run: |
-          curl -L --fail --retry 3             "https://sdmntprnortheu.oaiusercontent.com/files/00000000-7c94-81f4-a664-7b823d7adbf9/raw?se=2026-10-01T06%3A18%3A48Z&sp=r&sv=2026-02-06&sr=b&scid=ddfcef06-44f0-5cba-9b9f-d1a7616467ed&skoid=1d6acb5b-b3f4-43ec-a5ec-b05c4a7708c8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-01T03%3A56%3A35Z&ske=2026-10-02T03%3A56%3A35Z&sks=b&skv=2026-02-06&sig=LZJHTwhvopc5fR3MM0%2BYkqfJkPvAml/54pUWIwxUe1c%3D"             -o /tmp/gta-timers-01437.zip
-          unzip -o /tmp/gta-timers-01437.zip -d /tmp/gta-timers-01437
-          cp /tmp/gta-timers-01437/GTA-Timers-v0.14.37.apk gta-timers/latest.apk
+          curl -L --fail --retry 3             "https://sdmntprukwest.oaiusercontent.com/files/00000000-4d64-8243-8f7a-3b0ba2684b62/raw?se=2026-10-01T08%3A23%3A26Z&sp=r&sv=2026-02-06&sr=b&scid=ca1dab91-ecd6-5e27-b5a5-2eaf69e116fe&skoid=1d6acb5b-b3f4-43ec-a5ec-b05c4a7708c8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-01T06%3A55%3A54Z&ske=2026-10-02T06%3A55%3A54Z&sks=b&skv=2026-02-06&sig=Hmr5WF6nHgCILQEWfR/yK4LVSqXsuibSYrXpdfyiuY0%3D"             -o /tmp/gta-timers-01438.zip
+          unzip -o /tmp/gta-timers-01438.zip -d /tmp/gta-timers-01438
+          cp /tmp/gta-timers-01438/GTA-Timers-v0.14.38.apk gta-timers/latest.apk
 
       - name: Update manifest
         shell: bash
@@ -31,11 +31,11 @@ jobs:
           SHA=$(sha256sum gta-timers/latest.apk | awk '{print $1}')
           cat > gta-timers/latest.json <<EOF
           {
-            "versionName": "0.14.37",
-            "versionCode": 101,
+            "versionName": "0.14.38",
+            "versionCode": 102,
             "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
             "sha256": "$SHA",
-            "notes": "- Suppression complète de la notification permanente Surveillance PS5\n- Le ping PS5 reste actif toutes les 10 secondes tant que GTA Timers est ouvert\n- Aucune notification si les pings réussissent\n- Notification uniquement après 3 échecs consécutifs et pause automatique\n- L’ancien service Android de surveillance a été retiré"
+            "notes": "- Suppression complète de la notification permanente Surveillance PS5\n- Ping PS5 conservé toutes les 10 secondes tant que GTA Timers est ouvert\n- Aucune notification si la PS5 répond correctement\n- Alerte uniquement après 3 échecs consécutifs et pause automatique\n- Miniature Kortz Center remplacée par l’image d’origine fournie"
           }
           EOF
 
@@ -45,7 +45,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add gta-timers/latest.apk gta-timers/latest.json
-          git commit -m "publish: GTA Timers v0.14.37"
+          git commit -m "publish: GTA Timers v0.14.38"
           git push origin HEAD:gta-timers-updates
 
-# trigger publish 0.14.37
+# trigger publish 0.14.38
