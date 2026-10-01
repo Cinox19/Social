@@ -1,0 +1,176 @@
+name: Sync GTA+ benefits
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "35 10 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  sync-gta-plus:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout public feed branch
+        uses: actions/checkout@v4
+        with:
+          ref: gta-timers-updates
+          fetch-depth: 0
+
+      - name: Install parser dependencies
+        run: python -m pip install --quiet requests beautifulsoup4
+
+      - name: Refresh GTA+ benefits
+        shell: python
+        run: |
+          import json, re
+          from datetime import datetime, timezone
+          from pathlib import Path
+          from urllib.parse import urljoin
+          import requests
+          from bs4 import BeautifulSoup
+
+          NEWSWIRE = "https://www.rockstargames.com/newswire"
+          OUT = Path("gta-timers/events.json")
+          data = json.loads(OUT.read_text(encoding="utf-8"))
+          old_url = data.get("gtaPlusSourceUrl", "")
+
+          headers = {"User-Agent": "Mozilla/5.0 GTA-Timers/1.0"}
+          page = requests.get(NEWSWIRE, headers=headers, timeout=30)
+          page.raise_for_status()
+          soup = BeautifulSoup(page.text, "html.parser")
+
+          candidates = []
+          for a in soup.find_all("a", href=True):
+              label = " ".join(a.get_text(" ", strip=True).split())
+              href = a.get("href", "")
+              low = label.lower()
+              if "gta+" in low and ("member" in low or "members" in low or "benefit" in low or "benefits" in low or "claim" in low):
+                  candidates.append((label, urljoin(NEWSWIRE, href)))
+
+          if not candidates:
+              print("No GTA+ article candidate found; keeping current feed unchanged.")
+              raise SystemExit(0)
+
+          seen = set()
+          ordered = []
+          for title, url in candidates:
+              if url in seen:
+                  continue
+              seen.add(url)
+              ordered.append((title, url))
+
+          article_title, article_url = ordered[0]
+          article = requests.get(article_url, headers=headers, timeout=30)
+          article.raise_for_status()
+          asoup = BeautifulSoup(article.text, "html.parser")
+          text = "\n".join(line.strip() for line in asoup.get_text("\n").splitlines() if line.strip())
+
+          if article_url == old_url:
+              print("Current GTA+ article unchanged.")
+              raise SystemExit(0)
+
+          benefits = []
+          lines = [x.strip() for x in asoup.get_text("\n").splitlines() if x.strip()]
+          activity_map = {
+              "cluckin": ("cluckin_bell", "vincent"),
+              "motorcycle": ("moto", ""),
+              "bike service": ("moto", ""),
+              "cocaine": ("cocaine", ""),
+              "security contract": ("security_contract", ""),
+              "dr. dre": ("dre_contract", ""),
+              "auto shop": ("autoshop_contract", ""),
+          }
+
+          for line in lines:
+              low = line.lower()
+              bonus = ""
+              mult = None
+              mm = re.search(r"\b([2-9])x\b", line, re.I)
+              if mm:
+                  mult = int(mm.group(1))
+                  if "gta$" in low and "rp" in low:
+                      bonus = f"x{mult} GTA$ & RP"
+                  elif "gta$" in low:
+                      bonus = f"x{mult} GTA$"
+                  elif "production" in low or "speed" in low:
+                      bonus = f"x{mult} vitesse"
+              elif "%" in line and ("off" in low or "discount" in low):
+                  pm = re.search(r"(\d{1,2})%", line)
+                  if pm:
+                      bonus = f"-{pm.group(1)}%"
+              elif "free" in low or "complimentary" in low:
+                  bonus = "GRATUIT"
+
+              if not bonus:
+                  continue
+
+              activity_id = ""
+              heist_id = ""
+              for key, vals in activity_map.items():
+                  if key in low:
+                      activity_id, heist_id = vals
+                      break
+
+              item = {
+                  "title": line[:140],
+                  "bonus": bonus,
+                  "detail": "Avantage GTA+ détecté automatiquement depuis Rockstar Newswire.",
+                  "priority": bool(activity_id),
+                  "activityId": activity_id
+              }
+              if heist_id:
+                  item["heistId"] = heist_id
+              if mult and mult > 1:
+                  item["multiplier"] = mult
+              benefits.append(item)
+
+          # De-duplicate and require enough material before replacing current GTA+ data.
+          clean = []
+          seen_titles = set()
+          for b in benefits:
+              key = b["title"].lower()
+              if key in seen_titles:
+                  continue
+              seen_titles.add(key)
+              clean.append(b)
+          benefits = clean
+
+          if len(benefits) < 3:
+              print(f"Only {len(benefits)} GTA+ benefits parsed; keeping current feed unchanged.")
+              raise SystemExit(0)
+
+          # Best-effort date extraction; otherwise preserve current cycle dates.
+          months = {
+              "January":1,"February":2,"March":3,"April":4,"May":5,"June":6,
+              "July":7,"August":8,"September":9,"October":10,"November":11,"December":12
+          }
+          start = data.get("gtaPlusPeriodStart", "")
+          end = data.get("gtaPlusPeriodEnd", "")
+          dm = re.search(r"([A-Z][a-z]+) (\d{1,2}).*?([A-Z][a-z]+) (\d{1,2}), (20\d{2})", text, re.S)
+          if dm and dm.group(1) in months and dm.group(3) in months:
+              sm, sd, em, ed, yr = dm.groups()
+              start = f"{int(yr):04d}-{months[sm]:02d}-{int(sd):02d}"
+              end = f"{int(yr):04d}-{months[em]:02d}-{int(ed):02d}"
+
+          data["gtaPlus"] = benefits
+          data["gtaPlusPeriodStart"] = start
+          data["gtaPlusPeriodEnd"] = end
+          data["gtaPlusSourceUrl"] = article_url
+          data["gtaPlusUpdatedAt"] = datetime.now(timezone.utc).isoformat()
+
+          OUT.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+          print(f"Prepared {len(benefits)} GTA+ benefits from {article_url}")
+
+      - name: Commit refreshed GTA+ feed
+        run: |
+          git config user.name "GTA Timers GTA+ Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add gta-timers/events.json
+          if git diff --cached --quiet; then
+            echo "No GTA+ changes to publish."
+            exit 0
+          fi
+          git commit -m "gta+: auto-sync current benefits"
+          git push origin HEAD:gta-timers-updates
