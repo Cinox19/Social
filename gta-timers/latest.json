@@ -1,7 +1,7 @@
 {
-  "versionName": "0.14.39",
-  "versionCode": 103,
+  "versionName": "0.14.40",
+  "versionCode": 104,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "26bd257d78aea417504507f59752d2de14dcb242cf08297861b73e5501a67904",
-  "notes": "- Correction définitive de la miniature Kortz Center\n- Ressource image remplacée par un JPEG 256x256 propre issu de l’image originale\n- Conservation de la surveillance PS5 sans notification permanente lorsque GTA Timers est au premier plan"
+  "sha256": "ba90f3a8e2120df19c414ee45a75610eb9de743a7041e6067a0755da59614ee5",
+  "notes": "- Kortz Center : même correctif que Fleeca\n- Miniature reconstruite pendant le build depuis une source base64 Android-safe\n- Image originale conservée, vignette 96x96 optimisée pour l’affichage dans Braquages/Gains/Calendrier\n- Surveillance PS5 conservée sans notification permanente au premier plan"
 }
