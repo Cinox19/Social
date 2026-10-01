@@ -1,7 +1,7 @@
 {
-  "versionName": "0.14.38",
-  "versionCode": 102,
+  "versionName": "0.14.39",
+  "versionCode": 103,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "50f076f03e4201033b98bcd1f402aef12c82eb6773bdbb1c49b15e97c1b88c8e",
-  "notes": "- Suppression complète de la notification permanente Surveillance PS5\n- Ping PS5 conservé toutes les 10 secondes tant que GTA Timers est ouvert\n- Aucune notification si la PS5 répond correctement\n- Alerte uniquement après 3 échecs consécutifs et pause automatique\n- Miniature Kortz Center remplacée par l’image d’origine fournie"
+  "sha256": "26bd257d78aea417504507f59752d2de14dcb242cf08297861b73e5501a67904",
+  "notes": "- Correction définitive de la miniature Kortz Center\n- Ressource image remplacée par un JPEG 256x256 propre issu de l’image originale\n- Conservation de la surveillance PS5 sans notification permanente lorsque GTA Timers est au premier plan"
 }
