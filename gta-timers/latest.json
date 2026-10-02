@@ -1,7 +1,7 @@
 {
-  "versionName": "0.14.41",
-  "versionCode": 105,
+  "versionName": "0.14.43",
+  "versionCode": 107,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "cc9fa80c49c4c00a663a82dcbff6f8836d558087245b8179586c64519c227717",
-  "notes": "- Kortz Center : correction de la miniature avec la même méthode que Fleeca\n- Kortz utilise désormais directement sa vraie miniature JPG\n- La miniature Kortz est protégée contre le remplacement automatique pendant le build"
+  "sha256": "77fbfc1f2a39fd9b792a050c48aa6fc22c3911aa28b44c55284aaf5b49b21b20",
+  "notes": "- Correction des timers matières premières Acide/Bunker après redémarrage du téléphone\n- Les délais impossibles de plusieurs centaines d’heures sont réparés automatiquement\n- Le boost acide corrompu est nettoyé automatiquement\n- Les futurs redémarrages conservent des échéances cohérentes grâce au recalage de l’horloge monotone"
 }
