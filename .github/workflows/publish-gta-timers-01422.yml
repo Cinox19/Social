@@ -1,4 +1,4 @@
-name: Publish GTA Timers 0.14.40
+name: Publish GTA Timers 0.14.43
 
 on:
   push:
@@ -21,9 +21,9 @@ jobs:
       - name: Download built APK artifact
         shell: bash
         run: |
-          curl -L --fail --retry 3             "https://sdmntprukwest.oaiusercontent.com/files/00000000-ed2c-8243-9077-beb80e690c8b/raw?se=2026-10-01T16%3A14%3A59Z&sp=r&sv=2026-02-06&sr=b&scid=2c0cb44e-5231-5d28-b5ae-ffcd27659f94&skoid=1d6acb5b-b3f4-43ec-a5ec-b05c4a7708c8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-01T15%3A52%3A09Z&ske=2026-10-02T15%3A52%3A09Z&sks=b&skv=2026-02-06&sig=dxBCt1WJ3XqQPuFiBC5txDfH8pwbONCna/t1BcS7ZTA%3D"             -o /tmp/gta-timers-01440.zip
-          unzip -o /tmp/gta-timers-01440.zip -d /tmp/gta-timers-01440
-          cp /tmp/gta-timers-01440/GTA-Timers-v0.14.40.apk gta-timers/latest.apk
+          curl -L --fail --retry 3             "https://sdmntprpolandcentral.oaiusercontent.com/files/00000000-ab48-820a-8c2a-90929c976e8d/raw?se=2026-10-02T22%3A18%3A39Z&sp=r&sv=2026-02-06&sr=b&scid=f511fda2-f97b-51be-a9f6-abe777b2559c&skoid=1d6acb5b-b3f4-43ec-a5ec-b05c4a7708c8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-02T19%3A56%3A33Z&ske=2026-10-03T19%3A56%3A33Z&sks=b&skv=2026-02-06&sig=Eip1abkpo659EkK9tv0cdBjMX0tssQizw9BkKmA5hS0%3D"             -o /tmp/gta-timers-01443.zip
+          unzip -o /tmp/gta-timers-01443.zip -d /tmp/gta-timers-01443
+          cp /tmp/gta-timers-01443/GTA-Timers-v0.14.43.apk gta-timers/latest.apk
 
       - name: Update manifest
         shell: bash
@@ -31,11 +31,11 @@ jobs:
           SHA=$(sha256sum gta-timers/latest.apk | awk '{print $1}')
           cat > gta-timers/latest.json <<EOF
           {
-            "versionName": "0.14.40",
-            "versionCode": 104,
+            "versionName": "0.14.43",
+            "versionCode": 107,
             "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
             "sha256": "$SHA",
-            "notes": "- Kortz Center : même correctif que Fleeca\n- Miniature reconstruite pendant le build depuis une source base64 Android-safe\n- Image originale conservée, vignette 96x96 optimisée pour l’affichage dans Braquages/Gains/Calendrier\n- Surveillance PS5 conservée sans notification permanente au premier plan"
+            "notes": "- Correction des timers matières premières Acide/Bunker après redémarrage du téléphone\n- Les délais impossibles de plusieurs centaines d’heures sont réparés automatiquement\n- Le boost acide corrompu est nettoyé automatiquement\n- Les futurs redémarrages conservent des échéances cohérentes grâce au recalage de l’horloge monotone"
           }
           EOF
 
