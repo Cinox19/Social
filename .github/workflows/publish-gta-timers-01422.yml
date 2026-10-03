@@ -1,4 +1,4 @@
-name: Publish GTA Timers 0.14.43
+name: Publish GTA Timers 0.14.44
 
 on:
   push:
@@ -21,9 +21,9 @@ jobs:
       - name: Download built APK artifact
         shell: bash
         run: |
-          curl -L --fail --retry 3             "https://sdmntprpolandcentral.oaiusercontent.com/files/00000000-ab48-820a-8c2a-90929c976e8d/raw?se=2026-10-02T22%3A18%3A39Z&sp=r&sv=2026-02-06&sr=b&scid=f511fda2-f97b-51be-a9f6-abe777b2559c&skoid=1d6acb5b-b3f4-43ec-a5ec-b05c4a7708c8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-02T19%3A56%3A33Z&ske=2026-10-03T19%3A56%3A33Z&sks=b&skv=2026-02-06&sig=Eip1abkpo659EkK9tv0cdBjMX0tssQizw9BkKmA5hS0%3D"             -o /tmp/gta-timers-01443.zip
-          unzip -o /tmp/gta-timers-01443.zip -d /tmp/gta-timers-01443
-          cp /tmp/gta-timers-01443/GTA-Timers-v0.14.43.apk gta-timers/latest.apk
+          curl -L --fail --retry 3             "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-b748-8210-83f1-784fa7ecff62/raw?se=2026-10-03T07%3A05%3A01Z&sp=r&sv=2026-02-06&sr=b&scid=dcb5e8e5-180a-5f79-817b-f8773c8b985b&skoid=1d6acb5b-b3f4-43ec-a5ec-b05c4a7708c8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-02T19%3A56%3A39Z&ske=2026-10-03T19%3A56%3A39Z&sks=b&skv=2026-02-06&sig=1FVg/Cn9QxQ65QIN4f/7pzSpXA3xVY1l3v7DqUQeePU%3D"             -o /tmp/gta-timers-01444.zip
+          unzip -o /tmp/gta-timers-01444.zip -d /tmp/gta-timers-01444
+          cp /tmp/gta-timers-01444/GTA-Timers-v0.14.44.apk gta-timers/latest.apk
 
       - name: Update manifest
         shell: bash
@@ -31,11 +31,11 @@ jobs:
           SHA=$(sha256sum gta-timers/latest.apk | awk '{print $1}')
           cat > gta-timers/latest.json <<EOF
           {
-            "versionName": "0.14.43",
-            "versionCode": 107,
+            "versionName": "0.14.44",
+            "versionCode": 108,
             "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
             "sha256": "$SHA",
-            "notes": "- Correction des timers matières premières Acide/Bunker après redémarrage du téléphone\n- Les délais impossibles de plusieurs centaines d’heures sont réparés automatiquement\n- Le boost acide corrompu est nettoyé automatiquement\n- Les futurs redémarrages conservent des échéances cohérentes grâce au recalage de l’horloge monotone"
+            "notes": "- Synchronisation robuste Pause/Reprise entre le widget et l’application\n- Toute action depuis le widget publie immédiatement le nouvel état partagé\n- L’application se resynchronise automatiquement au retour au premier plan\n- La page courante est conservée après synchronisation\n- Le widget est aussi actualisé après une pause automatique PS5"
           }
           EOF
 
@@ -45,7 +45,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add gta-timers/latest.apk gta-timers/latest.json
-          git commit -m "publish: GTA Timers v0.14.40"
+          git commit -m "publish: GTA Timers v0.14.44"
           git push origin HEAD:gta-timers-updates
 
-# trigger publish 0.14.40
+# trigger publish 0.14.44
