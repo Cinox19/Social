@@ -1,7 +1,7 @@
 {
-  "versionName": "0.14.44",
-  "versionCode": 108,
+  "versionName": "0.14.45",
+  "versionCode": 109,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "3bddb28461ee503c380ee2463f5025a74e43c074b61d72f9d1b677ae61a5ff54",
-  "notes": "- Synchronisation robuste Pause/Reprise entre le widget et l’application\n- Toute action depuis le widget publie immédiatement le nouvel état partagé\n- L’application se resynchronise automatiquement au retour au premier plan\n- La page courante est conservée après synchronisation\n- Le widget est aussi actualisé après une pause automatique PS5"
+  "sha256": "3145c0fe9da7bc167515c52db8045db952110d141f626063d1c9770d9ef0eb80",
+  "notes": "- Page Activités : ajout Station de lavage Hands On et Bureau de caution\n- Activités et coffres associés ajoutés au catalogue\n- Le bouton Ajouter à l’accueil devient FAIT + montant ; l’ajout/retrait de l’Accueil se fait par appui long sur la carte\n- Les activités à gain variable demandent le montant réel au moment de valider\n- Le temps écoulé depuis la dernière livraison moto se fige correctement pendant la pause"
 }
