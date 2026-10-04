@@ -1,7 +1,7 @@
 {
-  "versionName": "0.14.46",
-  "versionCode": 110,
+  "versionName": "0.14.47",
+  "versionCode": 111,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "3b81301b1806bbec33b78a692c83b49ec5c23b0d294e190c8841082dd5d3aa54",
-  "notes": "- Page Activités : une étoile verte apparaît en haut à gauche des activités déjà ajoutées à l’Accueil\n- L’étoile se met à jour immédiatement après un appui long pour ajouter ou retirer l’activité"
+  "sha256": "1624794f1d2622f421842c1b162a7eccd06916c567a7396e4f28245f11908cfe",
+  "notes": "- Page Activités : les activités avec événement actif ont maintenant un style visuel spécial\n- Événements GTA Online : fond vert renforcé, accent lime et titre mis en valeur\n- GTA+ : fond bleu/cyan distinctif avec accent cyan\n- Les cartes sans événement gardent leur style habituel"
 }
