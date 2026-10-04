@@ -1,4 +1,4 @@
-name: Publish GTA Timers 0.14.46
+name: Publish GTA Timers 0.14.47
 
 on:
   push:
@@ -21,9 +21,9 @@ jobs:
       - name: Download built APK artifact
         shell: bash
         run: |
-          curl -L --fail --retry 3             "https://sdmntprnortheu.oaiusercontent.com/files/00000000-3b88-81f4-ba64-34855c9c2db2/raw?se=2026-10-04T08%3A40%3A21Z&sp=r&sv=2026-02-06&sr=b&scid=f87006bf-dd2d-536d-9732-2efc487eba2f&skoid=1d6acb5b-b3f4-43ec-a5ec-b05c4a7708c8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-03T17%3A56%3A49Z&ske=2026-10-04T17%3A56%3A49Z&sks=b&skv=2026-02-06&sig=rmngGN%2BHCKoatSXFrZMEsStlxv/YzWupIgBZTlgoW10%3D"             -o /tmp/gta-timers-01446.zip
-          unzip -o /tmp/gta-timers-01446.zip -d /tmp/gta-timers-01446
-          cp /tmp/gta-timers-01446/GTA-Timers-v0.14.46.apk gta-timers/latest.apk
+          curl -L --fail --retry 3             "https://sdmntprnortheu.oaiusercontent.com/files/00000000-61fc-81f4-aeaa-c01a6042f4f6/raw?se=2026-10-04T08%3A56%3A46Z&sp=r&sv=2026-02-06&sr=b&scid=3be6ef75-04cd-5153-9a65-6526beb2e5ac&skoid=1d6acb5b-b3f4-43ec-a5ec-b05c4a7708c8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-03T18%3A01%3A48Z&ske=2026-10-04T18%3A01%3A48Z&sks=b&skv=2026-02-06&sig=eQvd2GB0Jq6i9cJTas%2Bc624K385BRFDnhkFDLjguLDk%3D"             -o /tmp/gta-timers-01447.zip
+          unzip -o /tmp/gta-timers-01447.zip -d /tmp/gta-timers-01447
+          cp /tmp/gta-timers-01447/GTA-Timers-v0.14.47.apk gta-timers/latest.apk
 
       - name: Update manifest
         shell: bash
@@ -31,11 +31,11 @@ jobs:
           SHA=$(sha256sum gta-timers/latest.apk | awk '{print $1}')
           cat > gta-timers/latest.json <<EOF
           {
-            "versionName": "0.14.46",
-            "versionCode": 110,
+            "versionName": "0.14.47",
+            "versionCode": 111,
             "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
             "sha256": "$SHA",
-            "notes": "- Page Activités : une étoile verte apparaît en haut à gauche des activités déjà ajoutées à l’Accueil\n- L’étoile se met à jour immédiatement après un appui long pour ajouter ou retirer l’activité"
+            "notes": "- Page Activités : les activités avec événement actif ont maintenant un style visuel spécial\n- Événements GTA Online : fond vert renforcé, accent lime et titre mis en valeur\n- GTA+ : fond bleu/cyan distinctif avec accent cyan\n- Les cartes sans événement gardent leur style habituel"
           }
           EOF
 
@@ -45,7 +45,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add gta-timers/latest.apk gta-timers/latest.json
-          git commit -m "publish: GTA Timers v0.14.45"
+          git commit -m "publish: GTA Timers v0.14.47"
           git push origin HEAD:gta-timers-updates
 
-# trigger publish 0.14.45
+# trigger publish 0.14.47
