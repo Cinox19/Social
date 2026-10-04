@@ -1,7 +1,7 @@
 {
-  "versionName": "0.14.48",
-  "versionCode": 112,
+  "versionName": "0.14.49",
+  "versionCode": 113,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "7cde0d54d4e1009e35d85ad910ee016a4d4190c8428004bd511fc8ace2eafc7d",
-  "notes": "- Page Activités : les catégories affichent maintenant un badge avant ouverture lorsqu’une activité contient un événement ou un boost actif\n- Badges verts pour les bonus x2/x3 classiques\n- Badges bleus pour les avantages GTA+\n- Plusieurs boosts d’une même catégorie sont regroupés de façon compacte"
+  "sha256": "ff1560f014dbfa6b4301de6f3f2e9a715c13c40b5156cf9220d672ad23821001",
+  "notes": "- Correction définitive de la miniature Kortz Center\n- Même correctif que Fleeca : source utilisateur embarquée propre utilisée pendant le build\n- Suppression de l’ancienne source encodée qui écrasait l’image à chaque compilation"
 }
