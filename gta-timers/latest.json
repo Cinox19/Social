@@ -1,7 +1,7 @@
 {
-  "versionName": "0.14.47",
-  "versionCode": 111,
+  "versionName": "0.14.48",
+  "versionCode": 112,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "1624794f1d2622f421842c1b162a7eccd06916c567a7396e4f28245f11908cfe",
-  "notes": "- Page Activités : les activités avec événement actif ont maintenant un style visuel spécial\n- Événements GTA Online : fond vert renforcé, accent lime et titre mis en valeur\n- GTA+ : fond bleu/cyan distinctif avec accent cyan\n- Les cartes sans événement gardent leur style habituel"
+  "sha256": "7cde0d54d4e1009e35d85ad910ee016a4d4190c8428004bd511fc8ace2eafc7d",
+  "notes": "- Page Activités : les catégories affichent maintenant un badge avant ouverture lorsqu’une activité contient un événement ou un boost actif\n- Badges verts pour les bonus x2/x3 classiques\n- Badges bleus pour les avantages GTA+\n- Plusieurs boosts d’une même catégorie sont regroupés de façon compacte"
 }
