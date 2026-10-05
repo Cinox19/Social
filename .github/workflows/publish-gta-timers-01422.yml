@@ -1,4 +1,4 @@
-name: Publish GTA Timers 0.14.49
+name: Publish GTA Timers 0.14.50
 
 on:
   push:
@@ -21,9 +21,9 @@ jobs:
       - name: Download built APK artifact
         shell: bash
         run: |
-          curl -L --fail --retry 3             "https://sdmntprnortheu.oaiusercontent.com/files/00000000-e6d0-81f4-afd8-6d22063d7907/raw?se=2026-10-04T09%3A10%3A47Z&sp=r&sv=2026-02-06&sr=b&scid=fa185bfd-6f3b-5d56-821e-bec1657cf6e5&skoid=1d6acb5b-b3f4-43ec-a5ec-b05c4a7708c8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-04T08%3A52%3A36Z&ske=2026-10-05T08%3A52%3A36Z&sks=b&skv=2026-02-06&sig=Ik9GyX/Hb8RQ7dysYZGdlKXYHCZSnuKwqpqXEcjOvLk%3D"             -o /tmp/gta-timers-01449.zip
-          unzip -o /tmp/gta-timers-01449.zip -d /tmp/gta-timers-01449
-          cp /tmp/gta-timers-01449/GTA-Timers-v0.14.49.apk gta-timers/latest.apk
+          curl -L --fail --retry 3             "https://sdmntprdenmarkeast.oaiusercontent.com/files/00000000-8264-8210-9f05-22c184864fa5/raw?se=2026-10-05T15%3A15%3A14Z&sp=r&sv=2026-02-06&sr=b&scid=a06d3b1c-84ea-5385-91da-568c23ad4f48&skoid=1d6acb5b-b3f4-43ec-a5ec-b05c4a7708c8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-05T06%3A03%3A03Z&ske=2026-10-06T06%3A03%3A03Z&sks=b&skv=2026-02-06&sig=yhtMO4xEEaK5Qdsf1fkAJJT28qCqSAgtplZvgSbpkls%3D"             -o /tmp/gta-timers-01450.zip
+          unzip -o /tmp/gta-timers-01450.zip -d /tmp/gta-timers-01450
+          cp /tmp/gta-timers-01450/GTA-Timers-v0.14.50.apk gta-timers/latest.apk
 
       - name: Update manifest
         shell: bash
@@ -31,11 +31,11 @@ jobs:
           SHA=$(sha256sum gta-timers/latest.apk | awk '{print $1}')
           cat > gta-timers/latest.json <<EOF
           {
-            "versionName": "0.14.49",
-            "versionCode": 113,
+            "versionName": "0.14.50",
+            "versionCode": 114,
             "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
             "sha256": "$SHA",
-            "notes": "- Correction définitive de la miniature Kortz Center\n- Même correctif que Fleeca : source utilisateur embarquée propre utilisée pendant le build\n- Suppression de l’ancienne source encodée qui écrasait l’image à chaque compilation"
+            "notes": "- Ajout du braquage Oscar Guzman Flies Again\n- Chrono PRÉPARATION + FINALE comme les autres braquages\n- Ajout d’Oscar Guzman dans l’historique et les statistiques"
           }
           EOF
 
@@ -45,7 +45,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add gta-timers/latest.apk gta-timers/latest.json
-          git commit -m "publish: GTA Timers v0.14.49"
+          git commit -m "publish: GTA Timers v0.14.50"
           git push origin HEAD:gta-timers-updates
 
-# trigger publish 0.14.49
+# trigger publish 0.14.50
