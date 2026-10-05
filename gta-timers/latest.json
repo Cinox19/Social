@@ -1,7 +1,7 @@
 {
-  "versionName": "0.14.49",
-  "versionCode": 113,
+  "versionName": "0.14.50",
+  "versionCode": 114,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "ff1560f014dbfa6b4301de6f3f2e9a715c13c40b5156cf9220d672ad23821001",
-  "notes": "- Correction définitive de la miniature Kortz Center\n- Même correctif que Fleeca : source utilisateur embarquée propre utilisée pendant le build\n- Suppression de l’ancienne source encodée qui écrasait l’image à chaque compilation"
+  "sha256": "b94770ae91be47bc153396971a357a6061bd98264a91cd8ad1a2837395f63cc2",
+  "notes": "- Ajout du braquage Oscar Guzman Flies Again\n- Chrono PRÉPARATION + FINALE comme les autres braquages\n- Ajout d’Oscar Guzman dans l’historique et les statistiques"
 }
