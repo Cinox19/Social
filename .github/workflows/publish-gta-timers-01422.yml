@@ -1,10 +1,10 @@
-name: Publish GTA Timers 0.14.51
+name: Publish GTA Timers 0.14.53
 
 on:
   push:
     branches: [ "main" ]
     paths:
-      - ".github/workflows/publish-gta-timers-01422.yml"
+      - ".github/workflows/publish-gta-timers-01453.yml"
 
 permissions:
   contents: write
@@ -21,9 +21,9 @@ jobs:
       - name: Download built APK artifact
         shell: bash
         run: |
-          curl -L --fail --retry 3             "https://sdmntprnortheu.oaiusercontent.com/files/00000000-b0b8-81f4-9ed7-fcb99f69021b/raw?se=2026-10-05T17%3A46%3A25Z&sp=r&sv=2026-02-06&sr=b&scid=f91ff09c-d695-59e1-b95c-7721b67b2896&skoid=a63e6f05-dc2f-4fa5-b0e3-b1cb9c0893bb&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-05T17%3A00%3A56Z&ske=2026-10-06T17%3A00%3A56Z&sks=b&skv=2026-02-06&sig=EDyiVIa86dHMYjqgFQrOWGi1%2Bp1KXo0kUtssOIY%2B/tU%3D"             -o /tmp/gta-timers-01451.zip
-          unzip -o /tmp/gta-timers-01451.zip -d /tmp/gta-timers-01451
-          cp /tmp/gta-timers-01451/GTA-Timers-v0.14.51.apk gta-timers/latest.apk
+          curl -L --fail --retry 3             "https://sdmntprnortheu.oaiusercontent.com/files/00000000-8584-81f4-9483-9018146e7be7/raw?se=2026-10-07T11%3A01%3A15Z&sp=r&sv=2026-02-06&sr=b&scid=bccd30a3-b357-58ed-9fa1-90a53889bdcf&skoid=1d6acb5b-b3f4-43ec-a5ec-b05c4a7708c8&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-07T07%3A41%3A16Z&ske=2026-10-08T07%3A41%3A16Z&sks=b&skv=2026-02-06&sig=yJCLtGWontRTCG27fbLbABSEusdvbgke/zkO3tGO1Qk%3D"             -o /tmp/gta-timers-01453.zip
+          unzip -o /tmp/gta-timers-01453.zip -d /tmp/gta-timers-01453
+          cp /tmp/gta-timers-01453/GTA-Timers-v0.14.53.apk gta-timers/latest.apk
 
       - name: Update manifest
         shell: bash
@@ -31,11 +31,11 @@ jobs:
           SHA=$(sha256sum gta-timers/latest.apk | awk '{print $1}')
           cat > gta-timers/latest.json <<EOF
           {
-            "versionName": "0.14.51",
-            "versionCode": 115,
+            "versionName": "0.14.53",
+            "versionCode": 117,
             "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
             "sha256": "$SHA",
-            "notes": "- Correction du calcul BÉNÉFICE par entrepôt\n- Chaque réapprovisionnement est rattaché à l’entrepôt exact\n- Les réapprovisionnements groupés sont ventilés à 7 500 $ par entrepôt concerné"
+            "notes": "- Ajout du coffre Bureau de caution\n- Encaissement manuel avec saisie du montant\n- Le montant est ajouté automatiquement dans Gains"
           }
           EOF
 
@@ -45,7 +45,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add gta-timers/latest.apk gta-timers/latest.json
-          git commit -m "publish: GTA Timers v0.14.51"
+          git commit -m "publish: GTA Timers v0.14.53"
           git push origin HEAD:gta-timers-updates
 
-# trigger publish 0.14.51
+# trigger publish 0.14.53
