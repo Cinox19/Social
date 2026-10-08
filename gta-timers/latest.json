@@ -1,7 +1,7 @@
 {
-  "versionName": "0.14.51",
-  "versionCode": 115,
-  "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "d4247495dd1a686df2e8ffd1ef3f39ff829eae8f7d66d6dfbad7f238b74eda3e",
-  "notes": "- Correction du calcul BÉNÉFICE par entrepôt\n- Chaque réapprovisionnement est rattaché à l’entrepôt exact\n- Les réapprovisionnements groupés sont ventilés à 7 500 $ par entrepôt concerné"
+  "versionName": "0.14.54",
+  "versionCode": 118,
+  "apkUrl": "https://raw.githubusercontent.com/Cinox19/GTA-Timers/gta-timers-updates/gta-timers/latest.apk",
+  "sha256": "237304422cf77504c0aeb84521f935d09ed97b259df3d31180c8ca14cdfa59d0",
+  "notes": "- Synchronisation automatique des mises à jour corrigée\n- Correction de l'affichage des événements hebdomadaires\n- - Coffres : 100 000 $ préremplis et modifiables\n- - Labo d'acide : 527 740 $ proposé par défaut en vente publique"
 }
