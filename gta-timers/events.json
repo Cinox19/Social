@@ -1,124 +1,210 @@
 {
   "schemaVersion": 1,
-  "title": "Événements GTA Online • 2026-10-01 → 2026-10-07",
-  "periodStart": "2026-10-01",
-  "periodEnd": "2026-10-07",
-  "updatedAt": "2026-10-01T17:11:59.016216+00:00",
-  "sourceName": "GTABase • GTA Online Weekly Update",
-  "sourceUrl": "https://www.gtabase.com/gta-online/weekly-update-bonuses-discounts",
+  "title": "Événements GTA Online • 2026-10-08 → 2026-10-14",
+  "periodStart": "2026-10-08",
+  "periodEnd": "2026-10-14",
+  "updatedAt": "2026-10-08T12:05:00+00:00",
+  "sourceName": "RockstarINTEL • GTA Online Event Week (8–14 octobre 2026)",
+  "sourceUrl": "https://rockstarintel.com/gta-online-event-week-halloween-event-continues-october-8th-14th/",
   "global": [
     {
-      "title": "Slasher",
+      "title": "Slasher et Ramius – Slasher",
       "bonus": "x3 GTA$ & RP",
-      "detail": "Bonus hebdomadaire détecté automatiquement.",
+      "detail": "Séries adversaires Halloween.",
       "priority": true,
       "activityId": "",
       "multiplier": 3
     },
     {
-      "title": "Bail Office Bounties",
+      "title": "Survies Halloween",
+      "bonus": "x3 GTA$ & RP",
+      "detail": "Cimetière de Ludendorff, Cayo Perico Survival et Alien Survivals. GTA+ : x6.",
+      "priority": true,
+      "activityId": "",
+      "multiplier": 3
+    },
+    {
+      "title": "Hotring et courses Transformation aléatoires",
+      "bonus": "x3 GTA$ & RP",
+      "detail": "San Andreas Super Sport Series.",
+      "priority": true,
+      "activityId": "",
+      "multiplier": 3
+    },
+    {
+      "title": "Courses communautaires",
+      "bonus": "x3 GTA$ & RP",
+      "detail": "Community Race Series.",
+      "priority": true,
+      "activityId": "",
+      "multiplier": 3
+    },
+    {
+      "title": "Bureau des cautions : primes",
       "bonus": "x2 GTA$ & RP",
-      "detail": "Bonus hebdomadaire détecté automatiquement.",
+      "detail": "Cibles standard et les plus recherchées.",
       "priority": true,
       "activityId": "",
       "multiplier": 2
     },
     {
-      "title": "Dispatch Work",
+      "title": "Missions de police (Dispatch Work)",
       "bonus": "x2 GTA$ & RP",
-      "detail": "Bonus hebdomadaire détecté automatiquement.",
+      "detail": "Missions de Vincent.",
+      "priority": true,
+      "activityId": "",
+      "multiplier": 2
+    },
+    {
+      "title": "Dossier prioritaire FIB : The Black Box File",
+      "bonus": "x2 GTA$ & RP",
+      "detail": "Dossier prioritaire de la semaine.",
+      "priority": true,
+      "activityId": "",
+      "multiplier": 2
+    },
+    {
+      "title": "Business Battles OVNI",
+      "bonus": "x2 GTA$ & RP",
+      "detail": "Batailles commerciales OVNI.",
+      "priority": true,
+      "activityId": "",
+      "multiplier": 2
+    },
+    {
+      "title": "Citrouilles Jack O'Lantern",
+      "bonus": "x2 GTA$ & RP",
+      "detail": "Collectibles Halloween. GTA+ : x4.",
+      "priority": true,
+      "activityId": "",
+      "multiplier": 2
+    },
+    {
+      "title": "Ghosts Exposed",
+      "bonus": "x2 GTA$",
+      "detail": "Chasse aux fantômes. GTA+ : x4.",
       "priority": true,
       "activityId": "",
       "multiplier": 2
     }
   ],
-  "challenge": [],
+  "challenge": [
+    {
+      "title": "Défi hebdomadaire : gagner 2 modes adversaires",
+      "bonus": "+100 000 GTA$",
+      "detail": "Récompense supplémentaire : masque Pink Skull Emissive.",
+      "priority": true,
+      "activityId": ""
+    }
+  ],
   "rewards": [
     {
-      "title": "Security Contracts",
+      "title": "5 contrats de téléphone (Payphone Hits)",
       "bonus": "+500 000 GTA$",
-      "detail": "Terminer cinq contrats de sécurité pendant la période indiquée.",
+      "detail": "Terminer 5 Payphone Hits avant le 14 octobre ; crédit sous 72 h.",
       "priority": true,
-      "activityId": "security_contract",
-      "badgeLabel": "BONUS +500K • 5 contrats"
+      "activityId": ""
+    },
+    {
+      "title": "5 défis hebdomadaires d'Halloween",
+      "bonus": "+2 000 000 GTA$",
+      "detail": "Terminer tous les défis hebdomadaires jusqu'au 4 novembre ; crédit sous 72 h.",
+      "priority": true,
+      "activityId": ""
+    },
+    {
+      "title": "T-shirt Twilight Knife",
+      "bonus": "GRATUIT",
+      "detail": "Se connecter à GTA Online avant le 14 octobre.",
+      "priority": true,
+      "activityId": ""
+    },
+    {
+      "title": "Braquage du Kortz Center",
+      "bonus": "+400 000 GTA$",
+      "detail": "Bonus si le braquage est terminé sans mourir ; nouvelles cibles principales et bonus de première complétion réinitialisé.",
+      "priority": true,
+      "activityId": "kortz_center"
     }
   ],
-  "discounts": [],
+  "discounts": [
+    {
+      "title": "Agences et améliorations",
+      "bonus": "-40%",
+      "detail": "Réduction sur les agences, améliorations et modifications.",
+      "priority": true,
+      "activityId": ""
+    },
+    {
+      "title": "Benefactor Terrorbyte",
+      "bonus": "-30%",
+      "detail": "Réduction de la semaine.",
+      "priority": true,
+      "activityId": ""
+    },
+    {
+      "title": "Véhicules Halloween",
+      "bonus": "-40%",
+      "detail": "Albany Brigham, Fränken Stange, Lurcher, Tornado Rat Rod et LCC Sanctus.",
+      "priority": true,
+      "activityId": ""
+    },
+    {
+      "title": "Autres véhicules sélectionnés",
+      "bonus": "-30%",
+      "detail": "Annis Remus, BF Club, Greenwood, Jester RR, ETR1, Itali GTO, Hotring Everon, Tempesta et SC1.",
+      "priority": true,
+      "activityId": ""
+    }
+  ],
   "gtaPlus": [
     {
-      "title": "Pegassi Horus",
+      "title": "Survies Halloween",
+      "bonus": "x6 GTA$ & RP",
+      "detail": "Bonus réservé aux abonnés GTA+ sur les survies Halloween.",
+      "priority": true,
+      "activityId": "",
+      "multiplier": 6
+    },
+    {
+      "title": "Citrouilles Jack O'Lantern",
+      "bonus": "x4 GTA$ & RP",
+      "detail": "Bonus GTA+ pour la collecte.",
+      "priority": true,
+      "activityId": "",
+      "multiplier": 4
+    },
+    {
+      "title": "Ghosts Exposed",
+      "bonus": "x4 GTA$",
+      "detail": "Bonus GTA+ sur la chasse aux fantômes.",
+      "priority": true,
+      "activityId": "",
+      "multiplier": 4
+    },
+    {
+      "title": "Pegassi Oppressor • livrée Skulls",
       "bonus": "GRATUITE",
-      "detail": "À récupérer au Vinewood Car Club avec la livrée exclusive Velvet Iris. L'accès anticipé d'une semaine est terminé, mais l'avantage GTA+ du véhicule appartient au cycle actuel.",
+      "detail": "Moto à récupérer au Vinewood Car Club pendant le cycle GTA+.",
       "priority": true,
       "activityId": ""
     },
     {
-      "title": "Raid de l'usine Cluckin' Bell • finale",
-      "bonus": "x2 GTA$",
-      "detail": "Le premier achèvement hebdomadaire de la finale Scene of the Crime rapporte des GTA$ doublés jusqu'au 7 octobre.",
+      "title": "Tour de roue du casino",
+      "bonus": "2 tours / 24 h",
+      "detail": "Avantage GTA+ en vigueur.",
       "priority": true,
-      "activityId": "cluckin_bell",
-      "heistId": "vincent",
-      "badgeLabel": "★ GTA+ x2 • 1re finale hebdo",
-      "condition": {
-        "type": "first_completion_per_event_week",
-        "count": 1,
-        "reset": "thursday_07:00"
-      },
-      "multiplier": 2
-    },
-    {
-      "title": "Service de motos du QG MC",
-      "bonus": "x3 GTA$ & RP",
-      "detail": "Les missions de révision/livraison de motos depuis l'atelier du QG de motards rapportent le triple.",
-      "priority": true,
-      "activityId": "moto",
-      "multiplier": 3
-    },
-    {
-      "title": "Production de cocaïne",
-      "bonus": "x2 vitesse",
-      "detail": "La production des laboratoires de cocaïne est deux fois plus rapide pour les abonnés GTA+.",
-      "priority": true,
-      "activityId": "cocaine"
-    },
-    {
-      "title": "Business de motards + améliorations",
-      "bonus": "-60%",
-      "detail": "Réduction de 60 % sur les lieux de production de motards, leurs améliorations et modifications.",
-      "priority": false,
       "activityId": ""
     },
     {
-      "title": "Motos Nagasaki",
-      "bonus": "-50%",
-      "detail": "50 % de réduction sur les Nagasaki Shinobi, Shotaro, Stryder, Chimera et BF400.",
-      "priority": false,
-      "activityId": ""
-    },
-    {
-      "title": "Peintures Caméléon Cyan/Rouge",
-      "bonus": "GRATUITES",
-      "detail": "Peinture de carrosserie Cyan/Red Flip et peinture de jantes assortie gratuites dans les ateliers compatibles.",
-      "priority": false,
-      "activityId": ""
-    },
-    {
-      "title": "Tenue Bigness Patchwork",
-      "bonus": "GRATUITE",
-      "detail": "Chemise Bigness Patchwork Revere Collar et jean Bigness Patchwork ajoutés gratuitement à la garde-robe des membres.",
-      "priority": false,
-      "activityId": ""
-    },
-    {
-      "title": "Allocation mensuelle GTA+",
+      "title": "Allocation GTA+ mensuelle",
       "bonus": "+500 000 GTA$",
-      "detail": "Versement mensuel automatique sur Maze Bank lors de la facturation GTA+.",
-      "priority": false,
+      "detail": "Versée à chaque renouvellement de l'abonnement.",
+      "priority": true,
       "activityId": ""
     }
   ],
-  "gtaPlusPeriodStart": "2026-09-10",
-  "gtaPlusPeriodEnd": "2026-10-07",
-  "gtaPlusSourceUrl": "https://www.rockstargames.com/newswire/article/75935kk3574223/gta-members-enjoy-one-week-of-early-access-to-the-new-pegassi-horus-su"
+  "gtaPlusPeriodStart": "2026-10-08",
+  "gtaPlusPeriodEnd": "2026-11-04",
+  "gtaPlusSourceUrl": "https://rockstarintel.com/gta-online-event-week-halloween-event-continues-october-8th-14th/"
 }
