@@ -1,7 +1,7 @@
 {
-  "versionName": "0.14.54",
-  "versionCode": 118,
-  "apkUrl": "https://raw.githubusercontent.com/Cinox19/GTA-Timers/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "237304422cf77504c0aeb84521f935d09ed97b259df3d31180c8ca14cdfa59d0",
-  "notes": "- Synchronisation automatique des mises à jour corrigée\n- Correction de l'affichage des événements hebdomadaires\n- - Coffres : 100 000 $ préremplis et modifiables\n- - Labo d'acide : 527 740 $ proposé par défaut en vente publique"
+  "versionName": "0.14.56",
+  "versionCode": 120,
+  "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
+  "sha256": "53c0f78f326b8bdde21c1e6ba8974808b44cbc6737d2dc22e3a65b5a32f62d56",
+  "notes": "- Mise à jour GTA Timers"
 }
