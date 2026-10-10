@@ -1,7 +1,7 @@
 {
-  "versionName": "0.14.72",
-  "versionCode": 136,
+  "versionName": "0.14.73",
+  "versionCode": 137,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "ddcb2542686ebf47cf2a1dc494da3ca44499908b9003076ad7fe057a5ffd8dc4",
-  "notes": "- Mise à jour GTA Timers"
+  "sha256": "ae1e0d964056c4fe3adff64aa49861a6b40ee3ac1e46f8cf70e41ee8c2da9571",
+  "notes": "- Boutons − et + du Fret aérien désormais bien visibles et centrés\n- Symboles blancs plus lisibles avec contours renforcés\n- Disposition compacte des cartes et cercles conservée\n- Détail des nouveautés affiché dans la fenêtre de mise à jour"
 }
