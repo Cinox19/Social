@@ -1,7 +1,7 @@
 {
-  "versionName": "0.14.75",
-  "versionCode": 139,
+  "versionName": "0.14.76",
+  "versionCode": 140,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "c5cfa98d663252d09c5ab08eec935e9f6cb0682c00ea8b733acd9f0678f392ac",
-  "notes": "- Nouveaux visuels de caisses plus nets pour les 8 catégories du Fret aérien\n- Cercles de stock plus petits avec intérieur opaque\n- Boutons − et + redimensionnés pour correspondre au mockup\n- Nombre de caisses en vert et /50 en blanc"
+  "sha256": "48c4d66f56fca7e5faa9000db6915d9a4969279b43f20ddfb5c1d714b5c2014f",
+  "notes": "- Fret aérien : caisses davantage visibles comme sur le mockup\n- Cercles de stock réduits et descendus pour moins masquer les visuels\n- Images redimensionnées pour afficher une plus grande partie des caisses et de leurs logos\n- Boutons − et + plus compacts et horizontaux"
 }
