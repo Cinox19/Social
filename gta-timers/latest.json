@@ -2,6 +2,6 @@
   "versionName": "0.14.80",
   "versionCode": 144,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "be8fd413a866ff370b8fb4d81b20a78722e6beebd845a7296091a1c0913d7ad8",
+  "sha256": "6f7bf79437e7a9d6bb84a35dcceb0166ad727462558ca0a58c894de0d6a8c8d0",
   "notes": "- Fret aérien : nouvelle Vue d’ensemble inspirée de Free Trade Shipping Co.\n- Ajout du stock total, espace utilisé et espace disponible\n- Ajout du temps moyen d’approvisionnement par caisse, gain moyen par heure et gains totaux\n- Possibilité d’initialiser les gains GTA existants\n- Cercles de stock agrandis à 51 dp pour mieux afficher 50/50\n- Nettoyage de la zone de vente et conservation de la remise à zéro automatique après vente"
 }
