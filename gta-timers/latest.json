@@ -1,7 +1,7 @@
 {
-  "versionName": "0.14.85",
-  "versionCode": 149,
+  "versionName": "0.14.86",
+  "versionCode": 150,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "80298861405bf82845c6af43da3f49133ccf7ce3475df570ef0aa6a77e7036b3",
-  "notes": "- Fret aérien : primes par catégorie disponibles dans S'approvisionner et Vendre\n- Fret aérien : bonus Higgins Helitours +10 % disponible dans les deux onglets\n- Fret aérien : bonus forte demande +50 % disponible dans les deux onglets\n- Options de bonus synchronisées entre les onglets"
+  "sha256": "7ff170c339c628a54f8e74c184dcd098dfe00d8d684d8029206a86f1682b1634",
+  "notes": "- Fret aérien : nouvelle bannière Free Trade Shipping Co. fournie sur GitHub\n- Nouvelle image utilisée sur l'accueil et dans l'en-tête fixe du hangar\n- Bonus des onglets S'approvisionner et Vendre conservés"
 }
