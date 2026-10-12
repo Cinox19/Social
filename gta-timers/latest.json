@@ -1,7 +1,7 @@
 {
-  "versionName": "0.14.87",
-  "versionCode": 151,
+  "versionName": "0.14.88",
+  "versionCode": 152,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "169172227182b2a528b48890dca0099c41cdea6f09259fb809f75774dc0f02db",
-  "notes": "- Fret aérien : bannière corrigée fournie sur GitHub\n- Nouvelle bannière appliquée à l'accueil et à l'en-tête fixe du hangar"
+  "sha256": "4a9ea47171ed92fa806f8b31c39d6c22f29210cbf644e6a383411f1375002aa1",
+  "notes": "- Bénéfice coffre de boîte de nuit : déduction des changements de DJ enregistrés avant l'encaissement\n- Usine de vêtements : ajout des dossiers FIB Beaux-arts, Boîte noire et Évasion\n- Activités : correction des badges hebdomadaires GTA Online et suppression du faux x3 Agence\n- GTA+ : bonus x6 des survies Halloween prioritaire sur le x3 standard\n- Braquages : Cayo Perico, Cluckin' Bell, Diamond Casino et Kortz Center en premier; Sortie de prison et Capital de départ en dernier"
 }
