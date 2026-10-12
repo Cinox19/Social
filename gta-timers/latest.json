@@ -1,7 +1,7 @@
 {
-  "versionName": "0.14.88",
-  "versionCode": 152,
+  "versionName": "0.14.90",
+  "versionCode": 154,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "891903ce8f7c4d34a18011010c47f5eafdf2c78dc9ac8a51d97995885ed6da1c",
-  "notes": "- Bénéfice coffre de boîte de nuit : déduction des changements de DJ enregistrés avant l'encaissement\n- Usine de vêtements : ajout des dossiers FIB Beaux-arts, Boîte noire et Évasion\n- Activités : correction des badges hebdomadaires GTA Online et suppression du faux x3 Agence\n- GTA+ : bonus x6 des survies Halloween prioritaire sur le x3 standard\n- Braquages : Cayo Perico, Cluckin' Bell, Diamond Casino et Kortz Center en premier; Sortie de prison et Capital de départ en dernier"
+  "sha256": "07e4f545f34bef7e67535529ed97eed64f65345cc43bd531ef8cd1b048e974ec",
+  "notes": "- Boîte de nuit : popularité progressive de -1 % toutes les 9 min 36 s au lieu de -5 % subitement\n- Coffre : dépôt toujours toutes les 48 minutes, sans dégradation supplémentaire\n- Protection contre les doubles déductions de popularité et migration sans baisse soudaine"
 }
