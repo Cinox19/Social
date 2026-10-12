@@ -3,40 +3,72 @@
   "title": "Événements GTA Online • 2026-10-08 → 2026-10-14",
   "periodStart": "2026-10-08",
   "periodEnd": "2026-10-14",
-  "updatedAt": "2026-10-08T19:54:35.423454+00:00",
+  "updatedAt": "2026-10-12T11:00:00+00:00",
   "sourceName": "GTABase • GTA Online Weekly Update",
   "sourceUrl": "https://www.gtabase.com/gta-online/weekly-update-bonuses-discounts",
   "global": [
     {
-      "title": "Hotring Circuit / San Andreas Super Sport Series",
+      "title": "San Andreas Super Sport Series / Hotring",
       "bonus": "x3 GTA$ & RP",
-      "detail": "Bonus hebdomadaire détecté automatiquement.",
+      "detail": "Bonus du 8 au 14 octobre 2026",
       "priority": true,
-      "activityId": "dre_contract",
+      "activityId": "hotring_race",
       "multiplier": 3
     },
     {
-      "title": "The Black Box File",
-      "bonus": "x2 GTA$ & RP",
-      "detail": "Bonus hebdomadaire détecté automatiquement.",
+      "title": "Community Race Series",
+      "bonus": "x3 GTA$ & RP",
+      "detail": "Bonus du 8 au 14 octobre 2026",
       "priority": true,
-      "activityId": "",
+      "activityId": "community_race",
+      "multiplier": 3
+    },
+    {
+      "title": "Halloween Survivals",
+      "bonus": "x3 GTA$ & RP",
+      "detail": "Bonus du 8 au 14 octobre 2026",
+      "priority": true,
+      "activityId": "halloween_survival",
+      "multiplier": 3
+    },
+    {
+      "title": "Slasher / Ramius Slasher",
+      "bonus": "x3 GTA$ & RP",
+      "detail": "Série Halloween à l'honneur",
+      "priority": true,
+      "activityId": "slasher_mode",
+      "multiplier": 3
+    },
+    {
+      "title": "Bail Office Standard Targets",
+      "bonus": "x2 GTA$ & RP",
+      "detail": "Bonus du mois d'octobre 2026",
+      "priority": true,
+      "activityId": "bail_standard",
       "multiplier": 2
     },
     {
-      "title": "Bail Office Bounties",
+      "title": "Bail Office Most Wanted Targets",
       "bonus": "x2 GTA$ & RP",
-      "detail": "Bonus hebdomadaire détecté automatiquement.",
+      "detail": "Bonus du mois d'octobre 2026",
       "priority": true,
-      "activityId": "",
+      "activityId": "bail_most_wanted",
       "multiplier": 2
     },
     {
       "title": "Dispatch Work",
       "bonus": "x2 GTA$ & RP",
-      "detail": "Bonus hebdomadaire détecté automatiquement.",
+      "detail": "Bonus du mois d'octobre 2026",
       "priority": true,
-      "activityId": "",
+      "activityId": "dispatch_work",
+      "multiplier": 2
+    },
+    {
+      "title": "The Black Box File",
+      "bonus": "x2 GTA$ & RP",
+      "detail": "Dossier FIB de l'usine de vêtements",
+      "priority": true,
+      "activityId": "garment_black_box",
       "multiplier": 2
     }
   ],
@@ -49,7 +81,7 @@
       "bonus": "x6 GTA$ & RP",
       "detail": "Bonus réservé aux abonnés GTA+ sur les survies Halloween.",
       "priority": true,
-      "activityId": "",
+      "activityId": "halloween_survival",
       "multiplier": 6
     },
     {
