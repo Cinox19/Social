@@ -1,7 +1,7 @@
 {
-  "versionName": "0.14.92",
-  "versionCode": 156,
+  "versionName": "0.14.93",
+  "versionCode": 157,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "8a7ac99057e86a5a899b3898a27e1184c265e2c3f829d1b0110d0089dc609c87",
-  "notes": "- Accueil : répartition en Activités, Coffres et Business avec gestion séparée\n- Gestion : miniatures illustrées et sélecteurs ronds indépendants\n- Coffres : boîte de nuit et casse regroupées; sous-sols de boîte de nuit déplacés dans Business\n- Business : bunker, labo d'acide et stocks du sous-sol affichables ou masquables\n- Casse : barres de popularité, coffre et deux emplacements de démontage; appui long pour ajuster le coffre\n- Entrepôts PDG : visuel inchangé, détails à traiter ultérieurement"
+  "sha256": "304ad223ecafdb35e970c2d00933c566ff78743a35be8f3d4797425519235738",
+  "notes": "- Casse : refonte inspirée de la boîte de nuit, popularité et coffre mis en avant, barres et remorquage simplifié\n- Coffres manuels : cartes plus compactes et dernier encaissement repris comme montant proposé\n- Gérer : retour aux interrupteurs compacts et pictogrammes adaptés plutôt qu'une même miniature répétée"
 }
