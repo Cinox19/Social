@@ -2,6 +2,6 @@
   "versionName": "0.14.91",
   "versionCode": 155,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "cece7e1e58ba489771e199597d7799b30fab495af0f0f61e0cfa051fb588151c",
+  "sha256": "7037ca786b5b4532b661a991bd9128bc19432145584604e402f6603824dedbdd",
   "notes": "- Casse : popularité -25 % toutes les 96 min, remorquage terminé +25 %\n- Casse : coffre estimatif ajustable manuellement, plafond 250 000 GTA$\n- Casse : 2 places de démontage, compteurs de 48/96 min selon amélioration du personnel\n- Casse : 2 min entre deux remorquages et prochain départ calculé\n- Casse : vue détaillée ou compacte, affichage via Gérer, ligne Timers avec notification configurable\n- Casse : gains de démontage saisis séparément du coffre"
 }
