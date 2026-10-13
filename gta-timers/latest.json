@@ -1,7 +1,7 @@
 {
-  "versionName": "0.14.91",
-  "versionCode": 155,
+  "versionName": "0.14.92",
+  "versionCode": 156,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "7037ca786b5b4532b661a991bd9128bc19432145584604e402f6603824dedbdd",
-  "notes": "- Casse : popularité -25 % toutes les 96 min, remorquage terminé +25 %\n- Casse : coffre estimatif ajustable manuellement, plafond 250 000 GTA$\n- Casse : 2 places de démontage, compteurs de 48/96 min selon amélioration du personnel\n- Casse : 2 min entre deux remorquages et prochain départ calculé\n- Casse : vue détaillée ou compacte, affichage via Gérer, ligne Timers avec notification configurable\n- Casse : gains de démontage saisis séparément du coffre"
+  "sha256": "62e63059c84d6c351ec23e54a194474f212f414f3fbe392b0729016106ead2f9",
+  "notes": "- Accueil : répartition en Activités, Coffres et Business avec gestion séparée\n- Gestion : miniatures illustrées et sélecteurs ronds indépendants\n- Coffres : boîte de nuit et casse regroupées; sous-sols de boîte de nuit déplacés dans Business\n- Business : bunker, labo d'acide et stocks du sous-sol affichables ou masquables\n- Casse : barres de popularité, coffre et deux emplacements de démontage; appui long pour ajuster le coffre\n- Entrepôts PDG : visuel inchangé, détails à traiter ultérieurement"
 }
