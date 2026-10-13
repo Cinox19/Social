@@ -1,7 +1,7 @@
 {
-  "versionName": "0.14.94",
-  "versionCode": 158,
+  "versionName": "0.14.95",
+  "versionCode": 159,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "7cff8eaa3621b4ef10a1a67a38bc9c3009f95f1097ad84d0cfc21e0167304dd5",
-  "notes": "- Casse : 2 cases véhicule cliquables, +25 % de popularité et 48 min de démontage sans cooldown supplémentaire\n- Casse : personnel toujours amélioré, boutons démarrer et personnel supprimés, popularité ajustable par appui long\n- Coffres manuels : deux petites cartes par rangée\n- Timers : casse graphique avec popularité, revenu et places disponibles\n- Timers : fret aérien avec cercle de caisses /50 et décompte de 3 min après ajout de caisses"
+  "sha256": "d0b7676506504abe55ee69bafb12dee35b9dff658fe27e2da5546a65413893dc",
+  "notes": "- Casse : la vue compacte affiche le montant actuel réel du coffre, actualisé automatiquement\n- Casse : bouton ENCAISSER directement dans la vue compacte\n- Casse : montant synchronisé au retour de la vue détaillée et après encaissement"
 }
