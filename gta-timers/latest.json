@@ -2,6 +2,6 @@
   "versionName": "0.14.90",
   "versionCode": 154,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "d59133fa1e2680892aab8955ee85b4234184aa6ecdcd1e9fbdc4a5ce885352bc",
+  "sha256": "6c016f7e737905816f2355d3c5f53351c803d600e2c73893f60b5efb0f0d8825",
   "notes": "- Boîte de nuit : popularité progressive de -1 % toutes les 9 min 36 s au lieu de -5 % subitement\n- Coffre : dépôt toujours toutes les 48 minutes, sans dégradation supplémentaire\n- Protection contre les doubles déductions de popularité et migration sans baisse soudaine"
 }
