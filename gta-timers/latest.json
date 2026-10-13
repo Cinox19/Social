@@ -1,7 +1,7 @@
 {
-  "versionName": "0.14.90",
-  "versionCode": 154,
+  "versionName": "0.14.91",
+  "versionCode": 155,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "6c016f7e737905816f2355d3c5f53351c803d600e2c73893f60b5efb0f0d8825",
-  "notes": "- Boîte de nuit : popularité progressive de -1 % toutes les 9 min 36 s au lieu de -5 % subitement\n- Coffre : dépôt toujours toutes les 48 minutes, sans dégradation supplémentaire\n- Protection contre les doubles déductions de popularité et migration sans baisse soudaine"
+  "sha256": "cece7e1e58ba489771e199597d7799b30fab495af0f0f61e0cfa051fb588151c",
+  "notes": "- Casse : popularité -25 % toutes les 96 min, remorquage terminé +25 %\n- Casse : coffre estimatif ajustable manuellement, plafond 250 000 GTA$\n- Casse : 2 places de démontage, compteurs de 48/96 min selon amélioration du personnel\n- Casse : 2 min entre deux remorquages et prochain départ calculé\n- Casse : vue détaillée ou compacte, affichage via Gérer, ligne Timers avec notification configurable\n- Casse : gains de démontage saisis séparément du coffre"
 }
