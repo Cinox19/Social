@@ -2,6 +2,6 @@
   "versionName": "0.14.95",
   "versionCode": 159,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "d0b7676506504abe55ee69bafb12dee35b9dff658fe27e2da5546a65413893dc",
+  "sha256": "987b3d976bf235b4379bd9e225793c5fde79d5dc4dec5e7d8268fa4d3edabfd1",
   "notes": "- Casse : la vue compacte affiche le montant actuel réel du coffre, actualisé automatiquement\n- Casse : bouton ENCAISSER directement dans la vue compacte\n- Casse : montant synchronisé au retour de la vue détaillée et après encaissement"
 }
