@@ -1,7 +1,7 @@
 {
-  "versionName": "0.14.96",
-  "versionCode": 160,
+  "versionName": "0.14.97",
+  "versionCode": 161,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "c38c2a9d1571cf9968b3f65ea2df3ea46ac2deaaa6d88639fc7b3deef9d7b5db",
-  "notes": "- Timers : pictogrammes pour casse et fret aérien, cooldown fret aérien 4 minutes\n- Timers : bouton Gérer pour afficher et masquer les cartes, suppression de Livraison moto remet le compteur à zéro\n- Station de lavage : jauge de suspicion ajustable, progression verte à rouge et alerte au seuil de 90 %\n- Gains et historique : pictogrammes visibles pour les coffres et Kortz Center"
+  "sha256": "67fd3d37852d8d3724efd9f0c384409b3cd66d8fa5adb493f1533d5149b77e81",
+  "notes": "- Gains : icônes des coffres et de Kortz Center restaurées\n- Timers : miniature pour la Roue du Casino, bouton Gérer vert en haut à droite\n- Station de lavage : suspicion estimée par paliers de 48 minutes (+8/+9/+10 % selon commerces), réglage manuel et alerte à 90 %\n- La progression de suspicion est indicative : recaler si le coffre est plein ou hors jeu"
 }
