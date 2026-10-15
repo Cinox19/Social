@@ -64,11 +64,11 @@
       "multiplier": 2
     },
     {
-      "title": "The Black Box File",
-      "bonus": "x2 GTA$ & RP",
-      "detail": "Dossier FIB de l'usine de vêtements",
+      "title": "The Brute Force File",
+      "bonus": "x2 GTA$",
+      "detail": "Dossier FIB prioritaire de la semaine.",
       "priority": true,
-      "activityId": "garment_black_box",
+      "activityId": "",
       "multiplier": 2
     }
   ],
