@@ -1,7 +1,7 @@
 {
-  "versionName": "0.14.99",
-  "versionCode": 163,
+  "versionName": "0.15.00",
+  "versionCode": 164,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "5067ab7f0bed086752ffbf943a181ec13574c45ec1b7ce5dd98dee426ed9bedb",
-  "notes": "- Casse : pause et reprise corrigées, le temps hors jeu ne dégrade plus la popularité\n- Casse : alerte suspendue lorsque les timers sont en pause\n- Casse : popularité +25 % par remorquage et -10 % par 96 minutes actives"
+  "sha256": "f38a1a1eb07ca89f9ea92331e42bd5282ab32abf1b6bc908a45433da551fa8b7",
+  "notes": "- Historique des gains : suppression des barres grises du dialogue\n- Nouvel en-tête sombre avec titre et fermeture rapide\n- Bouton Fermer vert intégré au bas de la fenêtre\n- Calendrier, filtres, montants et opérations inchangés"
 }
