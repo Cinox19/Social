@@ -1,7 +1,7 @@
 {
-  "versionName": "0.15.00",
-  "versionCode": 164,
+  "versionName": "0.15.01",
+  "versionCode": 165,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "a2873df7be53f81f0a2af0a23d2c4eb04b65c23fa89a524ee015d2e5b3db87c9",
-  "notes": "- Historique des gains : suppression des barres grises du dialogue\n- Nouvel en-tête sombre avec titre et fermeture rapide\n- Bouton Fermer vert intégré au bas de la fenêtre\n- Calendrier, filtres, montants et opérations inchangés"
+  "sha256": "b5cb83defbfa99c00b6c07f9a51441c35f6656dc01a34c5a3c5ccd6c121fc2bb",
+  "notes": "- Tous les menus Gérer : fenêtre sombre arrondie sans barres Android grises\n- Gérer Timers, Activités, Coffres et Business : présentation homogène\n- Checkbox et sélections dans des lignes modernes, croix de fermeture\n- Boutons Annuler et Enregistrer redessinés avec validation conservée"
 }
