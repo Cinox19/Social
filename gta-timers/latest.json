@@ -1,7 +1,7 @@
 {
-  "versionName": "0.15.04",
-  "versionCode": 168,
+  "versionName": "0.15.05",
+  "versionCode": 169,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "01c0e8a10c1d5c453e15e35cf998dbd67df0e360a0e0919dd2c737dfd224dcd8",
-  "notes": "- Braquages : appui long sur la carte pour modifier Prépa et Finale\n- Réglage tactile rapide par boutons -10, -1, +1 et +10 minutes, sans clavier\n- Les temps ajustés restent enregistrés et les chronos en cours continuent depuis la valeur corrigée"
+  "sha256": "73317251f7d0c3bdc1ef0fd79bf37edd7a7ee556acbcdb9a917f11e4729e4725",
+  "notes": "- Braquages : curseurs tactiles Prépa et Finale à la place des boutons\n- Glisser de -2 heures à +2 heures, pas d'une minute et aperçu instantané\n- Appui long sur la carte : ajustement sans clavier"
 }
