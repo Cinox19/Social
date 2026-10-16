@@ -1,7 +1,7 @@
 {
-  "versionName": "0.15.02",
-  "versionCode": 166,
+  "versionName": "0.15.03",
+  "versionCode": 167,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "b9027b6bd4df86939b1d8e19af0af795b0294baecaa67d0d3efb518c508285a6",
-  "notes": "- Braquages : la finale n'est verrouillée qu'après confirmation effective du gain\n- Annuler ou fermer la saisie du gain laisse la finale validable\n- Pause/Reprise des prépas et finales conservés ; stages bloqués uniquement après enregistrement\n- Protection contre les doubles enregistrements de finale\n- Pause globale : les chronos des braquages restent figés, puis reprennent sans comptabiliser le temps hors jeu"
+  "sha256": "f2d1738ac524eccd99f4cd3765c538c208b9cefa47fd483623fc1abf54653962",
+  "notes": "- Contrat VIP Dr. Dre déplacé dans Braquages, juste après Oscar Guzman\n- Dr. Dre : chronos Prépa et Finale, pause/reprise et validation des gains comme les autres braquages\n- Dr. Dre intégré à l'historique et aux statistiques des braquages\n- Ancienne activité Dr. Dre retirée du catalogue Activités pour éviter les doublons"
 }
