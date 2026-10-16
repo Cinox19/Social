@@ -1,7 +1,7 @@
 {
-  "versionName": "0.15.06",
-  "versionCode": 170,
+  "versionName": "0.15.07",
+  "versionCode": 171,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "c7028aaf5afd4bb21fd9adb29a3f4db79cbc3a45e91871918d8dff2e53cb74dd",
-  "notes": "- Cinq nouvelles images pour Cayo Perico, Cluckin' Bell, Dr. Dre, Kortz Center et Oscar Guzman\n- Miniatures synchronisées dans Braquages et les listes de gains/historique\n- Renommage des fichiers d'images pour compatibilité Android"
+  "sha256": "953b78c63ecaaa8c072f63f1a31e4a32613605fd882be6167e81eff97c38c2c5",
+  "notes": "- Icônes harmonisées dans les gains du jour, le calendrier et l'historique des sessions\n- Priorité aux miniatures existantes, pictogramme d'activité en remplacement\n- Couverture des coffres, livraisons, remorquages, missions et autres activités sans image"
 }
