@@ -1,7 +1,7 @@
 {
-  "versionName": "0.15.09",
-  "versionCode": 173,
+  "versionName": "0.15.10",
+  "versionCode": 174,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "0350b93edf29a22c40606a19aef00eaee7611e39874d24cd28af2fd9e61eb8e3",
-  "notes": "- Fret aérien : utilisation de sa véritable image, plus celle de la dépanneuse\n- Miniatures des activités harmonisées entre Accueil, Activités, Gains et Historique\n- Références d'images communes pour coffres, casse, cibles, course contre la montre et Junk Energy"
+  "sha256": "3617def2c05357cbde00869419b0a5ff46d8811ce7e4b67a7b2a188d18ab424d",
+  "notes": "- Fret aérien : photo du hangar fournie par l'utilisateur dans les gains et l'historique\n- Une même miniature de hangar utilisée dans les écrans qui affichent le fret aérien"
 }
