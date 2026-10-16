@@ -2,6 +2,6 @@
   "versionName": "0.15.02",
   "versionCode": 166,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "de3ec5c8785748782010d534994538f0d73c493284ee920ab484c5ca85fa9de5",
+  "sha256": "b9027b6bd4df86939b1d8e19af0af795b0294baecaa67d0d3efb518c508285a6",
   "notes": "- Braquages : la finale n'est verrouillée qu'après confirmation effective du gain\n- Annuler ou fermer la saisie du gain laisse la finale validable\n- Pause/Reprise des prépas et finales conservés ; stages bloqués uniquement après enregistrement\n- Protection contre les doubles enregistrements de finale\n- Pause globale : les chronos des braquages restent figés, puis reprennent sans comptabiliser le temps hors jeu"
 }
