@@ -1,7 +1,7 @@
 {
-  "versionName": "0.15.05",
-  "versionCode": 169,
+  "versionName": "0.15.06",
+  "versionCode": 170,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "6e99ad96e19dee4d6f2b416e09da8bae045348ddd2636169053685b0d2df871c",
-  "notes": "- Braquages : curseurs tactiles Prépa et Finale à la place des boutons\n- Glisser de -2 heures à +2 heures, pas d'une minute et aperçu instantané\n- Appui long sur la carte : ajustement sans clavier"
+  "sha256": "c7028aaf5afd4bb21fd9adb29a3f4db79cbc3a45e91871918d8dff2e53cb74dd",
+  "notes": "- Cinq nouvelles images pour Cayo Perico, Cluckin' Bell, Dr. Dre, Kortz Center et Oscar Guzman\n- Miniatures synchronisées dans Braquages et les listes de gains/historique\n- Renommage des fichiers d'images pour compatibilité Android"
 }
