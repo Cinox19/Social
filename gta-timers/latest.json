@@ -1,7 +1,7 @@
 {
-  "versionName": "0.15.03",
-  "versionCode": 167,
+  "versionName": "0.15.04",
+  "versionCode": 168,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "e19a08ece85477daf33eaf5a495e09d4b1491f996355a16c6299663dbe6b4407",
-  "notes": "- Contrat VIP Dr. Dre déplacé dans Braquages, juste après Oscar Guzman\n- Dr. Dre : chronos Prépa et Finale, pause/reprise et validation des gains comme les autres braquages\n- Dr. Dre intégré à l'historique et aux statistiques des braquages\n- Ancienne activité Dr. Dre retirée du catalogue Activités pour éviter les doublons"
+  "sha256": "a435218c0825c310a70473512295a0606350186cd1c479b0c5bea391d1a37dd5",
+  "notes": "- Braquages : appui long sur la carte pour modifier Prépa et Finale\n- Réglage tactile rapide par boutons -10, -1, +1 et +10 minutes, sans clavier\n- Les temps ajustés restent enregistrés et les chronos en cours continuent depuis la valeur corrigée"
 }
