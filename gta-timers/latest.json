@@ -1,7 +1,7 @@
 {
-  "versionName": "0.15.08",
-  "versionCode": 172,
+  "versionName": "0.15.09",
+  "versionCode": 173,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "4d3d3b13c4075d7c84b0766ea28fb86f8f67e9289e4964b5f096a09ec64e4063",
-  "notes": "- 9 images importées, renommées et reliées aux activités\n- Coffres : image unifiée dans les gains et l'historique\n- Casse : nouvelle image des voitures sur les emplacements de remorquage\n- Fret aérien, acide, cibles, courses, entrepôts et Junk Energy : nouvelles miniatures des gains"
+  "sha256": "0c47824788debfdb38c5539402fd2d824c00afa1af4c07c5465e5a178de4b05f",
+  "notes": "- Fret aérien : utilisation de sa véritable image, plus celle de la dépanneuse\n- Miniatures des activités harmonisées entre Accueil, Activités, Gains et Historique\n- Références d'images communes pour coffres, casse, cibles, course contre la montre et Junk Energy"
 }
