@@ -1,7 +1,7 @@
 {
-  "versionName": "0.15.12",
-  "versionCode": 176,
+  "versionName": "0.15.13",
+  "versionCode": 177,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "0995f94eb0b8ab3b1ba68c314fc0e2000c36b7e2773945fc096a5bbaa7ac4381",
-  "notes": "- Page Activités : les vraies cartes utilisent enfin les images personnalisées communes aux gains et menus Gérer\n- Timers : espacement augmenté entre photo du hangar et cercle, ainsi qu'entre la casse et ses informations\n- Station de lavage : pictogramme éponge dans une vignette 46 dp homogène"
+  "sha256": "b2954c0a07accc24ce800af866681a8b906235299541e92252f9ef263dd81c2f",
+  "notes": "- Menu Gérer : l'image d'entrepôt n'est plus utilisée par défaut pour les activités sans photo\n- Business MC : miniatures adaptées plutôt que l'image d'entrepôt\n- Timers entrepôts : même photo personnalisée que Gains et Historique"
 }
