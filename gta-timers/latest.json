@@ -1,7 +1,7 @@
 {
-  "versionName": "0.15.11",
-  "versionCode": 175,
+  "versionName": "0.15.12",
+  "versionCode": 176,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "fd23823e04236ff73483e2f272da4e6dce5b61c4759e70791e90c496e36a3f80",
-  "notes": "- Une même résolution d'images pour cartes Activités, Accueil et menus Gérer\n- Cibles standard et Most Wanted, coffres, casse, courses et Junk Energy : miniatures personnalisées\n- Timers fret aérien et casse : photos dédiées plutôt que pictogrammes génériques"
+  "sha256": "2259b519561a7b017f2041f6c12dc3114d985578c6b33d15c77c12b88d1c09bd",
+  "notes": "- Page Activités : les vraies cartes utilisent enfin les images personnalisées communes aux gains et menus Gérer\n- Timers : espacement augmenté entre photo du hangar et cercle, ainsi qu'entre la casse et ses informations\n- Station de lavage : pictogramme éponge dans une vignette 46 dp homogène"
 }
