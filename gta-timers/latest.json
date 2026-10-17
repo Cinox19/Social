@@ -1,7 +1,7 @@
 {
-  "versionName": "0.15.15",
-  "versionCode": 179,
+  "versionName": "0.15.16",
+  "versionCode": 180,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "57519de8e3318c01ee2d06e027a45c453b8599c7a6b9073c5f3b425a33280196",
-  "notes": "- Nouvelle page Entrepôts SecuroServ au style GTA Online\n- Graphiques segmentés avec animation de remplissage et effet sonore facultatif\n- Stocks synchronisés avec les cinq entrepôts, statistiques et bilan financier ajustables"
+  "sha256": "dea3722927b957c1e6ae4b537b70606042a9f361b333e3e24f6cff6767e76eee",
+  "notes": "- SecuroServ : graphique stock et entrepôts affiché en premier\n- Appui long sur les barres pour réapprovisionner, ajuster le stock ou vendre\n- Ancienne gestion remplacée par réapprovisionnement rapide et validation des livraisons"
 }
