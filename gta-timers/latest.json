@@ -2,6 +2,6 @@
   "versionName": "0.15.13",
   "versionCode": 177,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "b2954c0a07accc24ce800af866681a8b906235299541e92252f9ef263dd81c2f",
+  "sha256": "1e6845ce353c0f0720f80fcb243ccf2616a130cb474a9d110e61144ef6fc5aa0",
   "notes": "- Menu Gérer : l'image d'entrepôt n'est plus utilisée par défaut pour les activités sans photo\n- Business MC : miniatures adaptées plutôt que l'image d'entrepôt\n- Timers entrepôts : même photo personnalisée que Gains et Historique"
 }
