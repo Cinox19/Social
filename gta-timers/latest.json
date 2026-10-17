@@ -1,7 +1,7 @@
 {
-  "versionName": "0.15.14",
-  "versionCode": 178,
+  "versionName": "0.15.15",
+  "versionCode": 179,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "ea1acfba6686f7c394ef38bb5b05283d5a6a278bb05ecf196bd7be39de697337",
-  "notes": "- Fret aérien : appui long sur le chrono d'approvisionnement pour modifier le temps\n- Curseur tactile de -2 h à +2 h, pas d'une minute, aperçu immédiat\n- L'ajustement conserve les caisses, les coûts et l'état en cours/pause"
+  "sha256": "4e36f4cac2848b762e2ed4761409dc9999765159c36cee4a5e1b7059ed792d83",
+  "notes": "- Nouvelle page Entrepôts SecuroServ au style GTA Online\n- Graphiques segmentés avec animation de remplissage et effet sonore facultatif\n- Stocks synchronisés avec les cinq entrepôts, statistiques et bilan financier ajustables"
 }
