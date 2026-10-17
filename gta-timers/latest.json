@@ -1,7 +1,7 @@
 {
-  "versionName": "0.15.13",
-  "versionCode": 177,
+  "versionName": "0.15.14",
+  "versionCode": 178,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "1e6845ce353c0f0720f80fcb243ccf2616a130cb474a9d110e61144ef6fc5aa0",
-  "notes": "- Menu Gérer : l'image d'entrepôt n'est plus utilisée par défaut pour les activités sans photo\n- Business MC : miniatures adaptées plutôt que l'image d'entrepôt\n- Timers entrepôts : même photo personnalisée que Gains et Historique"
+  "sha256": "37e4053fa7332488b6e0b2a34257a3f7cf9ae3b5e2ca40c69579add34cab6c36",
+  "notes": "- Fret aérien : appui long sur le chrono d'approvisionnement pour modifier le temps\n- Curseur tactile de -2 h à +2 h, pas d'une minute, aperçu immédiat\n- L'ajustement conserve les caisses, les coûts et l'état en cours/pause"
 }
