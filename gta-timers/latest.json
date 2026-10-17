@@ -1,7 +1,7 @@
 {
-  "versionName": "0.15.17",
-  "versionCode": 181,
+  "versionName": "0.15.18",
+  "versionCode": 182,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "f4af29f6e3f92c9d1c3bafdd46cd62ac8444a15bf0fc16144bc04cf5d6810079",
-  "notes": "- SecuroServ se ferme automatiquement lors du changement d'onglet\n- Bouton Réappro rapide directement sous les graphiques\n- En-tête compact sans doublon SecuroServ, correction appui long sur les gains totaux\n- Effet sonore conservé, interrupteur retiré"
+  "sha256": "77a34de38e2f90f0e2c19530b3f95d06044538682f3f45f23eb2b7f6e7b66672",
+  "notes": "- Suppression du bloc de réapprovisionnement en doublon\n- Bouton rouge unique pour réapprovisionner et valider les caisses reçues\n- Choix de l'action si des livraisons et des approvisionnements sont disponibles"
 }
