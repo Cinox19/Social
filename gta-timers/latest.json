@@ -2,6 +2,6 @@
   "versionName": "0.15.17",
   "versionCode": 181,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "c727f6a760426bfb903204242404e7dd12606043cc012c438befbfaf17045b82",
+  "sha256": "f4af29f6e3f92c9d1c3bafdd46cd62ac8444a15bf0fc16144bc04cf5d6810079",
   "notes": "- SecuroServ se ferme automatiquement lors du changement d'onglet\n- Bouton Réappro rapide directement sous les graphiques\n- En-tête compact sans doublon SecuroServ, correction appui long sur les gains totaux\n- Effet sonore conservé, interrupteur retiré"
 }
