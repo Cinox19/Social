@@ -1,7 +1,7 @@
 {
-  "versionName": "0.15.20",
-  "versionCode": 184,
+  "versionName": "0.15.21",
+  "versionCode": 185,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "185d788f2e35823b9a588d607884762912d48dab94eacb6ada5cafc0d07abc68",
-  "notes": "- Barres des cinq entrepôts rouges sur Timers\n- Compte à rebours synchronisé avec SecuroServ et les réapprovisionnements réels\n- Cloche de notifications : désactivation effective des alarmes et blocage des notifications en attente"
+  "sha256": "8cafe267d8ad7125259fcd7ddc8c39e6fa0c468e742664c56257ce419420ac9d",
+  "notes": "- Timers : toucher la carte Entrepôts ouvre directement SecuroServ\n- Fret aérien : chaque ligne de vente affiche l’icône correspondant à sa catégorie de marchandises"
 }
