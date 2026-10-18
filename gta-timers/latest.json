@@ -1,7 +1,7 @@
 {
-  "versionName": "0.15.18",
-  "versionCode": 182,
+  "versionName": "0.15.19",
+  "versionCode": 183,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "77a34de38e2f90f0e2c19530b3f95d06044538682f3f45f23eb2b7f6e7b66672",
-  "notes": "- Suppression du bloc de réapprovisionnement en doublon\n- Bouton rouge unique pour réapprovisionner et valider les caisses reçues\n- Choix de l'action si des livraisons et des approvisionnements sont disponibles"
+  "sha256": "ed855422642b793cbec987b23b37cf15c61382229006eee37369754909da43dc",
+  "notes": "- Réception des caisses par entrepôt avec choix indépendants 1, 2 ou 3\n- Compte à rebours SecuroServ et validation directement sous les graphiques\n- Gestion individuelle rouge et noire avec coût cumulé depuis la dernière vente\n- Entrée des entrepôts avec image à la place du bouton rouge"
 }
