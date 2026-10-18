@@ -1,7 +1,7 @@
 {
-  "versionName": "0.15.19",
-  "versionCode": 183,
+  "versionName": "0.15.20",
+  "versionCode": 184,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "d3cb79480ef15b9c2c7e0524e71833a10186b31c29fa355dae7f9b7da5024855",
-  "notes": "- Réception des caisses par entrepôt avec choix indépendants 1, 2 ou 3\n- Compte à rebours SecuroServ et validation directement sous les graphiques\n- Gestion individuelle rouge et noire avec coût cumulé depuis la dernière vente\n- Entrée des entrepôts avec image à la place du bouton rouge"
+  "sha256": "e11da7f1df643ca6ec4ce2ef6660e10b5c1138487be16f52a80dfa0c068dd981",
+  "notes": "- Barres des cinq entrepôts rouges sur Timers\n- Compte à rebours synchronisé avec SecuroServ et les réapprovisionnements réels\n- Cloche de notifications : désactivation effective des alarmes et blocage des notifications en attente"
 }
