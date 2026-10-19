@@ -1,7 +1,7 @@
 {
-  "versionName": "0.15.27",
-  "versionCode": 191,
+  "versionName": "0.15.28",
+  "versionCode": 192,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "ccbf93e0a579f72d36d1222a0848cffc1fe14fa29ad7a2bbad476b7581b9d1be",
-  "notes": "- Casse : mécanicien illustré avec clé et étincelles, sans emojis\n- Mécanicien placé en bas à droite des voitures, animation sur véhicules occupés\n- Interface Casse modernisée conservée"
+  "sha256": "14a365ade5ff8c99961ad550f274ce429affa899e077ce16270d493527808bb5",
+  "notes": "- SecuroServ : animation cercle puis barres en 2 secondes exactement\n- Nouveau son de révélation fourni par l'utilisateur, raccourci à 2 secondes\n- Lecture synchronisée au début de l’animation, son précédent supprimé"
 }
