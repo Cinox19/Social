@@ -1,7 +1,7 @@
 {
-  "versionName": "0.15.22",
-  "versionCode": 186,
+  "versionName": "0.15.23",
+  "versionCode": 187,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "96fa264b7bb838f9b7de8e6bdac98dc65b286657e2d6eadccf1364f241ad49b0",
-  "notes": "- Fret aérien : le bouton + attribue le temps écoulé à la catégorie sélectionnée\n- Dernière vente : temps moyen par caisse et gain par heure persistants\n- Historique des ventes : temps et gain horaire par catégorie, avec migration de la vente médicale de 7 h 08"
+  "sha256": "7aec86638013da1e7295a34e5d382595ce3a3f06e2742ce8342eeaf96ca6f8a8",
+  "notes": "- Fret aérien : historique des 10 dernières ventes en lignes compactes illustrées\n- Montant vert, nombre de caisses, temps total, gain horaire et date sur chaque ligne\n- Statistiques de la dernière vente conservées"
 }
