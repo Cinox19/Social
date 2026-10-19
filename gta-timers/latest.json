@@ -1,7 +1,7 @@
 {
-  "versionName": "0.15.32",
-  "versionCode": 196,
+  "versionName": "0.15.33",
+  "versionCode": 197,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "5e8a399ff84891719584bf71e3cf20c173fa7eab322ba1cee44749ecdc2420cd",
-  "notes": "- SecuroServ : cercle 0,5 seconde inchangé\n- Animation des cinq barres réduite de 2,5 à 2 secondes\n- Séquence totale 2,5 secondes pour un meilleur accord avec le son"
+  "sha256": "cf098edb5578c296e37884b0d399437984412774112fff7d0dffeed52287935c",
+  "notes": "- Notifications entrepôts : rétablissement du son historique warehouse_alert, sans modifier le son SecuroServ\n- Création d'un canal Android distinct pour réinitialiser le son enregistré par le système\n- Animation SecuroServ inchangée : cercle 0,5 s, barres 2 s"
 }
