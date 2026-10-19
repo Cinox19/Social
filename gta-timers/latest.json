@@ -2,6 +2,6 @@
   "versionName": "0.15.24",
   "versionCode": 188,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "67726cf14988691c80593453b91aaafe1e81de2441946fd854bfe19f351161b8",
+  "sha256": "c457872edaaf9ec15300a30e53ffa611b291861d4a8ed1c5acc36abd917ff9ef",
   "notes": "- Fret aérien : commandes Rooster + et − compactes avec effet au toucher\n- Chaque +25 000 GTA$ est ajouté aux dépenses de Gains\n- Un − annule une dépense Rooster correspondante de la session en cours et recalcule le net théorique"
 }
