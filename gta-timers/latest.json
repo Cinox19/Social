@@ -2,6 +2,6 @@
   "versionName": "0.15.25",
   "versionCode": 189,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "f871065fc3a89de6d97b7eafd80d2170227513f59de259f37aed281f4409e772",
+  "sha256": "51a18b0f1aeab19976d75b986104a914d4ba1e3eb8799fc6a35437917d827653",
   "notes": "- Gains : ventes SecuroServ avec noms personnalisés rattachées à leur entrepôt par identifiant\n- Bénéfice : suppression de la ligne générique doublon sans coûts, frais de réapprovisionnement inclus dans la vente\n- Gains : icône entrepôt restaurée pour les ventes de dépôts logistiques"
 }
