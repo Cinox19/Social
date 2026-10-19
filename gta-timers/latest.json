@@ -1,7 +1,7 @@
 {
-  "versionName": "0.15.30",
-  "versionCode": 194,
+  "versionName": "0.15.31",
+  "versionCode": 195,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "ee8e44dfd2054312be86f9a141eca1695f49d8423700af1bde8636923ed1d8df",
-  "notes": "- SecuroServ : animation étendue à 2,5 secondes (cercle puis barres)\n- Lecture audio à volume maximal, sans boucle ; amélioration du timing\n- Le remplacement de la piste audio embarquée par l'original non tronqué reste à faire"
+  "sha256": "2c004ae4db6732a00040cf432c173a014d2ff6bb633d3e2abce040a3a33a42e1",
+  "notes": "- SecuroServ : animation cercle 0,5 s suivie des barres 2,5 s (3 secondes au total)\n- La lecture du son démarre avec l'animation ; piste audio originale complète en attente de réintégration"
 }
