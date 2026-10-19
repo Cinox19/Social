@@ -1,7 +1,7 @@
 {
-  "versionName": "0.15.24",
-  "versionCode": 188,
+  "versionName": "0.15.25",
+  "versionCode": 189,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "c457872edaaf9ec15300a30e53ffa611b291861d4a8ed1c5acc36abd917ff9ef",
-  "notes": "- Fret aérien : commandes Rooster + et − compactes avec effet au toucher\n- Chaque +25 000 GTA$ est ajouté aux dépenses de Gains\n- Un − annule une dépense Rooster correspondante de la session en cours et recalcule le net théorique"
+  "sha256": "f871065fc3a89de6d97b7eafd80d2170227513f59de259f37aed281f4409e772",
+  "notes": "- Gains : ventes SecuroServ avec noms personnalisés rattachées à leur entrepôt par identifiant\n- Bénéfice : suppression de la ligne générique doublon sans coûts, frais de réapprovisionnement inclus dans la vente\n- Gains : icône entrepôt restaurée pour les ventes de dépôts logistiques"
 }
