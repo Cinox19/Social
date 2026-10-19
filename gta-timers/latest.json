@@ -2,6 +2,6 @@
   "versionName": "0.15.32",
   "versionCode": 196,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "1766295a0ba468cd4a2bb9e152b3d0f8f3a3deebbcbf46f3294026e33c40a75b",
+  "sha256": "5e8a399ff84891719584bf71e3cf20c173fa7eab322ba1cee44749ecdc2420cd",
   "notes": "- SecuroServ : cercle 0,5 seconde inchangé\n- Animation des cinq barres réduite de 2,5 à 2 secondes\n- Séquence totale 2,5 secondes pour un meilleur accord avec le son"
 }
