@@ -1,7 +1,7 @@
 {
-  "versionName": "0.15.35",
-  "versionCode": 199,
+  "versionName": "0.15.36",
+  "versionCode": 200,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "f00e275c10dd8ab48429d0101858601307ab5c88baca84772f039b8c67d4f283",
-  "notes": "- Vendre ouvre directement la saisie de montant sans choix Vente OK / Stock détruit\n- Popup de montant modernisée avec symbole $ vert, saisie formatée avec points et bouton ENCAISSER\n- Présentation harmonisée des encaissements avec suggestions Dernier et Max"
+  "sha256": "ec45a26ce5daa2524134dc2a526099248fa794f68afceeaa97ef1f0a6b21acfe",
+  "notes": "- Correction du décalage visuel à l’ouverture : fenêtre d’encaissement centrée immédiatement"
 }
