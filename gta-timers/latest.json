@@ -1,7 +1,7 @@
 {
-  "versionName": "0.15.36",
-  "versionCode": 200,
+  "versionName": "0.15.37",
+  "versionCode": 201,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "ec45a26ce5daa2524134dc2a526099248fa794f68afceeaa97ef1f0a6b21acfe",
-  "notes": "- Correction du décalage visuel à l’ouverture : fenêtre d’encaissement centrée immédiatement"
+  "sha256": "1e98fcdeae2c9267e7c92eae9ce0d04cc1ab52b017e6023f7d70c0324a16f125",
+  "notes": "- Nouveau thème sombre des fenêtres de confirmation et des menus de sélection\n- Fond bleu nuit, coins arrondis et accents verts\n- Correction du centrage des fenêtres de saisie conservée"
 }
