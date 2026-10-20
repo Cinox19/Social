@@ -2,6 +2,6 @@
   "versionName": "0.15.34",
   "versionCode": 198,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "d9623d63e98a64c82f711645f6cccfd7e56bd4ca303292ab57f5eb61d855db68",
+  "sha256": "bb8c87c33850e27f2d864e1cfbbbe49f41abba8822513273f9fd1424bc2db84e",
   "notes": "- Nouvelle popup moderne sombre pour la saisie des gains et montants de ventes\n- Suggestions Dernier montant et Max quand disponible, sans second écran de confirmation\n- Coffres, activités variables, ventes et ajustement des dépenses : design uniformisé"
 }
