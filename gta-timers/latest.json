@@ -1,7 +1,7 @@
 {
-  "versionName": "0.15.38",
-  "versionCode": 202,
+  "versionName": "0.15.39",
+  "versionCode": 203,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "814fcf8b0e8bb220e3fdb82d316b687bb0e81cd4873b3e646ff0816f675dc140",
-  "notes": "- Widget accueil repensé en verre noir-vert avec bordure lumineuse\n- Chronomètre et bouton pause conservés, trois cartes Gains Dépenses Net\n- Montants en GTA$ sans slash et codes couleur harmonisés"
+  "sha256": "27f9f2d1cc97e7434c946578ad76611e064e445f273ffe6d367ba8da7bf009a1",
+  "notes": "- Widget : lecture seule des gains et dépenses de la session, sans réinitialisation intempestive\n- Chronomètre et statistiques mieux proportionnés avec plus de lisibilité\n- Espacements et style noir-vert affinés pour se rapprocher du mockup"
 }
