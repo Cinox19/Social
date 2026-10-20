@@ -1,7 +1,7 @@
 {
-  "versionName": "0.15.33",
-  "versionCode": 197,
+  "versionName": "0.15.34",
+  "versionCode": 198,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "15f8c8a42f483d29b8d74f8d85b71d7dd495a286b42bb84ce6cee2f9993f02b5",
-  "notes": "- Notifications entrepôts : rétablissement du son historique warehouse_alert, sans modifier le son SecuroServ\n- Création d'un canal Android distinct pour réinitialiser le son enregistré par le système\n- Animation SecuroServ inchangée : cercle 0,5 s, barres 2 s"
+  "sha256": "47a724ef8c1f86c0b19b45773f2aa8d109cff6005b18e219293370416326cacd",
+  "notes": "- Nouvelle popup moderne sombre pour la saisie des gains et montants de ventes\n- Suggestions Dernier montant et Max quand disponible, sans second écran de confirmation\n- Coffres, activités variables, ventes et ajustement des dépenses : design uniformisé"
 }
