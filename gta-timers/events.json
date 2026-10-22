@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "title": "Événements GTA Online • 2026-10-15 → 2026-10-21",
-  "periodStart": "2026-10-15",
-  "periodEnd": "2026-10-21",
-  "updatedAt": "2026-10-15T18:15:04.819432+00:00",
+  "title": "Événements GTA Online • 2026-10-22 → 2026-10-28",
+  "periodStart": "2026-10-22",
+  "periodEnd": "2026-10-28",
+  "updatedAt": "2026-10-22T15:16:06.617721+00:00",
   "sourceName": "GTABase • GTA Online Weekly Update",
   "sourceUrl": "https://www.gtabase.com/gta-online/weekly-update-bonuses-discounts",
   "global": [
@@ -16,36 +16,20 @@
       "multiplier": 3
     },
     {
-      "title": "Hotring Circuit / San Andreas Super Sport Series",
-      "bonus": "x3 GTA$ & RP",
-      "detail": "Bonus hebdomadaire détecté automatiquement.",
-      "priority": true,
-      "activityId": "dre_contract",
-      "multiplier": 3
-    },
-    {
-      "title": "Transform Races",
-      "bonus": "x3 GTA$ & RP",
-      "detail": "Bonus hebdomadaire détecté automatiquement.",
-      "priority": true,
-      "activityId": "",
-      "multiplier": 3
-    },
-    {
       "title": "Bail Office Bounties",
-      "bonus": "x3 GTA$ & RP",
+      "bonus": "x2 GTA$ & RP",
       "detail": "Bonus hebdomadaire détecté automatiquement.",
       "priority": true,
       "activityId": "",
-      "multiplier": 3
+      "multiplier": 2
     },
     {
       "title": "Dispatch Work",
-      "bonus": "x3 GTA$ & RP",
+      "bonus": "x2 GTA$ & RP",
       "detail": "Bonus hebdomadaire détecté automatiquement.",
       "priority": true,
       "activityId": "",
-      "multiplier": 3
+      "multiplier": 2
     }
   ],
   "challenge": [],
