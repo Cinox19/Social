@@ -1,7 +1,7 @@
 {
-  "versionName": "0.15.39",
-  "versionCode": 203,
+  "versionName": "0.15.40",
+  "versionCode": 204,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "c200e1a396672465cf2b4beb404d2e11839b1b650077742d5bce9a2737e04fd1",
-  "notes": "- Ajout du choix de langue Français / English dans l’accueil\n- Mémorisation de la langue sélectionnée sur l’appareil\n- Premières traductions anglaises des menus et libellés courants"
+  "sha256": "0a749c51418d309293d7cb4844aa7410687d78bcb1d7e4dcb921fa67dabdc3ac",
+  "notes": "- Améliorations et corrections de stabilité\n- Mise à jour de version pour les utilisateurs de GTA Timers"
 }
