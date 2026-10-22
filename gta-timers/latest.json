@@ -2,6 +2,6 @@
   "versionName": "0.15.39",
   "versionCode": 203,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "5c5e8fd09c17e2b3abb425f06ea691dad780cbaa263762c605079efb48034267",
+  "sha256": "c200e1a396672465cf2b4beb404d2e11839b1b650077742d5bce9a2737e04fd1",
   "notes": "- Widget : lecture seule des gains et dépenses de la session, sans réinitialisation intempestive\n- Chronomètre et statistiques mieux proportionnés avec plus de lisibilité\n- Espacements et style noir-vert affinés pour se rapprocher du mockup"
 }
