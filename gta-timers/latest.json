@@ -1,7 +1,7 @@
 {
-  "versionName": "0.15.40",
-  "versionCode": 204,
+  "versionName": "0.15.41",
+  "versionCode": 205,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "73c5ba01d46eb495fd2bb97781933ad7b83a6b5d4017ddef19ef8739d91c0765",
-  "notes": "- Améliorations et corrections de stabilité\n- Mise à jour de version pour les utilisateurs de GTA Timers"
+  "sha256": "d1bed14075d184da04fde5e8230077d854fafbd0bcd2cfb5709b082a2d6ba069",
+  "notes": "- Amélioration de la localisation anglaise dans l’interface et le tableau SecuroServ\n- Corrections et améliorations générales"
 }
