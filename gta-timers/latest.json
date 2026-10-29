@@ -1,7 +1,7 @@
 {
-  "versionName": "0.15.44",
-  "versionCode": 208,
+  "versionName": "0.15.45",
+  "versionCode": 209,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "d01d5cda2f02544382dc285f209e5c7cdeaf494ed9ffd4a7ad5de6840e677598",
-  "notes": "- Fix the heist statistics 7-day filter to show the rolling last 7 days\n- Include nightclub DJ change costs in realized profit\n- Fix Vinewood West Backlot warehouse thumbnail and improve English translations"
+  "sha256": "351b8e8262005c44827530edac45d08db6f918015d13d8bf36ef4eff08fed5df",
+  "notes": "- Rename the 7-day heist filter to GTA Week\n- Add a Previous GTA Week filter\n- Keep the current session, 30-day and all-time filters"
 }
