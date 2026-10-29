@@ -1,7 +1,7 @@
 {
-  "versionName": "0.15.42",
-  "versionCode": 206,
+  "versionName": "0.15.43",
+  "versionCode": 207,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "b3e714262675f9806c2d4c3fa9a0746ab87d99502267c0cee197f0f4c4739bad",
-  "notes": "- Fix the Vinewood West Backlot warehouse thumbnail in Earnings\n- Improve English translations across Activities and Earnings"
+  "sha256": "0da0b64ba8211dfc658feeaa17741a66ea121df16cc6e1c604dafc8b8c4c2189",
+  "notes": "- Fix realized nightclub safe profit to include DJ change costs\n- Fix the Vinewood West Backlot warehouse thumbnail\n- Improve English translations across Activities and Earnings"
 }
