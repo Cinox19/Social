@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "title": "Événements GTA Online • 2026-10-22 → 2026-10-28",
-  "periodStart": "2026-10-22",
-  "periodEnd": "2026-10-28",
-  "updatedAt": "2026-10-22T18:30:05.111064+00:00",
+  "title": "Événements GTA Online • 2026-10-29 → 2026-11-04",
+  "periodStart": "2026-10-29",
+  "periodEnd": "2026-11-04",
+  "updatedAt": "2026-10-29T16:55:53.065633+00:00",
   "sourceName": "GTABase • GTA Online Weekly Update",
   "sourceUrl": "https://www.gtabase.com/gta-online/weekly-update-bonuses-discounts",
   "global": [
@@ -17,19 +17,19 @@
     },
     {
       "title": "Bail Office Bounties",
-      "bonus": "x2 GTA$ & RP",
+      "bonus": "x3 GTA$ & RP",
       "detail": "Bonus hebdomadaire détecté automatiquement.",
       "priority": true,
       "activityId": "",
-      "multiplier": 2
+      "multiplier": 3
     },
     {
       "title": "Dispatch Work",
-      "bonus": "x2 GTA$ & RP",
+      "bonus": "x3 GTA$ & RP",
       "detail": "Bonus hebdomadaire détecté automatiquement.",
       "priority": true,
       "activityId": "",
-      "multiplier": 2
+      "multiplier": 3
     }
   ],
   "challenge": [],
