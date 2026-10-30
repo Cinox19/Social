@@ -2,6 +2,6 @@
   "versionName": "0.15.45",
   "versionCode": 209,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "1dcd6ffb2fa10806a02a8d005f7df11ce330363fb17ac505040e5753571271f9",
+  "sha256": "3fef34c6b63ba145b72ddb4ca096155f9d003c00a92be633c8cac0af517dc4ce",
   "notes": "- Rename the 7-day heist filter to GTA Week\n- Add a Previous GTA Week filter\n- Keep the current session, 30-day and all-time filters"
 }
