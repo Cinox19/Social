@@ -1,7 +1,7 @@
 {
-  "versionName": "0.15.45",
-  "versionCode": 209,
+  "versionName": "0.15.46",
+  "versionCode": 210,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "3fef34c6b63ba145b72ddb4ca096155f9d003c00a92be633c8cac0af517dc4ce",
-  "notes": "- Rename the 7-day heist filter to GTA Week\n- Add a Previous GTA Week filter\n- Keep the current session, 30-day and all-time filters"
+  "sha256": "43388d91ec01c8844affff7a73c5ebb565c517ae7438ba1acf26bbc3a5d6b1c1",
+  "notes": "- Correct the average warehouse resupply cost calculation\n- Calculate the average time between sales for each warehouse\n- Start collecting per-warehouse sale intervals from the next recorded sales"
 }
