@@ -1,7 +1,7 @@
 {
-  "versionName": "0.15.47",
-  "versionCode": 211,
+  "versionName": "0.15.48",
+  "versionCode": 212,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "b568b127c13eb6326eb6380dbc50124279c526e4951eaa82447ee41281c3ea35",
-  "notes": "- Fix SecuroServ warehouse sale icons for all five warehouses\n- Keep consistent warehouse thumbnails for French and English activity labels"
+  "sha256": "d697b15674da89265d7d13c534294d67ee8e65b1d3e5751fe8ee9a024a7d9ef0",
+  "notes": "- Add the Arcade Safe to the manual safe income activities\n- Allow enabling the Arcade Safe from the Manage Safes screen\n- Add English translations for the Arcade Safe"
 }
