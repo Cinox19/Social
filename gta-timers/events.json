@@ -1,88 +1,114 @@
 {
   "schemaVersion": 1,
-  "title": "Événements GTA Online • 2026-10-29 → 2026-11-04",
-  "periodStart": "2026-10-29",
-  "periodEnd": "2026-11-04",
-  "updatedAt": "2026-10-29T19:35:46.368498+00:00",
+  "title": "Événements GTA Online • 2026-11-05 → 2026-11-11",
+  "periodStart": "2026-11-05",
+  "periodEnd": "2026-11-11",
+  "updatedAt": "2026-11-05T08:00:00+01:00",
   "sourceName": "GTABase • GTA Online Weekly Update",
   "sourceUrl": "https://www.gtabase.com/gta-online/weekly-update-bonuses-discounts",
   "global": [
     {
-      "title": "Slasher",
+      "title": "Mansion Raid",
       "bonus": "x3 GTA$ & RP",
-      "detail": "Bonus hebdomadaire détecté automatiquement.",
+      "detail": "Bonus hebdomadaire du 5 au 11 novembre 2026.",
       "priority": true,
       "activityId": "",
       "multiplier": 3
     },
     {
-      "title": "Bail Office Bounties",
-      "bonus": "x3 GTA$ & RP",
-      "detail": "Bonus hebdomadaire détecté automatiquement.",
+      "title": "Community Series Jobs",
+      "bonus": "x2 GTA$ & RP",
+      "detail": "Bonus hebdomadaire du 5 au 11 novembre 2026.",
       "priority": true,
       "activityId": "",
-      "multiplier": 3
+      "multiplier": 2
     },
     {
-      "title": "Dispatch Work",
-      "bonus": "x3 GTA$ & RP",
-      "detail": "Bonus hebdomadaire détecté automatiquement.",
+      "title": "Braquages originaux • première réussite",
+      "bonus": "x2 GTA$ à la première réussite",
+      "detail": "Bonus de première réussite sur les braquages originaux, le Braquage de la fin du monde et le Braquage du Diamond Casino.",
       "priority": true,
       "activityId": "",
-      "multiplier": 3
+      "multiplier": 2
+    },
+    {
+      "title": "KnoWay Out • première réussite",
+      "bonus": "x2 GTA$ à la première réussite",
+      "detail": "Bonus de première réussite pendant cette semaine.",
+      "priority": true,
+      "activityId": "",
+      "multiplier": 2
     }
   ],
-  "challenge": [],
-  "rewards": [],
-  "discounts": [],
-  "gtaPlus": [
+  "challenge": [
     {
-      "title": "Survies Halloween",
-      "bonus": "x6 GTA$ & RP",
-      "detail": "Bonus réservé aux abonnés GTA+ sur les survies Halloween.",
+      "title": "Défi hebdomadaire",
+      "bonus": "100 000 GTA$",
+      "detail": "Remporter une épreuve du mode rivalité pour recevoir 100 000 GTA$.",
       "priority": true,
-      "activityId": "halloween_survival",
-      "multiplier": 6
-    },
+      "activityId": ""
+    }
+  ],
+  "rewards": [
     {
-      "title": "Citrouilles Jack O'Lantern",
-      "bonus": "x4 GTA$ & RP",
-      "detail": "Bonus GTA+ pour la collecte.",
-      "priority": true,
-      "activityId": "",
-      "multiplier": 4
-    },
-    {
-      "title": "Ghosts Exposed",
-      "bonus": "x4 GTA$",
-      "detail": "Bonus GTA+ sur la chasse aux fantômes.",
-      "priority": true,
-      "activityId": "",
-      "multiplier": 4
-    },
-    {
-      "title": "Pegassi Oppressor • livrée Skulls",
+      "title": "Décoration murale The Great Circle Back",
       "bonus": "GRATUITE",
-      "detail": "Moto à récupérer au Vinewood Car Club pendant le cycle GTA+.",
+      "detail": "Se connecter à GTA Online entre le 5 et le 11 novembre pour la débloquer.",
       "priority": true,
       "activityId": ""
     },
     {
-      "title": "Tour de roue du casino",
-      "bonus": "2 tours / 24 h",
-      "detail": "Avantage GTA+ en vigueur.",
+      "title": "Statue de panthère • Cayo Perico",
+      "bonus": "CIBLE GARANTIE",
+      "detail": "Statue de panthère garantie comme cible principale lors de votre première tentative du Braquage de Cayo Perico cette semaine.",
       "priority": true,
       "activityId": ""
     },
     {
-      "title": "Allocation GTA+ mensuelle",
-      "bonus": "+500 000 GTA$",
-      "detail": "Versée à chaque renouvellement de l'abonnement.",
+      "title": "The Outcome of Endeavour • Kortz Center",
+      "bonus": "TABLEAU GARANTI",
+      "detail": "Tableau garanti comme cible principale lors de votre première tentative du braquage du Kortz Center cette semaine.",
       "priority": true,
       "activityId": ""
     }
   ],
-  "gtaPlusPeriodStart": "2026-10-08",
-  "gtaPlusPeriodEnd": "2026-11-04",
-  "gtaPlusSourceUrl": "https://rockstarintel.com/gta-online-event-week-halloween-event-continues-october-8th-14th/"
+  "discounts": [
+    {
+      "title": "Penthouse du Diamond Casino",
+      "bonus": "-40 %",
+      "detail": "Réduction sur le penthouse, ses améliorations et modifications.",
+      "priority": false,
+      "activityId": ""
+    },
+    {
+      "title": "Installations",
+      "bonus": "-40 %",
+      "detail": "Réduction sur les propriétés Installations, leurs améliorations et modifications.",
+      "priority": false,
+      "activityId": ""
+    },
+    {
+      "title": "Appartements haut de gamme",
+      "bonus": "-40 %",
+      "detail": "Réduction sur les appartements haut de gamme.",
+      "priority": false,
+      "activityId": ""
+    },
+    {
+      "title": "Véhicules sélectionnés",
+      "bonus": "-30 %",
+      "detail": "Vorschlaghammer, Taipan, Blista Kanjo, Cheetah, Insurgent, Coquette D5, Penumbra FF, Reaper, Besra et Rampant Rocket.",
+      "priority": false,
+      "activityId": ""
+    },
+    {
+      "title": "Grotti Veleno GT",
+      "bonus": "-25 %",
+      "detail": "Réduction sur le véhicule cette semaine.",
+      "priority": false,
+      "activityId": ""
+    }
+  ],
+  "gtaPlus": [],
+  "gtaPlusSourceUrl": "https://www.rockstargames.com/fr/gta-plus/benefits"
 }
