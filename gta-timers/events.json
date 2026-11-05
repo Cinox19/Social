@@ -3,14 +3,14 @@
   "title": "Événements GTA Online • 2026-11-05 → 2026-11-11",
   "periodStart": "2026-11-05",
   "periodEnd": "2026-11-11",
-  "updatedAt": "2026-11-05T08:00:00+01:00",
+  "updatedAt": "2026-11-05T18:00:17.068322+00:00",
   "sourceName": "GTABase • GTA Online Weekly Update",
   "sourceUrl": "https://www.gtabase.com/gta-online/weekly-update-bonuses-discounts",
   "global": [
     {
       "title": "Mansion Raid",
       "bonus": "x3 GTA$ & RP",
-      "detail": "Bonus hebdomadaire du 5 au 11 novembre 2026.",
+      "detail": "Bonus hebdomadaire détecté automatiquement.",
       "priority": true,
       "activityId": "",
       "multiplier": 3
@@ -18,97 +18,73 @@
     {
       "title": "Community Series Jobs",
       "bonus": "x2 GTA$ & RP",
-      "detail": "Bonus hebdomadaire du 5 au 11 novembre 2026.",
+      "detail": "Bonus hebdomadaire détecté automatiquement.",
       "priority": true,
       "activityId": "",
       "multiplier": 2
     },
     {
-      "title": "Braquages originaux • première réussite",
-      "bonus": "x2 GTA$ à la première réussite",
-      "detail": "Bonus de première réussite sur les braquages originaux, le Braquage de la fin du monde et le Braquage du Diamond Casino.",
+      "title": "The Fleeca Job",
+      "bonus": "x2 GTA$ & RP",
+      "detail": "Bonus hebdomadaire détecté automatiquement.",
       "priority": true,
       "activityId": "",
       "multiplier": 2
     },
     {
-      "title": "KnoWay Out • première réussite",
-      "bonus": "x2 GTA$ à la première réussite",
-      "detail": "Bonus de première réussite pendant cette semaine.",
+      "title": "The Prison Break",
+      "bonus": "x2 GTA$ & RP",
+      "detail": "Bonus hebdomadaire détecté automatiquement.",
+      "priority": true,
+      "activityId": "",
+      "multiplier": 2
+    },
+    {
+      "title": "The Doomsday Heist: Preparations",
+      "bonus": "x2 GTA$ & RP",
+      "detail": "Bonus hebdomadaire détecté automatiquement.",
+      "priority": true,
+      "activityId": "",
+      "multiplier": 2
+    },
+    {
+      "title": "The Doomsday Heist - Act 1: The Data Breaches",
+      "bonus": "x2 GTA$ & RP",
+      "detail": "Bonus hebdomadaire détecté automatiquement.",
+      "priority": true,
+      "activityId": "",
+      "multiplier": 2
+    },
+    {
+      "title": "The Doomsday Heist - Act 2: The Bogdan Problem",
+      "bonus": "x2 GTA$ & RP",
+      "detail": "Bonus hebdomadaire détecté automatiquement.",
+      "priority": true,
+      "activityId": "",
+      "multiplier": 2
+    },
+    {
+      "title": "The Diamond Casino Heist",
+      "bonus": "x2 GTA$ & RP",
+      "detail": "Bonus hebdomadaire détecté automatiquement.",
+      "priority": true,
+      "activityId": "",
+      "multiplier": 2
+    },
+    {
+      "title": "KnoWay Out",
+      "bonus": "x2 GTA$ & RP",
+      "detail": "Bonus hebdomadaire détecté automatiquement.",
       "priority": true,
       "activityId": "",
       "multiplier": 2
     }
   ],
-  "challenge": [
-    {
-      "title": "Défi hebdomadaire",
-      "bonus": "100 000 GTA$",
-      "detail": "Remporter une épreuve du mode rivalité pour recevoir 100 000 GTA$.",
-      "priority": true,
-      "activityId": ""
-    }
-  ],
-  "rewards": [
-    {
-      "title": "Décoration murale The Great Circle Back",
-      "bonus": "GRATUITE",
-      "detail": "Se connecter à GTA Online entre le 5 et le 11 novembre pour la débloquer.",
-      "priority": true,
-      "activityId": ""
-    },
-    {
-      "title": "Statue de panthère • Cayo Perico",
-      "bonus": "CIBLE GARANTIE",
-      "detail": "Statue de panthère garantie comme cible principale lors de votre première tentative du Braquage de Cayo Perico cette semaine.",
-      "priority": true,
-      "activityId": ""
-    },
-    {
-      "title": "The Outcome of Endeavour • Kortz Center",
-      "bonus": "TABLEAU GARANTI",
-      "detail": "Tableau garanti comme cible principale lors de votre première tentative du braquage du Kortz Center cette semaine.",
-      "priority": true,
-      "activityId": ""
-    }
-  ],
-  "discounts": [
-    {
-      "title": "Penthouse du Diamond Casino",
-      "bonus": "-40 %",
-      "detail": "Réduction sur le penthouse, ses améliorations et modifications.",
-      "priority": false,
-      "activityId": ""
-    },
-    {
-      "title": "Installations",
-      "bonus": "-40 %",
-      "detail": "Réduction sur les propriétés Installations, leurs améliorations et modifications.",
-      "priority": false,
-      "activityId": ""
-    },
-    {
-      "title": "Appartements haut de gamme",
-      "bonus": "-40 %",
-      "detail": "Réduction sur les appartements haut de gamme.",
-      "priority": false,
-      "activityId": ""
-    },
-    {
-      "title": "Véhicules sélectionnés",
-      "bonus": "-30 %",
-      "detail": "Vorschlaghammer, Taipan, Blista Kanjo, Cheetah, Insurgent, Coquette D5, Penumbra FF, Reaper, Besra et Rampant Rocket.",
-      "priority": false,
-      "activityId": ""
-    },
-    {
-      "title": "Grotti Veleno GT",
-      "bonus": "-25 %",
-      "detail": "Réduction sur le véhicule cette semaine.",
-      "priority": false,
-      "activityId": ""
-    }
-  ],
+  "challenge": [],
+  "rewards": [],
+  "discounts": [],
   "gtaPlus": [],
+  "gtaPlusPeriodStart": "",
+  "gtaPlusPeriodEnd": "",
   "gtaPlusSourceUrl": "https://www.rockstargames.com/fr/gta-plus/benefits"
 }
