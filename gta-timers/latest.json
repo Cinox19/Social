@@ -1,7 +1,7 @@
 {
-  "versionName": "0.15.48",
-  "versionCode": 212,
+  "versionName": "0.15.49",
+  "versionCode": 213,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "d697b15674da89265d7d13c534294d67ee8e65b1d3e5751fe8ee9a024a7d9ef0",
-  "notes": "- Add the Arcade Safe to the manual safe income activities\n- Allow enabling the Arcade Safe from the Manage Safes screen\n- Add English translations for the Arcade Safe"
+  "sha256": "a8837db8bfc4fcad6dbb9daecd182ba6e4f427bb1cca7d4bb8955e9589b4b233",
+  "notes": "- Add an optional GTA+ mode that halves warehouse resupply time from 48 to 24 minutes\n- Apply the selected duration only to new warehouse resupply timers; existing timers remain unchanged"
 }
