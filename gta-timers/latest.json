@@ -1,7 +1,7 @@
 {
-  "versionName": "0.15.49",
-  "versionCode": 213,
+  "versionName": "0.15.50",
+  "versionCode": 214,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "8217188c90ac2e83440ad90bf5039db146c61d382456e77381f528142ed8445d",
-  "notes": "- Add an optional GTA+ mode that halves warehouse resupply time from 48 to 24 minutes\n- Apply the selected duration only to new warehouse resupply timers; existing timers remain unchanged"
+  "sha256": "6d3e4f867fe542fa4399969d2a2b89b362531c5ac9ac16e1496b88c0e1f46338",
+  "notes": "- Move the GTA+ warehouse resupply toggle directly above the resupply button\n- Apply the selected duration only to new warehouse resupply timers; existing timers remain unchanged"
 }
