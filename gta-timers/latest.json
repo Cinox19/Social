@@ -1,7 +1,7 @@
 {
-  "versionName": "0.15.50",
-  "versionCode": 214,
+  "versionName": "0.15.51",
+  "versionCode": 215,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "ebfbd24f0135526055c8a3496c3d2dd88a84420e3743ed0ad6ac7f59efec3c58",
-  "notes": "- Move the GTA+ warehouse resupply toggle directly above the resupply button\n- Apply the selected duration only to new warehouse resupply timers; existing timers remain unchanged"
+  "sha256": "2f0e00eefdba11f8352452624af92d56e4083e404d6e7d51c9de01a773921e6c",
+  "notes": "- Expand English localization across heists, activities, management menus and interaction labels\n- Use official English GTA heist names and improve the SecuroServ warehouse dashboard wording"
 }
