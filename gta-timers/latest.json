@@ -1,7 +1,7 @@
 {
-  "versionName": "0.15.51",
-  "versionCode": 215,
+  "versionName": "0.15.52",
+  "versionCode": 216,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "040e49dae24b3d89f7b2ebabe4e9b04ace30547e6adbd314288fc61a75e8e2fb",
-  "notes": "- Expand English localization across heists, activities, management menus and interaction labels\n- Use official English GTA heist names and improve the SecuroServ warehouse dashboard wording"
+  "sha256": "b552e11d620fd6adf92a4a64c3cc0c79f0e2a7b98b1995a1a510be129a9629f0",
+  "notes": "- Fix an infinite recursion in English localization that could crash the app on launch\n- Keep all locally stored earnings, expenses, timers and history unchanged"
 }
