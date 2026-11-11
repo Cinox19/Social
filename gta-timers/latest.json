@@ -2,6 +2,6 @@
   "versionName": "0.15.52",
   "versionCode": 216,
   "apkUrl": "https://raw.githubusercontent.com/Cinox19/Social/gta-timers-updates/gta-timers/latest.apk",
-  "sha256": "b552e11d620fd6adf92a4a64c3cc0c79f0e2a7b98b1995a1a510be129a9629f0",
+  "sha256": "19827cec09aea28d129d34b557039d97f38133ca9ff35e3de702e16d36a9f854",
   "notes": "- Fix an infinite recursion in English localization that could crash the app on launch\n- Keep all locally stored earnings, expenses, timers and history unchanged"
 }
