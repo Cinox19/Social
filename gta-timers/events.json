@@ -1,14 +1,22 @@
 {
   "schemaVersion": 1,
-  "title": "Événements GTA Online • 2026-11-05 → 2026-11-11",
-  "periodStart": "2026-11-05",
-  "periodEnd": "2026-11-11",
-  "updatedAt": "2026-11-05T21:04:01.460785+00:00",
+  "title": "Événements GTA Online • 2026-11-12 → 2026-11-18",
+  "periodStart": "2026-11-12",
+  "periodEnd": "2026-11-18",
+  "updatedAt": "2026-11-12T18:18:29.706054+00:00",
   "sourceName": "GTABase • GTA Online Weekly Update",
   "sourceUrl": "https://www.gtabase.com/gta-online/weekly-update-bonuses-discounts",
   "global": [
     {
-      "title": "Mansion Raid",
+      "title": "Freemode Challenges",
+      "bonus": "x4 GTA$ & RP",
+      "detail": "Bonus hebdomadaire détecté automatiquement.",
+      "priority": true,
+      "activityId": "",
+      "multiplier": 4
+    },
+    {
+      "title": "Stunt Races",
       "bonus": "x3 GTA$ & RP",
       "detail": "Bonus hebdomadaire détecté automatiquement.",
       "priority": true,
@@ -17,62 +25,126 @@
     },
     {
       "title": "Community Series Jobs",
-      "bonus": "x2 GTA$ & RP",
+      "bonus": "x3 GTA$ & RP",
       "detail": "Bonus hebdomadaire détecté automatiquement.",
       "priority": true,
       "activityId": "",
-      "multiplier": 2
-    },
-    {
-      "title": "The Fleeca Job",
-      "bonus": "x2 GTA$ & RP",
-      "detail": "Bonus hebdomadaire détecté automatiquement.",
-      "priority": true,
-      "activityId": "",
-      "multiplier": 2
-    },
-    {
-      "title": "The Prison Break",
-      "bonus": "x2 GTA$ & RP",
-      "detail": "Bonus hebdomadaire détecté automatiquement.",
-      "priority": true,
-      "activityId": "",
-      "multiplier": 2
-    },
-    {
-      "title": "The Doomsday Heist: Preparations",
-      "bonus": "x2 GTA$ & RP",
-      "detail": "Bonus hebdomadaire détecté automatiquement.",
-      "priority": true,
-      "activityId": "",
-      "multiplier": 2
-    },
-    {
-      "title": "The Doomsday Heist - Act 1: The Data Breaches",
-      "bonus": "x2 GTA$ & RP",
-      "detail": "Bonus hebdomadaire détecté automatiquement.",
-      "priority": true,
-      "activityId": "",
-      "multiplier": 2
-    },
-    {
-      "title": "The Doomsday Heist - Act 2: The Bogdan Problem",
-      "bonus": "x2 GTA$ & RP",
-      "detail": "Bonus hebdomadaire détecté automatiquement.",
-      "priority": true,
-      "activityId": "",
-      "multiplier": 2
-    },
-    {
-      "title": "The Diamond Casino Heist",
-      "bonus": "x2 GTA$ & RP",
-      "detail": "Bonus hebdomadaire détecté automatiquement.",
-      "priority": true,
-      "activityId": "",
-      "multiplier": 2
+      "multiplier": 3
     },
     {
       "title": "KnoWay Out",
+      "bonus": "x2 GTA$ & RP",
+      "detail": "Bonus hebdomadaire détecté automatiquement.",
+      "priority": true,
+      "activityId": "",
+      "multiplier": 2
+    },
+    {
+      "title": "Client Jobs",
+      "bonus": "x2 GTA$ & RP",
+      "detail": "Bonus hebdomadaire détecté automatiquement.",
+      "priority": true,
+      "activityId": "",
+      "multiplier": 2
+    },
+    {
+      "title": "New Listings",
+      "bonus": "x2 GTA$ & RP",
+      "detail": "Bonus hebdomadaire détecté automatiquement.",
+      "priority": true,
+      "activityId": "",
+      "multiplier": 2
+    },
+    {
+      "title": "Ron's Missions",
+      "bonus": "x2 GTA$ & RP",
+      "detail": "Bonus hebdomadaire détecté automatiquement.",
+      "priority": true,
+      "activityId": "",
+      "multiplier": 2
+    },
+    {
+      "title": "Lamar's Missions",
+      "bonus": "x2 GTA$ & RP",
+      "detail": "Bonus hebdomadaire détecté automatiquement.",
+      "priority": true,
+      "activityId": "",
+      "multiplier": 2
+    },
+    {
+      "title": "Gerald's Missions",
+      "bonus": "x2 GTA$ & RP",
+      "detail": "Bonus hebdomadaire détecté automatiquement.",
+      "priority": true,
+      "activityId": "",
+      "multiplier": 2
+    },
+    {
+      "title": "Lamar's Lowriders",
+      "bonus": "x2 GTA$ & RP",
+      "detail": "Bonus hebdomadaire détecté automatiquement.",
+      "priority": true,
+      "activityId": "",
+      "multiplier": 2
+    },
+    {
+      "title": "Lester's Missions",
+      "bonus": "x2 GTA$ & RP",
+      "detail": "Bonus hebdomadaire détecté automatiquement.",
+      "priority": true,
+      "activityId": "",
+      "multiplier": 2
+    },
+    {
+      "title": "Mobile Operations",
+      "bonus": "x2 GTA$ & RP",
+      "detail": "Bonus hebdomadaire détecté automatiquement.",
+      "priority": true,
+      "activityId": "",
+      "multiplier": 2
+    },
+    {
+      "title": "Project Overthrow",
+      "bonus": "x2 GTA$ & RP",
+      "detail": "Bonus hebdomadaire détecté automatiquement.",
+      "priority": true,
+      "activityId": "",
+      "multiplier": 2
+    },
+    {
+      "title": "Madrazo Dispatch Services",
+      "bonus": "x2 GTA$ & RP",
+      "detail": "Bonus hebdomadaire détecté automatiquement.",
+      "priority": true,
+      "activityId": "",
+      "multiplier": 2
+    },
+    {
+      "title": "Gerald's Last Play",
+      "bonus": "x2 GTA$ & RP",
+      "detail": "Bonus hebdomadaire détecté automatiquement.",
+      "priority": true,
+      "activityId": "",
+      "multiplier": 2
+    },
+    {
+      "title": "Simeon's Premium Deluxe Repo Work",
+      "bonus": "x2 GTA$ & RP",
+      "detail": "Bonus hebdomadaire détecté automatiquement.",
+      "priority": true,
+      "activityId": "",
+      "multiplier": 2
+    },
+    {
+      "title": "Sumo (Remix)",
+      "bonus": "x2 GTA$ & RP",
+      "detail": "Bonus hebdomadaire détecté automatiquement.",
+      "priority": true,
+      "activityId": "",
+      "multiplier": 2
+    },
+    {
+      "title": "The Brute Force File",
       "bonus": "x2 GTA$ & RP",
       "detail": "Bonus hebdomadaire détecté automatiquement.",
       "priority": true,
